@@ -71,12 +71,12 @@ nav a:hover {
 }
 
 footer {
-  
+
   padding: 20px 30px 20px;
   color: white;
   background-color: #FC4A1A;
 
-  position: absolute;
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
@@ -91,4 +91,3 @@ ul {
 ul li {
   margin-bottom: 5px;
 }
-
