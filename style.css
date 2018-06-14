@@ -18,6 +18,10 @@ h1, h2, h3, h4 {
   line-height: 1.2;
 }
 
+img {
+    height: 30px;
+}
+
 h1 {
   margin-top: 0;
   font-size: 2.5em;
@@ -90,4 +94,8 @@ ul {
 
 ul li {
   margin-bottom: 5px;
+}
+
+#register {
+    margin-bottom: 140px;
 }
