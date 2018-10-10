@@ -51,14 +51,22 @@ small, .font_small {font-size: 0.707em;}
 }
 
 
-
 header {
   background: #4ABDAC;
   padding: 10px 20px 20px;
   margin:0;
 }
+header h1 {
+  float:left;
+  color: rgb(71,0,0);
+}
 
-header h1 {color: white;}
+.flex {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
 
 nav a {
   text-decoration: none;
