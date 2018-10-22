@@ -104,6 +104,14 @@ ul li {
   margin-bottom: 5px;
 }
 
+.skills {
+  margin-left: -40px;
+}
+
+.skills a {
+  font-size: 25px;
+}
+
 #register {
     margin-bottom: 140px;
 }
