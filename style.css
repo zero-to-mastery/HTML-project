@@ -1,25 +1,32 @@
-html {font-size: 1em;}
+html {
+  font-size: 1em;
+}
 
 body {
   margin: 0;
   background-color: white;
-  font-family: 'Open Sans', sans-serif;;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.45;
   color: #333;
-  background-color: #DFDCE3;
+  background-color: #dfdce3;
 }
 
-p {margin-bottom: 1.3em;}
+p {
+  margin-bottom: 1.3em;
+}
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
   line-height: 1.2;
 }
 
 img {
-    height: 30px;
+  height: 30px;
 }
 
 h1 {
@@ -28,18 +35,27 @@ h1 {
   font-style: italic;
 }
 
-h2 {font-size: 1.2em;}
+h2 {
+  font-size: 1.2em;
+}
 
-h3 {font-size: 1em;}
+h3 {
+  font-size: 1em;
+}
 
-h4 {font-size: 0.8em;}
+h4 {
+  font-size: 0.8em;
+}
 
-small, .font_small {font-size: 0.707em;}
+small,
+.font_small {
+  font-size: 0.707em;
+}
 
 .container {
   margin: 0 50px;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
 @media screen and (max-width: 600px) {
@@ -47,31 +63,28 @@ small, .font_small {font-size: 0.707em;}
     margin: 0 10px;
     grid-template-columns: auto;
   }
-
 }
-
 
 header {
-  background: #4ABDAC;
+  background: #4abdac;
   padding: 10px 20px 20px;
-  margin:0;
+  margin: 0;
 }
 header h1 {
-  float:left;
-  color: rgb(71,0,0);
+  float: left;
+  color: rgb(71, 0, 0);
 }
 
 .flex {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
 }
 
-
 nav a {
   text-decoration: none;
   color: white;
-  background-color: #F7B733;
+  background-color: #f7b733;
   padding: 5px 10px;
   margin-right: 5px;
   border-radius: 5px;
@@ -83,10 +96,9 @@ nav a:hover {
 }
 
 footer {
-
   padding: 20px 30px 20px;
   color: white;
-  background-color: #FC4A1A;
+  background-color: #fc4a1a;
 
   position: relative;
   right: 0;
@@ -104,6 +116,10 @@ ul li {
   margin-bottom: 5px;
 }
 
+dd {
+  margin-bottom: 20px;
+}
+
 .skills {
   margin-left: -40px;
 }
@@ -113,5 +129,5 @@ ul li {
 }
 
 #register {
-    margin-bottom: 140px;
+  margin-bottom: 140px;
 }
