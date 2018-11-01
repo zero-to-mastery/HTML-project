@@ -6,7 +6,7 @@ function javaScriptCategorySelected()
 {
   if(clicked===0)
   {
-		var newItem4=document.createElement("li");					
+	var newItem4=document.createElement("li");					
 	newItem4.appendChild(document.createTextNode(" Angular.js"));
 	newItem4.addEventListener("click",function()
 				{
@@ -40,8 +40,6 @@ function javaScriptCategorySelected()
 				})					
 	newItem.style.cursor="pointer"
 	selectedItem.insertAdjacentElement("afterend",newItem);
-
-
 	clicked=1;
   }//end of if
 }
