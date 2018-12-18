@@ -92,7 +92,7 @@ nav a {
 }
 
 nav a:hover {
-  box-shadow: inset 0 -25px 0 0 blue;
+  box-shadow: inset 0 -26px 0 0 blue;
 }
 
 footer {
