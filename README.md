@@ -1,3 +1,3 @@
 # HTML-project
 
-Hello People
+Hello People, have a great day!
