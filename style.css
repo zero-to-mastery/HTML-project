@@ -8,8 +8,8 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.45;
-  color: #333;
-  background-color: #dfdce3;
+  color: black;
+  /* background-color: #dfdce3; */
 }
 
 p {
@@ -26,7 +26,7 @@ h4 {
 }
 
 img {
-  height: 15px;
+  height: 48px;
 }
 
 h1 {
@@ -53,7 +53,7 @@ small,
 }
 
 .container {
-  margin: 0 50px;
+  margin:0 50px;
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
@@ -66,13 +66,14 @@ small,
 }
 
 header {
-  background: #4abdac;
-  padding: 10px 20px 20px;
+  background: #000000;
+  padding: 20px;
   margin: 0;
 }
 header h1 {
   float: left;
-  color: rgb(71, 0, 0);
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
 }
 
 .flex {
@@ -84,7 +85,7 @@ header h1 {
 nav a {
   text-decoration: none;
   color: white;
-  background-color: #f7b733;
+  background-color: #000000;
   padding: 5px 10px;
   margin-right: 5px;
   border-radius: 5px;
@@ -92,20 +93,25 @@ nav a {
 }
 
 nav a:hover {
-  box-shadow: inset 0 -26px 0 0 blue;
+  /* box-shadow: inset 0 -26px 0 0 blue; */
+  color: black;
+  background-color: white;
 }
 
 footer {
   padding: 20px 30px 20px;
   color: white;
-  background-color: #fc4a1a;
-
+  background-color: #000000;
   position: relative;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
   text-align: center;
+}
+
+footer span{
+  font-weight:bold;
 }
 
 ul {
