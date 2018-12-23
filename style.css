@@ -4,7 +4,7 @@ html {
 
 body {
   margin: 0;
-  background-color: white;
+  background-color: #dededf;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.45;
@@ -136,4 +136,11 @@ dd {
 
 #register {
   margin-bottom: 140px;
+}
+
+#descriptionimg {
+  margin-top: 5vh;
+  height: 45%;
+  width: 70%;
+  border-radius: 10px;
 }
