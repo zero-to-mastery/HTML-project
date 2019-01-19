@@ -143,4 +143,10 @@ dd {
   height: 45%;
   width: 70%;
   border-radius: 10px;
-}
+  transition: all 1s;
+  }
+
+#descriptionimg:hover {
+  transform: scale(1.1);
+    box-shadow: 2px 2px 2px 2px white;
+  }
