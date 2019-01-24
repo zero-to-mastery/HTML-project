@@ -38,6 +38,7 @@ header h1 {
   text-transform: uppercase;
   font-weight: 100;
   text-shadow: 0 2px 5px rgba(255,255,255,0.2);
+  word-spacing: 1.4rem;
 }
 
 header h1 i {
@@ -79,7 +80,6 @@ main {
   .course-img {
     margin-top: 2rem;
     max-width: 100%;
-    height: 100%;
   }
   
   .course-img img {
@@ -136,7 +136,7 @@ main {
   }
 
   .employable-skills li:nth-of-type(even) {
-    background: rgba(255,255,255,0.05);
+    background: rgba(255,255,255,0.01);
     border-radius: 4px;
   }
 
@@ -169,7 +169,8 @@ footer {
 }
 
 footer a:link, footer a:visited {
-  color: inherit;
+  color: black;
+  font-weight: 400;
   text-decoration: none;
 }
 
@@ -218,20 +219,20 @@ ____________________________________________*/
     font-size: 80%;
   }
 
-  body {
-    /* overflow-x: hidden; */
-  }
-
   main {
     max-width: 90vw;
-    margin: 3rem auto 0;
+    margin: 6rem auto 0;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: stretch;
   }
 
-  .course-details, .employable-skills {
-    width: 40vw;
+  .course-details {
+    width: 38vw;
+  }
+
+  .employable-skills {
+    width: 45vw;
   }
 
   .employable-skills, .employable-skills > * {
@@ -240,6 +241,24 @@ ____________________________________________*/
 
   .employable-skills {
     padding: 1.5rem;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .employable-skills h2 {
+    margin-bottom: 4rem;
+  }
+
+  .icon {
+    display: block;
+    margin: auto;
+  }
+
+  .employable-skills ul {
+    font-size: 1.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4rem  2rem;
   }
 
 }
