@@ -252,6 +252,7 @@ ____________________________________________*/
   .icon {
     display: block;
     margin: auto;
+    height: 3rem;
   }
 
   .employable-skills ul {
