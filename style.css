@@ -132,6 +132,7 @@ dd {
 
 .skills a {
   font-size: 15px;
+  display:block;
 }
 
 #register {
@@ -139,14 +140,37 @@ dd {
 }
 
 #descriptionimg {
-  margin-top: 5vh;
-  height: 45%;
-  width: 70%;
-  border-radius: 10px;
-  transition: all 1s;
-  }
+  height: 80%;
+  width: 80%;
+  border-radius: 10px
+}
 
-#descriptionimg:hover {
-  transform: scale(1.1);
-    box-shadow: 2px 2px 2px 2px white;
-  }
+aside{
+  text-align:center;
+}
+
+aside ul{
+  float:left;
+  text-align:center;
+}
+
+.ulone{
+  float:left;
+  margin-left:10%;
+}
+
+.ultwo{
+  float:right;
+  margin-right:10%;
+}
+
+main{
+  text-align:justify;
+  text-align:center;
+  margin:0;
+  padding:0;
+}
+
+#picbox{
+  height:473px;
+}
