@@ -4,12 +4,12 @@ html {
 
 body {
   margin: 0;
-  background-color: #dededf;
-  font-family: "Open Sans", sans-serif;
+  background-color: #FFEBEF ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 400;
   line-height: 1.45;
   color: black;
-  /* background-color: #dfdce3; */
+
 }
 
 p {
@@ -23,16 +23,26 @@ h4 {
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
   line-height: 1.2;
+
+}
+
+header > img {
+  float: left;
+  height: 55px;
+  padding-right: 7px;
+  
+  
 }
 
 img {
   height: 48px;
+  
 }
 
 h1 {
   margin-top: 0;
   font-size: 2.5em;
-  font-style: italic;
+  
 }
 
 h2 {
@@ -52,6 +62,7 @@ small,
   font-size: 0.707em;
 }
 
+
 .container {
   margin:0 50px;
   display: grid;
@@ -66,7 +77,7 @@ small,
 }
 
 header {
-  background: #000000;
+  background:#E90043  ;
   padding: 20px;
   margin: 0;
 }
@@ -76,6 +87,18 @@ header h1 {
   margin: 0 auto;
 }
 
+.sidehead {
+  
+  padding-bottom: 15px; 
+  background-color: white;
+  border-bottom: #E90043 solid ;
+  border-radius: 10px;
+  border-right: #E90043 solid ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -84,8 +107,8 @@ header h1 {
 
 nav a {
   text-decoration: none;
-  color: white;
-  background-color: #000000;
+  color: #C70039;
+  background-color: white;
   padding: 5px 10px;
   margin-right: 5px;
   border-radius: 5px;
@@ -95,13 +118,13 @@ nav a {
 nav a:hover {
   /* box-shadow: inset 0 -26px 0 0 blue; */
   color: black;
-  background-color: white;
+  background-color: yellow;
 }
 
 footer {
   padding: 20px 30px 20px;
   color: white;
-  background-color: #000000;
+  background-color: #E90043;
   position: relative;
   right: 0;
   bottom: 0;
@@ -127,13 +150,25 @@ dd {
 }
 
 .skills {
-  margin-left: -40px;
+  margin-left: -10px;
+  padding: 10px;
 }
 
 .skills a {
   font-size: 15px;
   display:block;
+  text-decoration: none;
+  color: #800025;
 }
+
+.skills:hover {
+  /* box-shadow: inset 0 -26px 0 0 blue; */
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+   
+}
+
 
 #register {
   margin-bottom: 140px;
@@ -147,6 +182,8 @@ dd {
 
 aside{
   text-align:center;
+  
+  
 }
 
 aside ul{
@@ -157,7 +194,7 @@ aside ul{
 .ulone{
   float:left;
   margin-left:10%;
-}
+  }
 
 .ultwo{
   float:right;
@@ -182,3 +219,10 @@ main{
   font-size:30px;
   font-weight:bolder;
 }
+
+#picbox > img{
+  height:400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
