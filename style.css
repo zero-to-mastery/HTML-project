@@ -208,6 +208,17 @@ main{
   padding:0;
 }
 
+#picbox{
+  height:473px;
+}
+.container1{
+  margin:auto;
+  width:60%;
+}
+.container1 h2{
+  font-size:30px;
+  font-weight:bolder;
+}
 
 #picbox > img{
   height:400px;
