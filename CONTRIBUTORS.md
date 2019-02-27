@@ -10,4 +10,6 @@
 
 [@SaitejaVemula](https://github.com/SaitejaVemula)
 
+[@VidhyaJayakumar](https://github.com/VidhyaJayakumar)
+
 [@shubhamd99](https://github.com/shubhamd99)
