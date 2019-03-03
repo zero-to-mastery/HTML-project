@@ -6,6 +6,8 @@
 
 [@nidvar](https://github.com/nidvar)
 
+[@kitokomatondo] (https://github.com/kitokomatondo)
+
 [@crux-in-lan](https://github.com/crux-in-lan)
 
 [@SaitejaVemula](https://github.com/SaitejaVemula)
