@@ -125,6 +125,10 @@ footer span {
   font-weight: bold;
 }
 
+li:hover {
+  font-weight: bold;
+}
+
 ul {
   list-style: none;
 }
