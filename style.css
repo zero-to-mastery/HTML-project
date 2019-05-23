@@ -40,6 +40,7 @@ h1 {
 }
 
 h2 {
+  text-decoration: underline;
   font-size: 1.2em;
 }
 
@@ -127,6 +128,7 @@ footer span {
 
 li:hover {
   font-weight: bold;
+  text-shadow: 2px 2px 8px #FF0000;
 }
 
 ul {
