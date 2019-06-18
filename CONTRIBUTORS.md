@@ -6,7 +6,7 @@
 
 [@nidvar](https://github.com/nidvar)
 
-[@kitokomatondo] (https://github.com/kitokomatondo)
+[@kitokomatondo](https://github.com/kitokomatondo)
 
 [@crux-in-lan](https://github.com/crux-in-lan)
 
@@ -29,3 +29,5 @@
 [@jflores3531](https://github.com/jflores3531)
 
 [@MLit10](https://github.com/MLit10)
+
+[@BARANLANKA](https://github.com/BARANLANKA)
