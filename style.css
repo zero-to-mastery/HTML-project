@@ -126,7 +126,7 @@ footer span {
   font-weight: bold;
 }
 
-li:hover {
+.container1 > ol li span:hover{
   font-weight: bold;
   text-shadow: 2px 2px 8px #FF0000;
 }
@@ -303,3 +303,4 @@ main {
   padding-right: 20px;
 
 }
+
