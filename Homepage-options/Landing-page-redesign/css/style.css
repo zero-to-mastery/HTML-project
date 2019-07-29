@@ -1,0 +1,444 @@
+/************************************
+********RESET STYLES*****************
+************************************/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/************************************
+  *********BASE STYLES*****************
+  ************************************/
+
+html {
+  font-size: 62.5%; /* This makes the default font size to 10px*/
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #f7f7f7;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  background: #333;
+}
+
+/************************************
+  *********HEADER STYLES***************
+  ************************************/
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(51, 51, 51, 0.438),
+      rgba(34, 34, 34, 0.411)
+    ),
+    url(../img/hero.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75vh, 0% 100%);
+}
+
+.header__logo-box {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+
+.header__logo {
+  width: 4rem;
+}
+
+.header__text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 6rem;
+}
+
+.heading-primary--main {
+  display: block;
+  width: 100%;
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 1.8rem;
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+.heading-primary--sub {
+  display: block;
+  font-size: 1.65rem;
+  font-weight: 700;
+  letter-spacing: 0.63rem;
+
+  animation: moveInRight 1s;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.btn:link.btn,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.btn:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0.1rem 1rem 2rem rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0.1rem 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.btn--white {
+  background-color: #fff;
+  color: #777;
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.btn-white::after {
+  background-color: #fff;
+}
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn--animated {
+  animation: moveInBottom 0.5s ease-out 0.75s;
+  animation-fill-mode: backwards;
+}
+
+/************************************
+  ***********MAIN STYLES***************
+  ************************************/
+.intro {
+  color: #f7f7f7;
+  line-height: 1.8;
+}
+
+.intro > h2 {
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  border-bottom: 3px solid #f7f7f7;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.intro > h2:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 1);
+  transform: scale(1.02);
+  background: #f7f7f7;
+  color: #333;
+}
+
+.bold {
+  font-weight: 700;
+}
+main {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+/************************************
+  ********SECTION STYLES***************
+  ************************************/
+
+/* course-details SECTION */
+
+.course-details {
+  margin: 2rem 0 4rem;
+  padding: 1rem 2rem;
+}
+
+.course-img {
+  width: 90%;
+}
+
+.course-img img {
+  max-width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin: 4rem;
+}
+
+.course-img img:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+.instructor {
+  margin: 4rem;
+}
+
+.instructor img {
+  width: 50%;
+  border-radius: 50%;
+  margin-left: 20%;
+}
+/* employable-skills SECTION */
+
+.employable-skills {
+  padding: 4rem 2rem;
+  margin-bottom: 4rem;
+  background-color: #222;
+  color: #fff;
+  transform: skewY(-7deg);
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
+}
+
+.employable-skills h2 {
+  text-align: center;
+  text-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.employable-skills > * {
+  transform: skewY(7deg);
+}
+
+.employable-skills ul {
+  display: block;
+  margin: 0 auto;
+  list-style: none;
+  width: 80%;
+}
+
+.employable-skills li {
+  padding: 1rem;
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-left: 2px solid transparent;
+  transition: all 0.4s;
+}
+
+.employable-skills li:hover {
+  border-left: 2px solid rgb(15, 64, 170);
+}
+
+.employable-skills li:nth-of-type(even) {
+  background: rgba(255, 255, 255, 0.01);
+  border-radius: 4px;
+}
+
+.employable-skills a:visited,
+.employable-skills a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.icon {
+  vertical-align: middle;
+  display: inline-block;
+  height: 2.5rem;
+  margin-right: 1rem;
+}
+
+.icon img {
+  height: 100%;
+}
+
+/************************************
+  *********FOOTER STYLES***************
+  ************************************/
+footer {
+  margin-top: 10rem;
+  padding: 1rem;
+  /* background: linear-gradient(to right, rgb(16, 109, 70), #1ccae9); */
+  background: #222;
+  box-shadow: 3px -3px 5px rgba(0, 0, 0, 0.6), -3px 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+footer a:link,
+footer a:visited {
+  color: #f7f7f7;
+  font-weight: 900;
+  font-size: 1.2rem;
+  text-decoration: none;
+  text-shadow: 0px 0px 5px #111;
+}
+
+footer p {
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0px 0px 5px #111;
+}
+
+footer p span {
+  display: block;
+  margin: 1rem;
+}
+
+/* _________________________________________
+  ________________MEDIA QUERIES_______________
+  ____________________________________________*/
+
+@media (min-width: 700px) {
+  html {
+    font-size: 75%;
+  }
+
+  .course-details p,
+  .course-img {
+    max-width: 80vw;
+    display: block;
+    margin: 2rem auto;
+  }
+
+  .employable-skills {
+    padding: 6rem;
+    transform: skewY(-5deg);
+  }
+
+  .employable-skills > * {
+    transform: skewY(5deg);
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 80%;
+  }
+
+  main {
+    max-width: 90vw;
+    margin: 6rem auto 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+
+  .course-details {
+    width: 38vw;
+  }
+
+  .employable-skills {
+    width: 45vw;
+  }
+
+  .employable-skills,
+  .employable-skills > * {
+    transform: skew(0);
+  }
+
+  .employable-skills {
+    padding: 1.5rem;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .employable-skills h2 {
+    margin-bottom: 4rem;
+  }
+
+  .icon {
+    display: block;
+    margin: 0 auto 1rem;
+    height: 3rem;
+  }
+
+  .employable-skills ul {
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem 2rem;
+    font-weight: 100;
+  }
+}
+
+@media (min-width: 2000px) {
+  html {
+    font-size: 90%;
+  }
+
+  main {
+    max-width: 80%;
+    margin-top: 4rem;
+  }
+}
