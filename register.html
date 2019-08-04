@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sign Up</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="resources/style/style.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -33,27 +33,31 @@
                     <form action="" method="GET">
                         <div class="row">
                             <div class="col">
-                                <label>First Name</label>
+                                <label>First Name:</label>
                                 <input type="text" class="form-control" placeholder="First Name" id="firstname">
                             </div>
                             <div class="col">
-                                <label>Last Name</label>
+                                <label>Last Name:</label>
                                 <input type="text" class="form-control" placeholder="Last Name" id="lastname">
                             </div>
                         </div>
                     <br>
                     <div class="form-group">
-                        <label for="email">Email address</label>
+                        <label for="email">Email address:</label>
                         <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email"
                             required>
                     </div>
                     <div class="form-group">
-                        <label for="password">Password</label>
+                        <label for="password">Password:</label>
                         <input type="password" class="form-control" id="password" placeholder="Password">
                     </div>
                     <div class="form-group">
-                        <label for="birthday">Enter your birthday</label>
+                        <label for="birthday">Enter your birthday:</label>
                         <input type="date" class="form-control" id="birthday" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="country">Enter your country of origin:</label>
+                        <input type="text" class="form-control" id="country" placeholder="Enter country">
                     </div>
                     <label>Gender: </label>
                     <div class="form-check form-check-inline">
@@ -74,15 +78,23 @@
                         <label class="form-check-label" for="dog">Dog</label>
                     </div>
                     <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="ferret" value="ferret">
+                        <label class="form-check-label" for="ferret">Ferret</label>
+                    </div>
+                    <div class="form-check form-check-inline">
                     </div><br>
                     <label>Cars: </label>
                     <div class="form-check form-check-inline">
                         <select name="cars" id="car">
-                            <option value="Volvo" name="volvo">Volvo</option>
                             <option value="Audi" name="audi">Audi</option>
                             <option value="BMV" name="bmv">BMW</option>
                             <option value="Ferrari" name="Ferrari">Ferrari</option>
+                            <option value="Ford" name="Ford">Ford</option>
                             <option value="Lamborghini" name="Lamborghini">Lamborghini</option>
+                            <option value="Mazda" name="Mazda">Mazda</option>
+                            <option value="Smart" name="Smart">Smart</option>
+                            <option value="Toyota" name="Toyota">Toyota</option>
+                            <option value="Volvo" name="volvo">Volvo</option>
                         </select><br>
                     </div><br>
                     <a href="thanks.html"><input class="btn btn-primary" type="submit" value="Sign Up!"></a>

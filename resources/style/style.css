@@ -24,7 +24,7 @@ h4 {
   line-height: 1.2;
 }
 
-header > img {
+header>img {
   float: left;
   height: 55px;
   padding-right: 7px;
@@ -36,10 +36,11 @@ img {
 
 h1 {
   margin-top: 0;
-  font-size: 2.5em;
+  font-size: 2.8em;
 }
 
 h2 {
+  text-decoration: underline;
   font-size: 1.2em;
 }
 
@@ -65,11 +66,13 @@ small,
 #regisform {
   margin-bottom: 135px;
 }
+
 header {
   background: #e90043;
   padding: 20px;
   margin: 0;
 }
+
 header h1 {
   float: left;
   color: rgb(255, 255, 255);
@@ -121,6 +124,11 @@ footer {
 
 footer span {
   font-weight: bold;
+}
+
+.container1 > ol li span:hover{
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #FF0000;
 }
 
 ul {
@@ -195,17 +203,20 @@ main {
 #picbox {
   height: 473px;
 }
+
 .container1 {
   margin: auto;
   width: 60%;
 }
+
 .container1 h2 {
   font-size: 30px;
   font-weight: bolder;
 }
 
-#picbox > img {
+#picbox>img {
   height: 400px;
+  width: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -215,32 +226,40 @@ main {
     grid-template-columns: auto;
   }
 }
+
 @media (max-width: 1115px) {
   .container {
     display: block;
   }
+
   aside ul {
     margin: 0;
     padding: 0;
   }
+
   .ulone,
   .ultwo {
     float: none;
     margin: 0;
   }
+
   header {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   ul.flex {
     justify-content: center;
   }
+
   #picbox {
     height: auto;
   }
+
   #picbox img {
     height: auto;
+    width: 80%;
   }
 }
 
@@ -269,15 +288,21 @@ main {
     width: 100%;
     text-align: center;
   }
+
   ul.flex li {
     width: 100%;
   }
+
   nav a {
     margin: 0;
     padding: 10px 0;
   }
 }
-ol li span a, a:link, a:visited, a:active{
-  text-decoration:none;
-  color:black;
-  }
+
+#logo-image {
+  padding-right: 20px;
+
+}
+
+/*
+*/

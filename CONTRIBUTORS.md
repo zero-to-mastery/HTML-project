@@ -6,7 +6,7 @@
 
 [@nidvar](https://github.com/nidvar)
 
-[@kitokomatondo] (https://github.com/kitokomatondo)
+[@kitokomatondo](https://github.com/kitokomatondo)
 
 [@crux-in-lan](https://github.com/crux-in-lan)
 
@@ -19,3 +19,23 @@
 [@dejiabiola](https://github.com/dejiabiola)
 
 [@lisapnct](https://github.com/lisapnct)
+
+[@Sysonec](https://github.com/Sysonec)
+
+[@markg29](https://github.com/markg29)
+
+[@Kallinicos](https://github.com/Kallinicos)
+
+[@jflores3531](https://github.com/jflores3531)
+
+[@MLit10](https://github.com/MLit10)
+
+[@Edmonanto](https://github.com/Edmonanto)
+
+[@BARANLANKA](https://github.com/BARANLANKA)
+
+[@steveburton](https://github.com/SteveBurtonWebDev)
+
+[@Ejiro-Asiuwhu](https://github.com/Ejiro-Asiuwhu)
+
+[@charley81](https://github.com/charley81)
