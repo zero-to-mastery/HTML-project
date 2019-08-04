@@ -304,5 +304,6 @@ main {
 
 }
 
-/*
-*/
+ol li span a, a:visited, a:link {
+  text-decoration: none;
+}
