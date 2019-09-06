@@ -24,7 +24,7 @@ h4 {
   line-height: 1.2;
 }
 
-header>img {
+header img {
   float: left;
   height: 55px;
   padding-right: 7px;
@@ -32,6 +32,8 @@ header>img {
 
 img {
   height: 48px;
+  padding: 5px;
+  /* float: left; */
 }
 
 h1 {
@@ -70,7 +72,7 @@ small,
 
 header {
   background: #e90043;
-  padding: 20px;
+  padding: 20px 0;
   margin: 0;
 }
 
@@ -78,6 +80,7 @@ header h1 {
   float: left;
   color: rgb(255, 255, 255);
   margin: 0 auto;
+  font-family: 'Poiret One', cursive;
 }
 
 .sidehead {
@@ -97,7 +100,7 @@ header h1 {
 
 nav a {
   text-decoration: none;
-  color: #c70039;
+  color: #c20a3e;
   background-color: white;
   padding: 5px 10px;
   margin-right: 15px;
@@ -108,7 +111,7 @@ nav a {
 nav a:hover {
   /* box-shadow: inset 0 -26px 0 0 blue; */
   color: white;
-  background-color: #e90043;
+  background-color: #a3143d;
 }
 
 footer {
@@ -300,8 +303,7 @@ main {
   }
 }
 
-#logo-image {
-  padding-right: 20px;
-
+header h1 a {
+  text-decoration: none;
+  float: left;
 }
-
