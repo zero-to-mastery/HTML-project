@@ -307,3 +307,6 @@ header h1 a {
   text-decoration: none;
   float: left;
 }
+.a2a_button_facebook,.a2a_button_twitter,.a2a_button_email,.a2a_button_whatsapp{
+  margin-top: 10px;
+}
