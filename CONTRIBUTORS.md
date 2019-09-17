@@ -51,3 +51,5 @@
 [@chantelletjie](https://github.com/chantelletjie)
 
 [@haiivan](https://github.com/haiivan)
+
+[@ricksnow26](https://github.com/ricksnow26)
