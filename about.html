@@ -6,63 +6,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>What will I learn?</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"><link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="resources/style/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="resources/style/about-page.css" />
 </head>
 
 <body>
-    <header>
-        <h1>The Complete Web Developer in 2019<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRueqjJDENLBGJvnElXYGUoreh6ktBQ4eLRqrpYDVIjMV8vTFKavA></h1>
-        <nav>
-            <ul class="flex">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">What will I learn?</a></li>
-                <li><a href="register.html">Sign Up</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="/resources/images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="container1">
-        <h2>Course Contents</h2>
-        <h3>Let Andrei guide you through the following sections:</h3>
-        <ol>
-            <li><span>Introduction</span></li>
-            <li><span>How The Internet Works<span></li>
-            <li><span>History Of The Web</span></li>
-            <li><span>HTML 5</span></li>
-            <li><span>Advanced HTML 5</span></li>
-            <li><span>CSS</span></li>
-            <li><span>Advanced CSS</span></li>
-            <li><span>Bootstrap 4, Templates, And Building Your Startup Landing Page</span></li>
-            <li><span>CSS Grid + CSS Layout</span></li>
-            <li><span>Career Of A Web Developer</span></li>
-            <li><span>Javascript</span></li>
-            <li><span>DOM Manipulation</span></li>
-            <li><span>Advanced Javascript</span></li>
-            <li><span>Command Line</span></li>
-            <li><span>Developer Environment</span></li>
-            <li><span>Git + Github + Open Source Projects</span></li>
-            <li><span>A Day In The Life Of A Developer</span></li>
-            <li><span>NPM + NPM Scripts</span></li>
-            <li><span>React.js + Redux</span></li>
-            <li><span>HTTP/JSON/AJAX + Asynchronous Javascript</span></li>
-            <li><span>Backend Basics</span></li>
-            <li><span>APIs</span></li>
-            <li><span>FINAL PROJECT: SmartBrain Front-End</span></li>
-            <li><span>Node.js + Express.js</span></li>
-            <li><span>FINAL PROJECT: SmartBrain Back-End -- Server</span></li>
-            <li><span>Databases</span></li>
-            <li><span>FINAL PROJECT: SmartBrain Back-End -- Database</span></li>
-            <li><span>Production + Deployment</span></li>
-            <li><span>Where To Go From Here?</span></li>
-            <li><span>Bonus: Part 2 + Extras</span></li>
-            <li><span>Extra: For Windows Users</span></li>
-        </ol>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto"> 
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item register-link">
+                    <a class="nav-link" href="register.html">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid about-container">
+        <h1>The Complete Web Developer in 2019</h1>
+        <h2>Course Content</h2>
+
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Introduction</li>
+            <li class="list-group-item">How The Internet Works</li>
+            <li class="list-group-item">History Of The Web</li>
+            <li class="list-group-item">HTML 5</li>
+            <li class="list-group-item">Advanced HTML 5</li>
+            <li class="list-group-item">CSS</li>
+            <li class="list-group-item">Advanced CSS</li>
+            <li class="list-group-item">Bootstrap 4, Templates, And Building Your Startup Landing Page</li>
+            <li class="list-group-item">CSS Grid + CSS Layout</li>
+            <li class="list-group-item">Career Of A Web Developer</li>
+            <li class="list-group-item">Javascript</li>
+            <li class="list-group-item">DOM Manipulation</li>
+            <li class="list-group-item">Advanced Javascript</li>
+            <li class="list-group-item">Command Line</li>
+            <li class="list-group-item">Developer Environment</li>
+            <li class="list-group-item">Git + Github + Open Source Projects</li>
+            <li class="list-group-item">A Day In The Life Of A Developer</li>
+            <li class="list-group-item">NPM + NPM Scripts</li>
+            <li class="list-group-item">React.js + Redux</li>
+            <li class="list-group-item">HTTP/JSON/AJAX + Asynchronous Javascript</li>
+            <li class="list-group-item">Backend Basics</li>
+            <li class="list-group-item">APIs</li>
+            <li class="list-group-item">FINAL PROJECT: SmartBrain Front-End</li>
+            <li class="list-group-item">Node.js + Express.js</li>
+            <li class="list-group-item">FINAL PROJECT: SmartBrain Back-End -- Server</li>
+            <li class="list-group-item">Databases</li>
+            <li class="list-group-item">FINAL PROJECT: SmartBrain Back-End -- Database</li>
+            <li class="list-group-item">Production + Deployment</li>
+            <li class="list-group-item">Where To Go From Here?</li>
+            <li class="list-group-item">Bonus: Part 2 + Extras</li>
+            <li class="list-group-item">Extra: For Windows Users</li>
+        </ul>
     </div>
-    <footer>
-        Made by <span>Tatyana K.</span> &copy; All rights reserved ;)
-    </footer>
+
+    <div class="container-fluid footer-container">
+        <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="line-height: 32px">
+            <h5>If you enjoyed the course like I did, share it so more people can enjoy it</h5>
+            <div class="buttons">
+                    <a class="a2a_button_facebook"></a>
+                    <a class="a2a_button_twitter"></a>
+                    <a class="a2a_button_email"></a>
+                    <a class="a2a_button_whatsapp"></a>
+            </div>
+        </div>
+            
+        <div id="credits">
+            Made by Tatyana K. &copy; All rights reserved ;)
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="resources/scripts/script.js"></script>
+    <script async src="https://static.addtoany.com/menu/page.js"></script> 
 </body>
 
 </html>
