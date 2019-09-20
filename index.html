@@ -6,131 +6,239 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Zero to Mastery - HTML Project</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="/resources/style/particles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"><link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="resources/style/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
-    <header>
-        <h1>
-            Web Development - Zero To Mastery
-        </h1>
-       
-        <nav>
-            <ul class="flex">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">What will I learn?</a></li>
-                <li><a href="register.html">Sign Up</a></li>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="/resources/images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto"> 
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item register-link">
+                    <a class="nav-link" href="register.html">Sign Up</a>
+                </li>
             </ul>
-        </nav>
-    </header>
-    <div class="container">
-        <main>
-            <br>
-            <h1>Why Am I Taking This Course?</h1>
-            <br>
-            <p>I want to work as a web developer to the highest level.<br>
-                There are many things that I know how to do,<br>
-                however I want to expand my skills and be able to do more.<br>
-                I want to learn <strong>REAL</strong> industry skills that are necessary in 2019!
-            </p>
+        </div>
+    </nav>
 
-            <p>So, I hope that this course will help me succeed.</p>
+    <div class="container-fluid header-container">
+        <div class="header-container-bg-fade">
+        <div id="particles-js"></div>
+        <div class="header-content">
+            <h1>Web Development <br><hr> Zero To Mastery</h1>
+        </div>
+    </div>
 
-
-            <div id='picbox'>
-                <img id="descriptionimg" src="https://pocketnow.com/wp-content/uploads/2017/01/PN-Complete-Web-Programming.jpg">
+    <div class="container-fluid details-container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <div class="course-details-content">
+                    <h2>Why take this Course?</h2>
+                    <p>
+                        I want to work as a web developer to the highest level.
+                        There are many things that I know how to do,
+                        however I want to expand my skills and be able to do more.
+                        I want to learn <strong>REAL</strong> industry skills that are necessary in 2019!
+                        <br>
+                        So, I hope that this course will help me succeed.
+                    </p>
+                </div>
             </div>
-        
-        <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="line-height: 32px">
-        <h3>If you enjoyed the course like I did, share it so more people can enjoy it</h3>
-            <div class="buttons">
-                   <a class="a2a_button_facebook"></a>
-                   <a class="a2a_button_twitter"></a>
-                   <a class="a2a_button_email"></a>
-                   <a class="a2a_button_whatsapp"></a>
+            <div class="col-md-6 col-sm-12">
+                <img src="https://pocketnow.com/wp-content/uploads/2017/01/PN-Complete-Web-Programming.jpg"
+                    id="course-img" alt="Course image">
             </div>
         </div>
-            
-        </main>
-        <aside>
-            <br>
-            <h1>Software Development Technologies:</h1>
-            <ul class='ulone'>
-                <li class="skills">
-                    <a href="https://www.w3schools.com/html/html5_intro.asp">
-                    <img src="resources/images/html5.png" alt="HTML 5"><br>
-                     HTML 5</a>
-                </li>
-                <li class="skills">
-                    <a href="https://www.w3schools.com/css/">
-                    <img src="https://juststickers.in/wp-content/uploads/2014/05/CSS3-Mark-Shape-Cut.png" alt="CSS 3"><br>
-                     CSS 3</a>
-                </li>
-                <li class="skills">
-                    <a href="https://www.w3schools.com/bootstrap4/">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Boostrap_logo.svg/440px-Boostrap_logo.svg.png"
-                        alt="Bootstrap 4"><br>
-                    Bootstrap 4 </a>
-                </li>
-                <li class="skills" id="javascript" onclick="javaScriptCategorySelected()">
-                    <img src="https://www.easyprogramming.net/logo/js.png" alt="Pure JavaScript/">
-                    <a href="https://www.w3schools.com/js/">JavaScript </a>
-                </li>
-                <li class="skills">
-                    <a href="https://reactjs.org/">
-                    <img src="https://raw.githubusercontent.com/rexxars/react-hexagon/HEAD/logo/react-hexagon.png"
-                        alt="react"><br>
-                     React </a>
-                </li>
-                <li class="skills">
-                    <a href="https://github.com/zero-to-mastery/start-here-guidelines">
-                    <img src="resources/images/git.svg" alt="Git + Github"><br>
-                     Git + Github </a>
-                </li>
-            </ul>
-            <ul class='ultwo'>
-                <li class="skills">
-                    <a href="https://www.python.org/">
-                    <img src="https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png" alt="Python"><br>
-                     Python </a>
-                </li>
-                <li class="skills">
-                    <a href="https://www.w3schools.com/nodejs/nodejs_intro.asp">
-                    <img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" alt="Node.js"><br>
-                     Node Js </a>
-                </li>
-                <li class="skills">
-                    <a href="https://www.tutorialspoint.com/expressjs/">
-                    <img src="http://webodile.com/wp-content/uploads/2017/12/expressjslogo.png" alt="Express js"
-                        style="background: #333;"><br>
-                        Express js </a>
-                </li>
-                <li class="skills">
-                    <a href="https://www.w3schools.com/nodejs/nodejs_npm.asp">
-                    <img src="https://avatars2.githubusercontent.com/u/6078720?s=400&amp;v=4" alt="NPM"><br>
-                     NPM</a>
-                </li>
-                <li class="skills">
-                    <a href="https://www.tutorialspoint.com/postgresql/">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1000px-Postgresql_elephant.svg.png"
-                        alt="PostgresSQL"><br>
-                     PostgresSQL </a>
-                </li>
-                <li class="skills">
-                    <a href="https://www.w3schools.com/sql/">
-                    <img src="https://crmtipoftheday.com/wp-content/uploads/2017/10/Database-250x250.png" alt="SQL"><br>
-                     SQL </a>
-                </li>
-            </ul>
-        </aside>
     </div>
-    <footer>
-        Made by Tatyana K. &copy; All rights reserved ;)
-    </footer>
 
+    <div class="container-fluid software-details">
+        <h2>Software Development Technologies:</h2>
+        <div class="row justify-content-center">
+            <a href="https://www.w3schools.com/html/html5_intro.asp">
+                <div class="col-md-3 col-sm-12">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML 5</h5>
+                            <p class="card-text">
+                                <img src="resources/images/html5.png" alt="HTML 5">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.w3schools.com/css/">
+                <div class="col-md-3 col-sm-12">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS 3</h5>
+                            <p class="card-text">
+                                <img src="https://juststickers.in/wp-content/uploads/2014/05/CSS3-Mark-Shape-Cut.png" alt="CSS 3">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.w3schools.com/bootstrap4/">
+                <div class="col-md-3 col-sm-12">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Bootstrap 4</h5>
+                            <p class="card-text">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Boostrap_logo.svg/440px-Boostrap_logo.svg.png" alt="Bootstrap 4">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.w3schools.com/js/">
+                <div class="col-md-3 col-sm-12">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Javascript</h5>
+                            <p class="card-text">
+                                <img src="https://www.easyprogramming.net/logo/js.png" alt="Pure JavaScript/">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://reactjs.org/">
+                <div class="col-md-3 col-sm-12">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">React</h5>
+                            <p class="card-text">
+                                <img src="https://raw.githubusercontent.com/rexxars/react-hexagon/HEAD/logo/react-hexagon.png" alt="react">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/zero-to-mastery/start-here-guidelines">
+                <div class="col-md-3 col-sm-12">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Git + Github</h5>
+                            <p class="card-text">
+                                <img src="resources/images/git.svg" alt="Git + Github">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.python.org/">
+                <div class="col-md-3 col-sm-12">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Python</h5>
+                            <p class="card-text">
+                                <img src="https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png" alt="Python">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.w3schools.com/nodejs/nodejs_intro.asp">
+                <div class="col-md-3 col-sm-12">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Node JS</h5>
+                            <p class="card-text">
+                                <img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" alt="Node.js">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.tutorialspoint.com/expressjs/">
+                <div class="col-md-3 col-sm-12">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Express JS</h5>
+                            <p class="card-text">
+                                <img src="http://webodile.com/wp-content/uploads/2017/12/expressjslogo.png" alt="Express js" style="background: #333;">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.w3schools.com/nodejs/nodejs_npm.asp">
+                <div class="col-md-3 col-sm-12">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">NPM</h5>
+                            <p class="card-text">
+                                <img src="https://avatars2.githubusercontent.com/u/6078720?s=400&amp;v=4" alt="NPM">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.tutorialspoint.com/postgresql/">
+                <div class="col-md-3 col-sm-12">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">PostgresSQL</h5>
+                            <p class="card-text">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1000px-Postgresql_elephant.svg.png" alt="PostgresSQL">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.w3schools.com/sql/">
+                <div class="col-md-3 col-sm-12">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">SQL</h5>
+                            <p class="card-text">
+                                <img src="https://crmtipoftheday.com/wp-content/uploads/2017/10/Database-250x250.png" alt="SQL">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="container-fluid footer-container">
+        <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="line-height: 32px">
+            <h5>If you enjoyed the course like I did, share it so more people can enjoy it</h5>
+            <div class="buttons">
+                    <a class="a2a_button_facebook"></a>
+                    <a class="a2a_button_twitter"></a>
+                    <a class="a2a_button_email"></a>
+                    <a class="a2a_button_whatsapp"></a>
+            </div>
+        </div>
+         
+        <div id="credits">
+            Made by Tatyana K. &copy; All rights reserved ;)
+        </div>
+    </div>
+    
+    <script src="/resources/scripts/particles.js"></script>
+    <script src="/resources/scripts/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
     <script type="text/javascript" src="resources/scripts/script.js"></script>
     <script async src="https://static.addtoany.com/menu/page.js"></script> 
 </body>

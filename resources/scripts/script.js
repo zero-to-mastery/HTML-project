@@ -37,3 +37,23 @@ const javaScriptCategorySelected = () => {
 		clicked = 1;
 	} //end of if
 }
+
+$(function () {
+	$(document).scroll(function () {
+	  var $nav = $(".navbar-light");
+	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+	});
+  });
+
+$(".card").hover(
+	function () {
+		$(this).filter(':not(:animated)').animate({
+			zoom: '125%'
+		}, 500).css('background', '#eee');
+		// This only fires if the row is not undergoing an animation when you mouseover it
+	},
+	function () {
+		$(this).animate({
+			zoom: '100%'
+		}, 500).css('background', 'transparent');
+});
