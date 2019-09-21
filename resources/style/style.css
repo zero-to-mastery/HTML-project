@@ -39,7 +39,7 @@ body {
 /* HEADER SECTION */
 .header-container{
   height: 100vh;
-  background-image: url('/resources/images/header-bg.jpg');
+  background-image: url('../images/header-bg.jpg');
   background-position: fixed;
   background-repeat: no-repeat;
   background-size: cover;
