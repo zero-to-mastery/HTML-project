@@ -7,7 +7,7 @@ Hey there, welcome to our HTML open source project. Redesign the HTML landing an
 - Fork the repository, clone and make sure you are not working on the `master branch`
 
 ```bash
-git clone https://github.com/joshuafolorunsho/hmtl-project.git
+git clone https://github.com/{your-github-username-here}/hmtl-project.git
 ```
 
 ```bash
