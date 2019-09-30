@@ -57,3 +57,5 @@
 [@itshally](https://github.com/itshally)
 
 [@joshuafolorunsho](https://github.com/joshuafolorunsho)
+
+[@codepol](https://github.com/codepol)
