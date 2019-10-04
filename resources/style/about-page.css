@@ -1,0 +1,26 @@
+.navbar-collapse {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+.navbar a{
+    color: black !important;
+}
+.about-container{
+    height: auto;
+    padding: 10%;
+    font-family: 'Montserrat', sans-serif;
+}
+.about-container h1{
+ text-align: center;
+ margin-bottom: 5%;
+}
+.list-group{
+    margin: 2.5% auto;
+    font-family: 'Lora', serif;
+}
+.list-group-item:first-child{
+    border-top: none;
+}
+.list-group-item{
+    background-color: transparent !important;
+}
