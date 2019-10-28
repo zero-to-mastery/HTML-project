@@ -45,15 +45,15 @@ $(function () {
 	});
   });
 
-$(".card").hover(
-	function () {
-		$(this).filter(':not(:animated)').animate({
-			zoom: '125%'
-		}, 500).css('background', '#eee');
-		// This only fires if the row is not undergoing an animation when you mouseover it
-	},
-	function () {
-		$(this).animate({
-			zoom: '100%'
-		}, 500).css('background', 'transparent');
-});
+// $(".card").hover(
+// 	function () {
+// 		$(this).filter(':not(:animated)').animate({
+// 			zoom: '125%'
+// 		}, 500).css('background', '#eee');
+// 		// This only fires if the row is not undergoing an animation when you mouseover it
+// 	},
+// 	function () {
+// 		$(this).animate({
+// 			zoom: '100%'
+// 		}, 500).css('background', 'transparent');
+// });
