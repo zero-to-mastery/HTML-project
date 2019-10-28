@@ -166,4 +166,19 @@ body {
   display: inline-flex;
 }
 
+.card{
+  transition: all 0.2s ease-in;
+}
+
+.card-body{
+  transition: all 0.2s ease-in;
+}
+
+.card:hover{
+  background-color: #e6e6e6;
+}
+
+.card:hover .card-body{
+  transform: scale(1.1);
+}
 
