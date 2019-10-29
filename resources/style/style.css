@@ -62,7 +62,7 @@ body {
   color: #FFFFFF;
   text-align: center;
 }
-.header-content hr{
+.header-content hr {
   background-color: #fff;
   width: 100%;
   margin: 2px auto;
@@ -74,6 +74,11 @@ body {
   padding: 0;
   font-size: 3em;
   font-family: 'Montserrat', sans-serif;
+}
+
+.header-content a {
+  color:#FFFFFF; 
+  text-decoration: none;"
 }
 
 /* DETAILS SECTION */
