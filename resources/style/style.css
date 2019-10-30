@@ -98,7 +98,7 @@ body {
   font-weight: bold;
 }
 .details-container p{
-  font-family: 'Lora', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .course-details-content{
   text-align: center;
@@ -149,7 +149,7 @@ body {
   position: relative;
   padding: 5rem 2rem;
   text-align: center;
-  font-family: 'Lora', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .footer-container h5{
   width: 100%;

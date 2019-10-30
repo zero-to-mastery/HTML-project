@@ -16,7 +16,7 @@
 }
 .list-group{
     margin: 2.5% auto;
-    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .list-group-item:first-child{
     border-top: none;
