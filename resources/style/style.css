@@ -145,6 +145,9 @@ body {
   width: 30%;
   height: 100%;
 }
+.software-details h4 {
+  text-align: center;
+}
 
 /* FOOTER SECTION */
 .footer-container{
