@@ -7,6 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Zero to Mastery - My HTML Project</title>
     <link rel="icon" href="resources\images\logo.png"/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+  />
     <link rel="stylesheet" href="resources/style/particles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"><link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet">
@@ -37,6 +41,7 @@
         </div>
     </nav>
 
+<div class="animated bounce">
     <div class="container-fluid header-container">
         <div class="header-container-bg-fade">
         <div id="particles-js"></div>
@@ -47,11 +52,12 @@
         </div>
     </div>
 
+    
     <div class="container-fluid details-container">
         <div class="row">
             <div class="col-md-6 col-sm-12">
                 <div class="course-details-content">
-                    <h2>Why this Course?</h2>
+                    <h2 class="animated bounce">Why this Course?</h2>
                     <p class="paragraph-block">
                     <p>Do you wish about working as a web developer?</p>
                     <p>You want to know the basics that can get you up and running quickly?</p>
@@ -236,6 +242,7 @@
             Made by CWD &copy; All rights reserved... NOT
         </div>
     </div>
+</div>
     
     <script src="resources/scripts/particles.js"></script>
     <script src="resources/scripts/app.js"></script>
