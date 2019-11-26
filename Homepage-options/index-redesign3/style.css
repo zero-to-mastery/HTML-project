@@ -1,0 +1,280 @@
+/************************************
+********RESET STYLES*****************
+************************************/
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/************************************
+*********BASE STYLES*****************
+************************************/
+
+html {
+  font-size: 62.5%; /* This makes the default font size to 10px*/ 
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  color: #ff2400;
+}
+
+/************************************
+*********HEADER STYLES***************
+************************************/
+
+header {
+  background-color: #ff2400;
+  color: #111;
+  font-weight: bold;
+  text-align: center;
+  padding: 2rem;
+  box-shadow: 0 .5rem 2rem rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-shadow: 0 2px 5px rgba(255,255,255,0.2);
+  word-spacing: 1.4rem;
+}
+
+header h1 i {
+  color: orange;
+  text-shadow: none;
+}
+
+/************************************
+***********MAIN STYLES***************
+************************************/
+
+main h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem 0;
+  
+}
+
+main {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+/************************************
+********SECTION STYLES***************
+************************************/
+
+  /* course-details SECTION */
+
+  .course-details {
+    margin: 2rem 0 4rem; 
+    padding: 1rem 2rem;
+  }
+
+  .course-details h2 {
+    text-shadow: 0 1px 5px rgba(0,0,0,0.1);
+  }
+
+  .course-img {
+    margin-top: 2rem;
+    max-width: 100%;
+  }
+  
+  .course-img img {
+    max-width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow .3s;
+  }
+
+  .course-img img:hover {
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.2);
+    transform: scale(1.02);
+  }
+
+  /* employable-skills SECTION */
+
+  .employable-skills {
+    padding: 4rem 2rem;
+    margin-bottom: 4rem;
+    background-color: #ff2400;
+    color: #fff;
+    transform: skewY(-7deg);
+    box-shadow: 0 0 2rem rgba(0,0,0,0.3);
+  }
+
+  .employable-skills h2 {
+    text-align: center;
+    text-shadow: 0 2px 5px rgba(255,255,255,0.1);
+  }
+
+  .employable-skills > * {
+    transform: skewY(7deg);
+  }
+
+  .employable-skills ul {
+    display: block;
+    margin: 0 auto;
+    list-style: none;
+    width: 80%;
+    /* max-width: 15rem; */
+  }
+
+  .employable-skills li {
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-left: 2px solid transparent;
+    transition: all .4s;
+  }
+
+  .employable-skills li:hover {
+    border-left: 2px solid orangered;
+  }
+
+  .employable-skills li:nth-of-type(even) {
+    background: rgba(255,255,255,0.01);
+    border-radius: 4px;
+  }
+
+  /* .employable-skills li:last-child {
+    margin-bottom: 1rem;
+  } */
+  
+  .employable-skills a:visited, .employable-skills a:link  {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .icon {
+    vertical-align: middle;
+    display: inline-block;
+    height: 2.5rem;
+    margin-right: 1rem;
+  }
+
+  .icon img {
+    height: 100%;
+  }
+
+
+/************************************
+*********FOOTER STYLES***************
+************************************/
+footer {
+  padding: 1rem;
+  background: linear-gradient(#fff, #f3f3f3);
+}
+
+footer a:link, footer a:visited {
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+footer p {
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #999;
+}
+
+footer p span {
+  display: block;
+  margin: 1rem 0;
+}
+
+
+
+/* _________________________________________
+________________MEDIA QUERIES_______________
+____________________________________________*/
+
+@media (min-width:700px) {
+  html {
+    font-size: 75%;
+  }
+
+  .course-details p, .course-img {
+    max-width: 80vw;
+    display: block;
+    margin: 2rem auto;
+  }
+
+  .employable-skills {
+    padding: 6rem;
+    transform: skewY(-5deg);
+  }
+
+  .employable-skills > * {
+    transform: skewY(5deg);
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 80%;
+  }
+
+  main {
+    max-width: 90vw;
+    margin: 6rem auto 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+
+  .course-details {
+    width: 38vw;
+  }
+
+  .employable-skills {
+    width: 45vw;
+  }
+
+  .employable-skills, .employable-skills > * {
+    transform: skew(0)
+  }
+
+  .employable-skills {
+    padding: 1.5rem;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .employable-skills h2 {
+    margin-bottom: 4rem;
+  }
+
+  .icon {
+    display: block;
+    margin: 0 auto 1rem;
+    height: 3rem;
+  }
+
+  .employable-skills ul {
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem  2rem;
+    font-weight: 100;
+  }
+
+}
+
+@media (min-width: 2000px) {
+  html {
+    font-size: 90%;
+  }
+
+  main {
+    max-width: 80%;
+    margin-top: 4rem;
+  }
+}
