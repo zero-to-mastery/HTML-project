@@ -18,7 +18,7 @@ cd html-project
 git checkout -b nameOFTheBranch
 ```
 
-- Make your contribute :)
+- Make your contribution :)
 
 - Open a Pull Request.
 
