@@ -74,4 +74,7 @@
 
 [@FrancoMuniz](https://github.com/FrancoMuniz)
 
+[@tpartridge1](https://github.com/tpartridge1)
+
 [@felipegcruz](https://github.com/felipegcruz)
+
