@@ -11,33 +11,40 @@ body {
   color: #000 !important;
   transition: background-color 200ms linear;
 }
-.navbar-light.scrolled a{
+
+.navbar-light.scrolled a {
   color: #000 !important;
   font-family: 'Montserrat', sans-serif;
 }
-.navbar-light{
+
+.navbar-light {
   background-color: transparent !important;
 }
-.navbar-brand img{
+
+.navbar-brand img {
   height: 45px;
   width: auto;
   margin: 0;
   padding: 0;
 }
-.navbar a, .navbar-dark a{
+
+.navbar a,
+.navbar-dark a {
   color: #fff !important;
   font-family: 'Montserrat', sans-serif;
 }
-.navbar-collapse ul{
+
+.navbar-collapse ul {
   margin: 0 auto;
 }
-.navbar-collapse ul li{
+
+.navbar-collapse ul li {
   margin: auto 10px;
   padding: 0 1rem;
 }
 
 /* HEADER SECTION */
-.header-container{
+.header-container {
   height: 100vh;
   background-image: url('../images/header-bg.jpg');
   background-position: fixed;
@@ -47,25 +54,28 @@ body {
   margin: 0;
   padding: 0;
 }
-.page-content{
+
+.page-content {
   /* display: flex;
   flex-direction: column;
   justify-content: center; */
   text-align: center;
 }
 
-.flex{
+.flex {
   list-style-type: none;
   padding-left: 5px;
 }
-.header-container-bg-fade{
+
+.header-container-bg-fade {
   height: 100%;
   width: 100%;
   background-color: #000000;
   opacity: 0.8;
   z-index: 1;
 }
-.header-content{
+
+.header-content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -73,11 +83,13 @@ body {
   color: #FFFFFF;
   text-align: center;
 }
+
 .header-content hr {
   background-color: #fff;
   width: 100%;
   margin: 2px auto;
 }
+
 .header-content h1 {
   width: 100%;
   margin: auto;
@@ -88,11 +100,11 @@ body {
 }
 
 .header-content a {
-  color:#FFFFFF; 
+  color: #FFFFFF;
   text-decoration: none;
 }
 
-.paragraph-block{
+.paragraph-block {
   padding: 2rem;
 }
 
@@ -104,64 +116,75 @@ body {
   padding: 5rem 0;
   position: relative;
 }
-.details-container .row{
+
+.details-container .row {
   padding: 0;
   margin: 0;
 }
-.details-container h2{
+
+.details-container h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
-.details-container p{
+
+.details-container p {
   font-family: 'Montserrat', sans-serif;
 }
-.course-details-content{
+
+.course-details-content {
   text-align: center;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
+
 #course-img {
   max-width: 100%;
   height: auto;
 }
 
 /* SOFTWARE DETAILS  */
-.software-details{
+.software-details {
   margin: 5rem 0;
   padding: 0rem;
   font-family: 'Montserrat', sans-serif;
 }
-.software-details h2{
+
+.software-details h2 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-weight: bold;
   margin-bottom: 2rem;
 }
-.software-details .row{
+
+.software-details .row {
   padding: 0;
   margin: auto;
   width: 90%;
 }
-.software-details a{
+
+.software-details a {
   text-decoration: none;
   color: #000000;
 }
-.software-details .card{
+
+.software-details .card {
   height: 10rem;
   width: 15rem;
   border: none;
 }
-.software-details img{
+
+.software-details img {
   width: 30%;
   height: 100%;
 }
+
 .software-details h4 {
   text-align: center;
 }
 
 /* FOOTER SECTION */
-.footer-container{
+.footer-container {
   color: #fff;
   background-color: #111;
   position: relative;
@@ -169,39 +192,63 @@ body {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
-.footer-container h5{
+
+.footer-container h5 {
   width: 100%;
 }
-#credits{
+
+#credits {
   width: 100%;
   position: absolute;
   bottom: 5%;
   left: 50%;
   transform: translate(-50%, 5%);
 }
-.a2a_button_facebook,.a2a_button_twitter,.a2a_button_email,.a2a_button_whatsapp{
-  margin: 10px;
-  text-align:  center;
 
+.a2a_button_facebook,
+.a2a_button_twitter,
+.a2a_button_email,
+.a2a_button_whatsapp {
+  margin: 10px;
+  text-align: center;
 }
 
-.buttons{
+i:hover {
+  opacity: 0.5;
+}
+
+.fa-facebook {
+  color: #4267B2;
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+}
+
+.fa-envelope-square {
+  color: #00A4EF;
+}
+
+.fa-whatsapp {
+  color: #25D366;
+}
+
+.buttons {
   display: inline-flex;
 }
 
-.card{
+.card {
   transition: all 0.2s ease-in;
 }
 
-.card-body{
+.card-body {
   transition: all 0.2s ease-in;
 }
 
-.card:hover{
+.card:hover {
   background-color: #e6e6e6;
 }
 
-.card:hover .card-body{
+.card:hover .card-body {
   transform: scale(1.1);
 }
-
