@@ -195,7 +195,7 @@ body {
   color: #fff;
   background-color: #111;
   position: relative;
-  padding: 5rem 2rem;
+  padding: 4rem 2rem;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
@@ -258,4 +258,12 @@ i:hover {
 
 .card:hover .card-body {
   transform: scale(1.1);
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link{
+    margin-right: .5rem;
+    margin-left: .5rem; 
+    padding: 0px;
+  }
 }
