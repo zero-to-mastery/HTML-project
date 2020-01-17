@@ -9,7 +9,11 @@ body {
 .navbar-light.scrolled {
   background-color: #fff !important;
   color: #000 !important;
-  transition: background-color 200ms linear;
+  transition: background-color 400ms linear;
+}
+
+.buttons > a > i {
+  transition: opacity 200ms;
 }
 
 .navbar-light.scrolled a {
