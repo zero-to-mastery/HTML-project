@@ -9,7 +9,7 @@ body {
 .navbar-light.scrolled {
   background-color: #fff !important;
   color: #000 !important;
-  transition: background-color 200ms linear;
+  transition: background-color .5s linear;
 }
 
 .navbar-light.scrolled a {
@@ -242,6 +242,11 @@ i:hover {
 
 .buttons {
   display: inline-flex;
+}
+
+/* Footer social media buttons transition */
+.buttons > a > i {
+  transition: all .2s;
 }
 
 .card {
