@@ -266,9 +266,18 @@ i:hover {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  padding: 0px 10px 0px 10px;
 }
 
-.dropDown:hover .dropDownContent {display: block;}
+.dropDown:hover .dropDownContent {
+  display: block;
+  font-style: italic;
+}
+
+.list-group-item:hover {
+  cursor: pointer;
+  font-size: 120%;
+}
 
 .card:hover {
   background-color: #e6e6e6;
