@@ -98,4 +98,6 @@
 
 [@stanluxembourg](https://github.com/stanluxembourg)
 
+[@fumiadeyemi](https://github.com/fumiadeyemi)
+
 [@elenaandersson](https://github.com/elenaandersson)
