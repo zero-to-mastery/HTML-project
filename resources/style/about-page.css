@@ -23,4 +23,5 @@
 }
 .list-group-item{
     background-color: transparent !important;
+    transition: all 0.2s ease-in;
 }
