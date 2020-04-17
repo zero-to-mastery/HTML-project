@@ -260,23 +260,35 @@ i:hover {
   display: inline-block;
 }
 .dropDownContent{
-  display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
+  left: 50px;
+  max-height: 0;
+  overflow: hidden;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  padding: 0px 10px 0px 10px;
-}
-
-.dropDown:hover .dropDownContent {
-  display: block;
-  font-style: italic;
+  padding: 0;
+  transition: max-height 0.2s ease-in;
 }
 
 .list-group-item:hover {
   cursor: pointer;
   font-size: 120%;
+}
+
+.list-group-item:hover .dropDownContent {
+  font-style: italic;
+  max-height: 100px;
+  padding: 0px 10px 0px 10px;
+}
+
+.list-group-item p{
+  transform: translateY(-110%);
+  transition: transform 0.2s ease-in;  
+}
+
+.list-group-item:hover p{
+  transform: translateY(0);
 }
 
 .card:hover {
