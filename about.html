@@ -1,306 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The Web Developer 2020</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>The Web Developer 2020</title>
+    <link rel="icon" href="resources\images\logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="resources/style/style.css" />
+    <link rel="stylesheet" href="resources/style/about-page.css" />
+  </head>
 
-  <link rel="icon" href="resources\images\logo.png" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
-  <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-  <link rel="stylesheet" href="resources/style/style.css" />
-  <link rel="stylesheet" href="resources/style/about-page.css" />
-</head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="index.html"
+        ><img src="resources/images/logo.png" alt=""
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item register-link">
+            <a class="nav-link" href="register.html">Sign Up</a>
+          </li>
+          <li class="nav-item register-link">
+            <a class="nav-link" href="contributersProfile.html">Contributors</a>
+          </li>
+        </ul>
+      </div>
+      <a class="nav-link ml-md-auto" href="beyondztm.html"
+        >Beyond Zero to Mastery</a
+      >
+    </nav>
+    <div class="animated bounce">
+      <div class="container-fluid about-container">
+        <h1 class="animated bounce">The Complete Web Developer in 2020: ZtM</h1>
+        <h2 class="animated bounce">Course Content</h2>
 
-<body>
-  <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <a class="navbar-brand" href="index.html"><img src="resources/images/logo.png" alt="" /></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item register-link">
-          <a class="nav-link" href="register.html">Sign Up</a>
-        </li>
-      </ul>
-    </div>
-    <a class="nav-link ml-md-auto" href="beyondztm.html">Beyond Zero to Mastery</a>
-  </nav>
-  <div class="animated bounce">
-    <div class="container-fluid about-container">
-      <h1 class="animated bounce">The Complete Web Developer in 2020: ZtM</h1>
-      <h2 class="animated bounce">Course Content</h2>
-
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item dropDown">Introduction
-          <div class="dropDownContent">
-            <p>
-              In this section, you will be introduced with the course content and to the community.
-            </p>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item dropDown">
+            Introduction
+            <div class="dropDownContent">
+              <p>
+                In this section, you will be introduced with the course content
+                and to the community.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            How The Internet Works
+            <div class="dropDownContent">
+              <p>
+                You'll learn how the internet works, inspect the Google, and
+                what is the work of a developer.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            History Of The Web
+            <div class="dropDownContent">
+              <p>
+                You'll start from the history and get introduced with HTML, CSS
+                and Javascript.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            HTML 5
+            <div class="dropDownContent">
+              <p>
+                You'll be learning the basic concepts of HTML such as tags, self
+                closing tags, anchor tags.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            Advanced HTML 5
+            <div class="dropDownContent">
+              <p>
+                You'll be learning advanced concepts such as submitting forms.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            CSS
+            <div class="dropDownContent">
+              <p>
+                You'll get to know about CSS and some of the basics in CSS.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            Advanced CSS
+            <div class="dropDownContent">
+              <p>
+                You'll get to know some advanced concepts such as animations.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            Bootstrap 4, Templates, And Building Your Startup Landing Page
+            <div class="dropDownContent">
+              <p>
+                You'll learn to use bootstrap in your projects to make it look
+                awesome.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            CSS Grid + CSS Layout
+            <div class="dropDownContent">
+              <p>
+                You'll learn one of the latest features of CSS known as CSS
+                grid.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            Career Of A Web Developer
+            <div class="dropDownContent">
+              <p>
+                You'll know about the recent techs and how to cover your lack of
+                experience.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            Javascript
+            <div class="dropDownContent">
+              <p>
+                You'll get to know the power of Javascript and implement your
+                new power in a project.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            DOM Manipulation
+            <div class="dropDownContent">
+              <p>
+                You will learn what DOM is and how to manipulate it in order to
+                create some cool websites.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            Advanced Javascript
+            <div class="dropDownContent">
+              <p>
+                You'll learn some advanced concepts in javascripts such as
+                currying, composing etc.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            Command Line
+            <div class="dropDownContent">
+              <p>
+                You'll learn to use terminal/command prompt for the web
+                development.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            Developer Environment
+            <div class="dropDownContent">
+              <p>
+                You'll configure your editor to make it look like a pro.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            Git + Github + Open Source Projects
+            <div class="dropDownContent">
+              <p>
+                You'll learn to contribute to an open source project by learning
+                Git.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            A Day In The Life Of A Developer
+            <div class="dropDownContent">
+              <p>
+                A typical day of a developer.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            NPM + NPM Scripts
+            <div class="dropDownContent">
+              <p>
+                You'll get to know about NPM and how to setup NPM.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            React.js + Redux
+            <div class="dropDownContent">
+              <p>
+                You'll learn one of the upcoming technology known as React and
+                Redux.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            HTTP/JSON/AJAX + Asynchronous Javascript
+            <div class="dropDownContent">
+              <p>
+                You'll get hands on in one of the important features of ES8.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            Backend Introduction
+            <div class="dropDownContent">
+              <p>
+                You'll be introduced with the backend.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            APIs
+            <div class="dropDownContent">
+              <p>
+                You'll be introduced with APIs and an optional exercise to
+                explore more of it.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            FINAL PROJECT: SmartBrain Front-End
+            <div class="dropDownContent">
+              <p>
+                This is an ultimate part where you'll build the frontend for
+                your final project.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            Node.js + Express.js
+            <div class="dropDownContent">
+              <p>
+                You'll get to know about Node and Express.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            FINAL PROJECT: SmartBrain Back-End -- Server
+            <div class="dropDownContent">
+              <p>
+                You'll build the backend for your final project.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            Databases
+            <div class="dropDownContent">
+              <p>
+                You'll learn about the databases.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            FINAL PROJECT: SmartBrain Back-End -- Database
+            <div class="dropDownContent">
+              <p>
+                You'll confiure your final project with the database you have
+                learned in this course.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item dropDown">
+            Production + Deployment
+            <div class="dropDownContent">
+              <p>
+                Finally, deployment.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item">Where To Go From Here?</li>
+          <li class="list-group-item">Bonus:Extra Bits</li>
+          <li class="list-group-item dropDown">
+            Extra: For Windows Users
+            <div class="dropDownContent">
+              <p>
+                Learn about installation guide for Windows users.
+              </p>
+            </div>
+          </li>
+          <li class="list-group-item">Extras</li>
+        </ul>
+      </div>
+      <div class="container-fluid footer-container">
+        <div
+          class="a2a_kit a2a_kit_size_32 a2a_default_style"
+          style="line-height: 32px;"
+        >
+          <h5>
+            If you enjoyed the course like I did, share it so more people can
+            enjoy it!
+          </h5>
+          <div class="buttons">
+            <a class="a2a_button_facebook"
+              ><i class="fab fa-facebook fa-2x"></i
+            ></a>
+            <a class="a2a_button_twitter"
+              ><i class="fab fa-twitter fa-2x"></i
+            ></a>
+            <a class="a2a_button_email"
+              ><i class="fas fa-envelope-square fa-2x"></i
+            ></a>
+            <a class="a2a_button_whatsapp"
+              ><i class="fab fa-whatsapp fa-2x"></i
+            ></a>
           </div>
-        </li>
-        <li class="list-group-item dropDown">How The Internet Works
-        <div class="dropDownContent">
-            <p>
-              You'll learn how the internet works, inspect the Google, and what is the work of a developer.
-            </p>
-          </div>
-        </li>
-        <li class="list-group-item dropDown">History Of The Web
-        <div class="dropDownContent">
-            <p>
-              You'll start from the history and get introduced with HTML, CSS and Javascript.
-            </p>
-          </div>
-        </li>
-        <li class="list-group-item dropDown">HTML 5
-          <div class="dropDownContent">
-            <p>
-              You'll be learning the basic concepts of HTML such as tags, self closing tags, anchor tags.
-            </p>
-          </div>
-        
-        </li>
-        <li class="list-group-item dropDown">Advanced HTML 5
-          <div class="dropDownContent">
-            <p>
-              You'll be learning advanced concepts such as submitting forms.
-            </p>
-          </div>
-        
-        </li>
-        <li class="list-group-item dropDown">CSS
-        <div class="dropDownContent">
-            <p>
-              You'll get to know about CSS and some of the basics in CSS.
-            </p>
-          </div>
-        </li>
-        <li class="list-group-item dropDown">Advanced CSS
-        <div class="dropDownContent">
-            <p>
-              You'll get to know some advanced concepts such as animations.
-            </p>
-          </div>
-        </li>
-        <li class="list-group-item dropDown">
-          Bootstrap 4, Templates, And Building Your Startup Landing Page
-          <div class="dropDownContent">
-            <p>
-              You'll learn to use bootstrap in your projects to make it look awesome.
-            </p>
-          </div>
-        
-        </li>
-        <li class="list-group-item dropDown">CSS Grid + CSS Layout
-          <div class="dropDownContent">
-            <p>
-              You'll learn one of the latest features of CSS known as CSS grid.
-            </p>
-          </div>
-        
-        </li>
-        <li class="list-group-item dropDown">Career Of A Web Developer
-        <div class="dropDownContent">
-            <p>
-              You'll know about the recent techs and how to cover your lack of experience.
-            </p>
-          </div>
-        </li>
-        <li class="list-group-item dropDown">Javascript
-          <div class="dropDownContent">
-            <p>
-              You'll get to know the power of Javascript and implement your new power in a project.
-            </p>
-          </div>
-        
-        </li>
-        <li class="list-group-item dropDown">DOM Manipulation
-        <div class="dropDownContent">
-            <p>
-              You will learn what DOM is and how to manipulate it in order to create some cool websites.
-            </p>
-          </div>
-        </li>
-        <li class="list-group-item dropDown">Advanced Javascript
-        <div class="dropDownContent">
-            <p>
-              You'll learn some advanced concepts in javascripts such as currying, composing etc.
-            </p>
-          </div>
-        </li>
-        <li class="list-group-item dropDown">Command Line
-        <div class="dropDownContent">
-            <p>
-              You'll learn to use terminal/command prompt for the web development.
-            </p>
-          </div>
-        </li>
-        <li class="list-group-item dropDown">Developer Environment
-        <div class="dropDownContent">
-            <p>
-              You'll configure your editor to make it look like a pro.
-            </p>
-          </div>
-        </li>
-        <li class="list-group-item dropDown">Git + Github + Open Source Projects
-        <div class="dropDownContent">
-            <p>
-              You'll learn to contribute to an open source project by learning Git.
-            </p>
-          </div>
-        </li>
-        <li class="list-group-item dropDown">A Day In The Life Of A Developer
-        <div class="dropDownContent">
-            <p>
-              A typical day of a developer.
-            </p>
-          </div>
-        </li>
-        <li class="list-group-item dropDown">NPM + NPM Scripts
-        <div class="dropDownContent">
-            <p>
-              You'll get to know about NPM and how to setup NPM.
-            </p>
-          </div>
-        </li>
-        <li class="list-group-item dropDown">React.js + Redux
-        <div class="dropDownContent">
-            <p>
-              You'll learn one of the upcoming technology known as React and Redux.
-            </p>
-          </div>
-        </li>
-        <li class="list-group-item dropDown">
-          HTTP/JSON/AJAX + Asynchronous Javascript
-          <div class="dropDownContent">
-            <p>
-              You'll get hands on in one of the important features of ES8.
-            </p>
-          </div>
-        
-        </li>
-        <li class="list-group-item dropDown">Backend Introduction
-        <div class="dropDownContent">
-            <p>
-              You'll be introduced with the backend.
-            </p>
-          </div>
-        </li>
-        <li class="list-group-item dropDown">APIs
-        <div class="dropDownContent">
-            <p>
-              You'll be introduced with APIs and an optional exercise to explore more of it.
-            </p>
-          </div>
-        </li>
-        <li class="list-group-item dropDown">FINAL PROJECT: SmartBrain Front-End
-        <div class="dropDownContent">
-            <p>
-              This is an ultimate part where you'll build the frontend for your final project.
-            </p>
-          </div>
-        </li>
-        <li class="list-group-item dropDown">Node.js + Express.js
-        <div class="dropDownContent">
-            <p>
-              You'll get to know about Node and Express.
-            </p>
-          </div>
-        </li>
-        <li class="list-group-item dropDown">
-          FINAL PROJECT: SmartBrain Back-End -- Server
-          <div class="dropDownContent">
-            <p>
-              You'll build the backend for your final project.
-            </p>
-          </div>
-        
-        </li>
-        <li class="list-group-item dropDown">Databases
-          <div class="dropDownContent">
-            <p>
-              You'll learn about the databases.
-            </p>
-          </div>
-        
-        </li>
-        <li class="list-group-item dropDown">
-          FINAL PROJECT: SmartBrain Back-End -- Database
-          <div class="dropDownContent">
-            <p>
-              You'll confiure your final project with the database you have learned in this course.
-            </p>
-          </div>
-        
-        </li>
-        <li class="list-group-item dropDown">Production + Deployment
-        <div class="dropDownContent">
-            <p>
-              Finally, deployment.
-            </p>
-          </div>
-        </li>
-        <li class="list-group-item">Where To Go From Here?</li>
-        <li class="list-group-item">Bonus:Extra Bits</li>
-        <li class="list-group-item dropDown">
-          Extra: For Windows Users
-          <div class="dropDownContent">
-            <p>
-              Learn about installation guide for Windows users.
-            </p>
-          </div>
-        </li>  
-        <li class="list-group-item">Extras</li>
-      </ul>
-    </div>
-    <div class="container-fluid footer-container">
-      <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="line-height: 32px">
-        <h5>
-          If you enjoyed the course like I did, share it so more people can
-          enjoy it!
-        </h5>
-        <div class="buttons">
-          <a class="a2a_button_facebook"><i class="fab fa-facebook fa-2x"></i></a>
-          <a class="a2a_button_twitter"><i class="fab fa-twitter fa-2x"></i></a>
-          <a class="a2a_button_email"><i class="fas fa-envelope-square fa-2x"></i></a>
-          <a class="a2a_button_whatsapp"><i class="fab fa-whatsapp fa-2x"></i></a>
+        </div>
+        <div id="credits">
+          Made by Tatyana K. &copy; All rights reserved ;)
         </div>
       </div>
-      <div id="credits">
-        Made by Tatyana K. &copy; All rights reserved ;)
-      </div>
     </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-  </script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="resources/scripts/script.js"></script>
-  <script async src="https://static.addtoany.com/menu/page.js"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="resources/scripts/script.js"></script>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+  </body>
 </html>
