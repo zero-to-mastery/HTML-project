@@ -37,6 +37,9 @@ body {
   color: #fff !important;
   font-family: 'Montserrat', sans-serif;
 }
+.navbar a:hover,.navbar-dark a:hover{
+  transform: scale(1.3);
+}
 
 .navbar-collapse ul {
   margin-left: auto;
@@ -107,7 +110,6 @@ body {
   color: #FFFFFF;
   text-decoration: none;
 }
-
 .paragraph-block {
   padding: 2rem;
 }

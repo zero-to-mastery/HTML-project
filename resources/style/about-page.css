@@ -5,6 +5,9 @@
 .navbar a{
     color: black !important;
 }
+.navbar a:hover{
+    transform: scale(1.3);
+}
 .about-container{
     height: auto;
     padding: 10%;
