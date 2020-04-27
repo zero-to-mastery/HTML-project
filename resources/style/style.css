@@ -18,7 +18,7 @@ body {
 
 .navbar-light.scrolled a {
   color: #000 !important;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navbar-light {
@@ -35,10 +35,15 @@ body {
 .navbar a,
 .navbar-dark a {
   color: #fff !important;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-.navbar a:hover,.navbar-dark a:hover{
+.navbar a:hover,
+.navbar-dark a:hover {
   transform: scale(1.3);
+}
+
+.navbar a:focus {
+  outline: 2px dotted #a4afd4;
 }
 
 .navbar-collapse ul {
@@ -53,7 +58,7 @@ body {
 /* HEADER SECTION */
 .header-container {
   height: 100vh;
-  background-image: url('../images/header-bg.jpg');
+  background-image: url("../images/header-bg.jpg");
   background-position: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,7 +92,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -103,13 +108,18 @@ body {
   text-align: center;
   padding: 0;
   font-size: 3em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .header-content a {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
+
+.header-content a:focus {
+  outline: 2px dotted #a4afd4;
+}
+
 .paragraph-block {
   padding: 2rem;
 }
@@ -136,12 +146,12 @@ body {
 }
 
 .details-container h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 
 .details-container p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .course-details-content {
@@ -160,11 +170,11 @@ body {
 .software-details {
   margin: 5rem 0;
   padding: 0rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .software-details h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   font-weight: bold;
   margin-bottom: 2rem;
@@ -179,6 +189,10 @@ body {
 .software-details a {
   text-decoration: none;
   color: #000000;
+}
+
+.software-details a:focus {
+  outline: 2px dotted #a4afd4;
 }
 
 .software-details .card {
@@ -203,7 +217,7 @@ body {
   position: relative;
   padding: 4rem 2rem;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .footer-container h5 {
@@ -231,19 +245,19 @@ i:hover {
 }
 
 .fa-facebook {
-  color: #4267B2;
+  color: #4267b2;
 }
 
 .fa-twitter {
-  color: #1DA1F2;
+  color: #1da1f2;
 }
 
 .fa-envelope-square {
-  color: #00A4EF;
+  color: #00a4ef;
 }
 
 .fa-whatsapp {
-  color: #25D366;
+  color: #25d366;
 }
 
 .buttons {
@@ -257,17 +271,17 @@ i:hover {
 .card-body {
   transition: all 0.2s ease-in;
 }
-.dropDown{
+.dropDown {
   position: relative;
   display: inline-block;
 }
-.dropDownContent{
+.dropDownContent {
   position: absolute;
   background-color: #f1f1f1;
   left: 50px;
   max-height: 0;
   overflow: hidden;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   padding: 0;
   transition: max-height 0.2s ease-in;
@@ -284,12 +298,12 @@ i:hover {
   padding: 0px 10px 0px 10px;
 }
 
-.list-group-item p{
+.list-group-item p {
   transform: translateY(-110%);
-  transition: transform 0.2s ease-in;  
+  transition: transform 0.2s ease-in;
 }
 
-.list-group-item:hover p{
+.list-group-item:hover p {
   transform: translateY(0);
 }
 
@@ -302,9 +316,9 @@ i:hover {
 }
 
 @media screen and (min-width: 992px) {
-  .navbar-expand-lg .navbar-nav .nav-link{
-    margin-right: .5rem;
-    margin-left: .5rem;
+  .navbar-expand-lg .navbar-nav .nav-link {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
     padding: 0px;
   }
 }

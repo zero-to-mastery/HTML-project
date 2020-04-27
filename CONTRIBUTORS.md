@@ -92,7 +92,7 @@
 
 [@CTMBeast](https://github.com/CTMBeast)
 
-[@AmrithaM] (https://github.com/AmrithaM)
+[@AmrithaM](https://github.com/AmrithaM)
 
 [@andy890275](https://github.com/andy890275)
 
@@ -107,3 +107,7 @@
 [@lakshmivardini-369]((https://github.com/@lakshmivardini-369)
 
 [@lakshmivardini-369]((https://github.com/@lakshmivardini-369)
+
+[@eduardoramosdev](https://github.com/eduardoramosdev)
+
+[@Gittenger](https://github.com/gittenger)
