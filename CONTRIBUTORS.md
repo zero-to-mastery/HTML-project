@@ -104,4 +104,6 @@
 
 [@khushbooJangle](https://github.com/khushbooJangle)
 
+[@eduardoramosdev](https://github.com/eduardoramosdev)
+
 [@Gittenger](https://github.com/gittenger)
