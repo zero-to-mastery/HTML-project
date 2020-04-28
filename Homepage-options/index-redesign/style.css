@@ -160,6 +160,40 @@ main {
     height: 100%;
   }
 
+  h1{
+    text-align: center;
+  }
+  .course_outcome {
+    
+    font-size:20px;
+    word-spacing: 1.5px;
+    text-align: center;
+  }
+  .blue{
+    color:blue;
+  }
+  h3{
+    margin-top:10rem;
+    font-weight:bold;
+    margin-left:5px;
+  }
+  .form{
+    padding:2px;
+    font-size: 15px;
+    margin-top:10px;
+    margin-bottom: 10px;
+  }
+  .edit{
+    padding:0px;
+    margin-top:10px;
+    margin-left:10px;
+  }
+.increase{
+  padding:5px;
+}
+#increasesize{
+  padding:10px;
+}
 
 /************************************
 *********FOOTER STYLES***************
