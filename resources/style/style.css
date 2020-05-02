@@ -39,6 +39,7 @@ body {
 }
 .navbar a:hover,
 .navbar-dark a:hover {
+  transition:all 0.2s ease-out;
   transform: scale(1.3);
 }
 
