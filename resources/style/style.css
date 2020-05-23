@@ -135,7 +135,8 @@ body {
 }
 
 .paragraph-block {
-  padding: 2rem;
+  padding: 0.5rem;
+  
 }
 
 .paragraph {
@@ -330,6 +331,7 @@ i:hover {
 .card:hover .card-body {
   transform: scale(1.1);
 }
+
 
 @media screen and (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
