@@ -12,7 +12,7 @@ body {
   transition: background-color 400ms linear;
 }
 
-.buttons > a > i {
+.buttons>a>i {
   transition: opacity 200ms;
 }
 
@@ -37,9 +37,10 @@ body {
   color: #fff !important;
   font-family: "Montserrat", sans-serif;
 }
+
 .navbar a:hover,
 .navbar-dark a:hover {
-  transition:all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   transform: scale(1.3);
 }
 
@@ -58,15 +59,27 @@ body {
 
 /* HEADER SECTION */
 .header-container {
-  height: 100vh;
+  height: 150vh;
   background-image: url("../images/header-bg.jpg");
-  background-position: fixed;
+  /* background-position: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position: relative; */
   margin: 0;
   padding: 0;
+
+
+
 }
+
+.parallax {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 .page-content {
   /* display: flex;
@@ -90,7 +103,7 @@ body {
 
 .header-content {
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ffffff;
@@ -272,10 +285,12 @@ i:hover {
 .card-body {
   transition: all 0.2s ease-in;
 }
+
 .dropDown {
   position: relative;
   display: inline-block;
 }
+
 .dropDownContent {
   position: absolute;
   background-color: #f1f1f1;
