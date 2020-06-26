@@ -13,4 +13,14 @@
 .register-container h1{
  text-align: center;
  margin-bottom: 5%;
+ text-shadow: 2px 2px gray;
+}
+
+.focus:focus{
+    border: 2px solid black;
+}
+
+#submit-btn:hover{
+    box-shadow: 5px 3px gray;
+    margin: 3px;
 }
