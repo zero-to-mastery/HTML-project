@@ -7,11 +7,11 @@ Hey there, welcome to our HTML open source project. Redesign the HTML landing pa
 - Fork the repository, clone and make sure you are not working on the `master branch`
 
 ```bash
-git clone https://github.com/{your-github-username-here}/hmtl-project.git
+git clone https://github.com/{your-github-username-here}/HTML-project.git
 ```
 
 ```bash
-cd html-project
+cd HTML-project
 ```
 
 ```bash
