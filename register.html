@@ -39,41 +39,32 @@
   <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="index.html"
-        ><img src="resources/images/logo.png" alt=""
-      /></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
+      <a class="navbar-brand" href="index.html"><img src="resources/images/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item register-link">
-            <a class="nav-link" href="register.html">Sign Up</a>
-          </li>
-          <li class="nav-item register-link">
-            <a class="nav-link" href="contributersProfile.html">Contributors</a>
-          </li>
-        </ul>
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item register-link">
+                  <a class="nav-link" href="instructor.html">Instructor</a> 
+              </li>
+              <li class="nav-item register-link">
+                  <a class="nav-link" href="register.html">Sign Up</a>
+              </li>
+              <li class="nav-item register-link">
+                  <a class="nav-link" href="contributersProfile.html">Contributors</a>
+              </li>
+          </ul>
       </div>
-      <a class="nav-link ml-md-auto" href="beyondztm.html"
-        >Beyond Zero to Mastery</a
-      >
-    </nav>
+      <a class="nav-link ml-md-auto" href="beyondztm.html">Beyond Zero to Mastery</a>
+  </nav>
 
     <div class="animated bounce">
       <div class="container-fluid register-container">
@@ -87,7 +78,7 @@
                   <label>First Name:</label>
                   <input
                     type="text"
-                    class="form-control"
+                    class="form-control focus"
                     placeholder="Jane"
                     required
                   />
@@ -98,7 +89,7 @@
                   <label>Last Name:</label>
                   <input
                     type="text"
-                    class="form-control"
+                    class="form-control focus"
                     placeholder="Doe"
                     required
                   />
@@ -109,16 +100,16 @@
               <label>Email:</label>
               <input
                 type="email"
-                class="form-control"
+                class="form-control focus"
                 placeholder="jane.doe@gmail.com"
                 required
               />
             </div>
-            <div class="form-group">
+            <div class="form-group focus">
               <label>Password:</label>
               <input
                 type="password"
-                class="form-control"
+                class="form-control focus"
                 placeholder="*********"
                 required
               />
@@ -149,8 +140,21 @@
                   >Female</label
                 >
               </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio3"
+                  value="option3"
+                  required
+                />
+                <label class="form-check-label" for="inlineRadio3"
+                  >Other</label
+                >
+              </div>
             </div>
-            <button type="submit" class="btn btn-dark">Submit</button>
+            <button type="submit" id='submit-btn' class="btn btn-dark">Submit</button>
           </form>
         </div>
       </div>

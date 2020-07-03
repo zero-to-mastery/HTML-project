@@ -5,6 +5,10 @@ body {
   color: #000000;
 }
 
+#course-button {
+  padding: 10px 20px;
+}
+
 /* NAVBAR STYLE */
 .navbar-light.scrolled {
   background-color: #fff !important;
@@ -67,9 +71,6 @@ body {
   position: relative; */
   margin: 0;
   padding: 0;
-
-
-
 }
 
 .parallax {
@@ -109,7 +110,9 @@ body {
   color: #ffffff;
   text-align: center;
 }
-
+.masteryColor{
+  color: yellow;
+}
 .header-content hr {
   background-color: #fff;
   width: 100%;
