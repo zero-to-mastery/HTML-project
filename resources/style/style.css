@@ -10,6 +10,12 @@ body {
 }
 
 /* NAVBAR STYLE */
+nav.navbar button.navbar-toggler {
+  margin-right: auto;
+  border-color : rgba(210, 69, 75, 0.15);
+  background-color: #fbd6db4f;
+}
+
 .navbar-light.scrolled {
   background-color: #fff !important;
   color: #000 !important;
