@@ -5,7 +5,17 @@ body {
   color: #000000;
 }
 
+#course-button {
+  padding: 10px 20px;
+}
+
 /* NAVBAR STYLE */
+nav.navbar button.navbar-toggler {
+  margin-right: auto;
+  border-color : rgba(210, 69, 75, 0.15);
+  background-color: #fbd6db4f;
+}
+
 .navbar-light.scrolled {
   background-color: #fff !important;
   color: #000 !important;
@@ -67,9 +77,6 @@ body {
   position: relative; */
   margin: 0;
   padding: 0;
-
-
-
 }
 
 .course-details-content h2{
@@ -113,7 +120,9 @@ body {
   color: #ffffff;
   text-align: center;
 }
-
+.masteryColor{
+  color: yellow;
+}
 .header-content hr {
   background-color: #fff;
   width: 100%;
