@@ -186,10 +186,12 @@ nav.navbar button.navbar-toggler {
   transform: translateY(-50%);
 }
 
-.course-details-content ul {
-  margin: -1rem 0rem 0rem 0rem;
+/*.course-details-content ul {
+  margin: 1rem 0rem 0rem 0rem;
+}*/
+.course-details-content ul li{
+  margin: 1rem 0rem 0rem 0rem;
 }
-
 #course-img {
   max-width: 100%;
   height: auto;
