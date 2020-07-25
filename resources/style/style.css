@@ -72,6 +72,10 @@ body {
 
 }
 
+.course-details-content h2{
+  color: #e6e6e6;
+}
+
 .parallax {
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
