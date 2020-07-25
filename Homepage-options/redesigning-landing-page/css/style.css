@@ -1,0 +1,153 @@
+body{
+    /*background-color: rgb(43, 43, 43);
+    color: rgb(230, 248, 248);*/
+    
+    
+}
+
+nav{
+    background-color: #17A2B8;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.logo img{
+    height: 40px;
+    width: 40px;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+
+}
+
+
+nav li{
+    float: left;
+    display: inline-flex;
+    margin-top: -7%;
+    list-style-type: none;
+    padding: 3%;
+}
+
+nav a:hover{
+    color: rgb(253, 237, 9);
+}
+
+
+.contact_list{
+    float: right;
+}
+#contact img{
+    height: 30px;
+    width: 30px;
+}
+
+#contact p{
+    float: left;
+    width: 80%;
+
+}
+#contact li{
+    list-style: none;
+    display: inline-block;
+   
+    
+}
+
+.bg-image img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+    filter: blur(4px) ;
+
+}
+
+.img-text{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    color: rgb(253, 237, 9);
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.5);
+    z-index: 2;
+    width: 35%;
+    
+    
+}
+
+.img-text button, .left_sec button, .right_sec button{
+    background-color: #17A2B8;
+    color: white;
+    border-style: none;
+    border-radius: 3%;
+    padding: 2%;
+    border-color: black;
+}
+
+.img-text button:hover, .left_sec button:hover, .right_sec button:hover{
+    border-style: groove;
+    background-color: white;
+    color: #17A2B8;
+    cursor: pointer;
+}
+
+
+.left_sec{
+    border: 1px solid black;
+    color: #FFC107;
+    font-weight: bold;
+    text-align: center;
+    background-color: #343a40;
+    width: 30%;
+    float: left;
+    border-radius: 2%;
+}
+
+.left_sec img{
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+}
+
+.right_sec{
+    float: right;
+    border: 1px solid black;
+    color: #FFC107;
+    font-weight: bold;
+    text-align: center;
+    background-color: #343a40;
+    width: 60%;
+    border-radius: 2%;
+}
+.right_sec img{
+    float: left;
+    border-radius: 10%;
+    width: 25%;
+    height: 30%;
+    
+
+}
+
+.right_sec img:hover{
+    cursor: pointer;
+}
+
+footer{
+    color: #17A2B8;
+    background-color: #343a40;
+    margin-top: 70%;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+
+}
