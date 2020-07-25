@@ -169,11 +169,13 @@ nav.navbar button.navbar-toggler {
 }
 
 .details-container h2 {
+  margin: 10rem 0rem 0rem 0rem;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 
 .details-container p {
+  margin: 0rem 0rem 0rem 0rem;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -184,9 +186,19 @@ nav.navbar button.navbar-toggler {
   transform: translateY(-50%);
 }
 
+.course-details-content ul {
+  margin: -1rem 0rem 0rem 0rem;
+}
+
 #course-img {
   max-width: 100%;
   height: auto;
+}
+
+#course-img:hover {
+  cursor: pointer;
+  transition: transform 1s;
+  transform: scale(1.1);
 }
 
 /* SOFTWARE DETAILS  */
