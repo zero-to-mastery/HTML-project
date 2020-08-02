@@ -44,3 +44,8 @@
 .card-desc {
     padding: 10%;
 }
+@media only(min-width: 998px) && (max-width: 995px) {
+    .nav-link {
+        font-size: 2rem;
+    }
+}
