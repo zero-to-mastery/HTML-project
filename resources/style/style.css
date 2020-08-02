@@ -46,6 +46,7 @@ nav.navbar button.navbar-toggler {
 .navbar-dark a {
   color: #fff !important;
   font-family: "Montserrat", sans-serif;
+  font-size: 15px;
 }
 
 .navbar a:hover,
@@ -365,3 +366,5 @@ i:hover {
     padding: 0px;
   }
 }
+
+
