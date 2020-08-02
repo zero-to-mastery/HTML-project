@@ -45,7 +45,7 @@
     padding: 10%;
 }
 @media only(min-width: 998px) && (max-width: 995px) {
-    a.nav-link {
+    .nav-item {
         font-size: 1rem;
     }
 }
