@@ -32,7 +32,8 @@ nav.navbar button.navbar-toggler {
 }
 
 .navbar-light {
-  background-color: transparent !important;
+  /* background-color: transparent !important; causes issue with minimized nav */
+  background-color: #fff;
 }
 
 .navbar-brand img {
@@ -44,7 +45,8 @@ nav.navbar button.navbar-toggler {
 
 .navbar a,
 .navbar-dark a {
-  color: #fff !important;
+  /* color: #fff !important; */
+  color: #000000 !important; /* fix for minimized nav */
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
 }
