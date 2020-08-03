@@ -34,6 +34,8 @@ nav.navbar button.navbar-toggler {
 .navbar-light {
   /* background-color: transparent !important; causes issue with minimized nav */
   background-color: #fff;
+  -webkit-box-shadow: 0px 12px 21px 0px rgba(0,0,0,0.58); 
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.322);
 }
 
 .navbar-brand img {
