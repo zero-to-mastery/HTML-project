@@ -6,7 +6,15 @@ body {
 }
 
 #course-button {
+  margin: 30px;
   padding: 10px 20px;
+  transition: 0.2s;
+}
+
+#course-button:hover {
+  background-color: yellow;
+  color: black;
+  transform: scale(1.2);
 }
 
 /* NAVBAR STYLE */
@@ -93,7 +101,6 @@ nav.navbar button.navbar-toggler {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 .page-content {
   /* display: flex;
@@ -361,11 +368,41 @@ i:hover {
   transform: scale(1.1);
 }
 
+/** WAVE DIVIDER **/
+
+.waveDividerWrapper {
+  position: relative;
+  padding-top: 150px;
+}
+
+.custom-shape-divider-bottom-1596474166 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1596474166 svg {
+  position: relative;
+  display: block;
+  width: calc(155% + 1.3px);
+  height: 104px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1596474166 .shape-fill {
+  fill: #000000;
+}
+
 @media screen and (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
     padding: 0px;
+
   }
 }
 
