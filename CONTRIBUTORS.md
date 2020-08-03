@@ -140,4 +140,6 @@
 
 [@harshcut](https://github.com/harshcut/)
 
+[@TarrynGouveris] (https://github.com/TarrynGouveris)
+
 [@achilleleal](https://github.com/achilleleal)
