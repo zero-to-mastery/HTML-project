@@ -188,6 +188,10 @@ nav.navbar button.navbar-toggler {
   font-weight: bold;
 }
 
+.details-container h4 {
+  font-size: 2em;
+}
+
 .details-container p {
   margin: 0rem 0rem 0rem 0rem;
   font-family: "Montserrat", sans-serif;
@@ -206,9 +210,11 @@ nav.navbar button.navbar-toggler {
 .course-details-content ul li{
   margin: 1rem 0rem 0rem 0rem;
 }
+
 #course-img {
   max-width: 100%;
   height: auto;
+  border-radius: 50%;
 }
 
 #course-img:hover {
