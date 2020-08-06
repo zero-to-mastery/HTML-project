@@ -80,7 +80,7 @@ nav.navbar button.navbar-toggler {
 
 /* HEADER SECTION */
 .header-container {
-  height: 150vh;
+  height: 100vh;
   background-image: url("../images/header-bg.jpg");
   /* background-position: fixed;
   background-repeat: no-repeat;
@@ -124,7 +124,7 @@ nav.navbar button.navbar-toggler {
 
 .header-content {
   position: absolute;
-  top: 35%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ffffff;
@@ -212,9 +212,7 @@ nav.navbar button.navbar-toggler {
 }
 
 #course-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 50%;
+  height: 300px;
 }
 
 #course-img:hover {
