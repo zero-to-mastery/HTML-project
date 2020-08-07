@@ -27,21 +27,38 @@ nav.navbar button.navbar-toggler {
 .navbar-light.scrolled {
   background-color: #fff !important;
   color: #000 !important;
-  transition: background-color 400ms linear;
+  transition: background-color 400ms ease-out;
 }
 
 .buttons>a>i {
+  cursor: pointer;
   transition: opacity 200ms;
 }
 
-.navbar-light.scrolled a {
+/* REMOVED BELOW DUE TO RESTYLING */
+
+/* .navbar-light.scrolled a {
   color: #000 !important;
   font-family: "Montserrat", sans-serif;
 }
 
 .navbar-light {
   /* background-color: transparent !important; causes issue with minimized nav */
-  background-color: #fff;
+  /* background-color: #fff;
+}  */
+
+.navbar {
+  background-color: rgba(0,0,0,0);
+}
+
+/* Navbar colours for Javascript */
+
+.light {
+  background-color: #e5e0e0;
+}
+
+.transparent {
+  background-color: rgba(0,0,0,0);
 }
 
 .navbar-brand img {
@@ -51,12 +68,14 @@ nav.navbar button.navbar-toggler {
   padding: 0;
 }
 
-.navbar a,
-.navbar-dark a {
+.navbar a {
   /* color: #fff !important; */
-  color: #000000 !important; /* fix for minimized nav */
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
+}
+
+.nav-link {
+  color: #e5e0e0;
 }
 
 .navbar a:hover,
@@ -171,6 +190,14 @@ nav.navbar button.navbar-toggler {
 }
 
 /* DETAILS SECTION */
+
+.rounded {
+  border-top: 4px solid rgba(99, 99, 99, 0.2);
+  border-radius: 5px;
+  width: 50%;
+  margin: 0 auto;
+}
+
 .details-container {
   width: 100%;
   padding: 5rem 0;
@@ -178,8 +205,7 @@ nav.navbar button.navbar-toggler {
 }
 
 .details-container .row {
-  padding: 0;
-  margin: 0;
+  margin: 100px 0px 100px 0px;
 }
 
 .details-container h2 {
@@ -401,12 +427,20 @@ i:hover {
   fill: #000000;
 }
 
+/*** MEDIA QUERIES ***/
+
+@media screen and (max-width: 576px) {
+
+  #course-img {
+    height: 200px;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
     padding: 0px;
-
   }
 }
 
