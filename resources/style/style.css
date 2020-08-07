@@ -7,6 +7,13 @@ body {
 
 #course-button {
   padding: 10px 20px;
+
+}
+
+#course-button:hover {
+  transform: scale(10.20);
+  animation: pulse 2s infinite,
+  nudge 5s linear infinite alternate;
 }
 
 /* NAVBAR STYLE */
