@@ -29,11 +29,12 @@
 .about-container{
     padding: 10%;
     font-family: 'Montserrat', sans-serif;
-    display: flex;
+    /* display: flex; issue with heading and page layout */
+    display: block;
 }
 .about-container h1{
     margin-bottom: 5%;
-    display: flex;
+    /* display: flex; */
 }
 .list-group{
     margin: 2.5% auto;
