@@ -40,10 +40,10 @@ const javaScriptCategorySelected = () => {
 
 $(function () {
 	$(document).scroll(function () {
-	  var $nav = $(".navbar-light");
-	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+		var $nav = $(".navbar-light");
+		$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 	});
-  });
+});
 
 // $(".card").hover(
 // 	function () {
@@ -57,3 +57,20 @@ $(function () {
 // 			zoom: '100%'
 // 		}, 500).css('background', 'transparent');
 // });
+
+//NAVBAR - Change opacity and colours on scroll
+
+const navbar = document.querySelector('.navbar');
+const navlink = document.querySelectorAll('.nav-link');
+
+
+
+const navScroll = () => {
+	if (document.documentElement.scrollTop > 80) {
+		navbar.classList.add('navbar-light');
+	} else {
+		navbar.classList.remove('navbar-light');
+	}
+}
+
+window.addEventListener('scroll', navScroll);

@@ -6,8 +6,15 @@ body {
 }
 
 #course-button {
+  margin: 30px;
   padding: 10px 20px;
+  transition: 0.2s;
+}
 
+#course-button:hover {
+  background-color: yellow;
+  color: black;
+  transform: scale(1.2);
 }
 
 #course-button:hover {
@@ -26,20 +33,40 @@ nav.navbar button.navbar-toggler {
 .navbar-light.scrolled {
   background-color: #fff !important;
   color: #000 !important;
-  transition: background-color 400ms linear;
+  transition: background-color 400ms ease-out;
 }
 
 .buttons>a>i {
+  cursor: pointer;
   transition: opacity 200ms;
 }
 
-.navbar-light.scrolled a {
+/* REMOVED BELOW DUE TO RESTYLING */
+
+/* .navbar-light.scrolled a {
   color: #000 !important;
   font-family: "Montserrat", sans-serif;
 }
 
 .navbar-light {
   /* background-color: transparent !important; causes issue with minimized nav */
+
+  /* background-color: #fff;
+}  */
+
+.navbar {
+  background-color: rgba(0,0,0,0);
+}
+
+/* Navbar colours for Javascript */
+
+.light {
+  background-color: #e5e0e0;
+}
+
+.transparent {
+  background-color: rgba(0,0,0,0);
+
   background-color: #fff;
   -webkit-box-shadow: 0px 12px 21px 0px rgba(0,0,0,0.58); 
   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.322);
@@ -52,12 +79,14 @@ nav.navbar button.navbar-toggler {
   padding: 0;
 }
 
-.navbar a,
-.navbar-dark a {
+.navbar a {
   /* color: #fff !important; */
-  color: #000000 !important; /* fix for minimized nav */
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
+}
+
+.nav-link {
+  color: #e5e0e0;
 }
 
 .navbar a:hover,
@@ -86,7 +115,7 @@ nav.navbar button.navbar-toggler {
 
 /* HEADER SECTION */
 .header-container {
-  height: 150vh;
+  height: 100vh;
   background-image: url("../images/header-bg.jpg");
   /* background-position: fixed;
   background-repeat: no-repeat;
@@ -107,7 +136,6 @@ nav.navbar button.navbar-toggler {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 .page-content {
   /* display: flex;
@@ -131,15 +159,17 @@ nav.navbar button.navbar-toggler {
 
 .header-content {
   position: absolute;
-  top: 35%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ffffff;
   text-align: center;
 }
+
 .masteryColor{
   color: yellow;
 }
+
 .header-content hr {
   background-color: #fff;
   width: 100%;
@@ -176,23 +206,32 @@ nav.navbar button.navbar-toggler {
 }
 
 /* DETAILS SECTION */
+
+.rounded {
+  border-top: 4px solid rgba(99, 99, 99, 0.2);
+  border-radius: 5px;
+  width: 50%;
+  margin: 0 auto;
+}
+
 .details-container {
   width: 100%;
-  margin: 0;
-  padding: 0;
   padding: 5rem 0;
   position: relative;
 }
 
 .details-container .row {
-  padding: 0;
-  margin: 0;
+  margin: 100px 0px 100px 0px;
 }
 
 .details-container h2 {
-  margin: 10rem 0rem 0rem 0rem;
+  margin: 2rem 0rem 0rem 0rem;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+}
+
+.details-container h4 {
+  font-size: 2em;
 }
 
 .details-container p {
@@ -213,9 +252,9 @@ nav.navbar button.navbar-toggler {
 .course-details-content ul li{
   margin: 1rem 0rem 0rem 0rem;
 }
+
 #course-img {
-  max-width: 100%;
-  height: auto;
+  height: 300px;
 }
 
 #course-img:hover {
@@ -373,6 +412,44 @@ i:hover {
 
 .card:hover .card-body {
   transform: scale(1.1);
+}
+
+/** WAVE DIVIDER **/
+
+.waveDividerWrapper {
+  position: relative;
+  padding-top: 150px;
+}
+
+.custom-shape-divider-bottom-1596474166 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1596474166 svg {
+  position: relative;
+  display: block;
+  width: calc(155% + 1.3px);
+  height: 104px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1596474166 .shape-fill {
+  fill: #000000;
+}
+
+/*** MEDIA QUERIES ***/
+
+@media screen and (max-width: 576px) {
+
+  #course-img {
+    height: 200px;
+  }
 }
 
 @media screen and (min-width: 992px) {
