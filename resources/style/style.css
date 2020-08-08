@@ -86,7 +86,7 @@ nav.navbar button.navbar-toggler {
 
 /* HEADER SECTION */
 .header-container {
-  height: 150vh;
+  height: 100vh;
   background-image: url("../images/header-bg.jpg");
   /* background-position: fixed;
   background-repeat: no-repeat;
