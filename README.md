@@ -15,14 +15,14 @@ cd HTML-project
 ```
 
 ```bash
-git checkout -b nameOFTheBranch
+git checkout -b {name-of-the-branch-here}
 ```
 
 - Make your contribution :)
 
 - Open a Pull Request.
 
-- For demo click on this [link](https://hopeful-perlman-c1f532.netlify.app/)
+- For demo click on this [link](https://zero-to-mastery.github.io/HTML-project/)
 
 - **Read [this](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork) or watch [this](https://www.youtube.com/watch?v=G1I3HF4YWEw) for more help**
 
