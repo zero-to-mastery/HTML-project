@@ -450,6 +450,14 @@ i:hover {
   #course-img {
     height: 200px;
   }
+
+  .navbar {
+    background-color: #fff;
+  }
+
+  .navbar a {
+    color: #000;
+  }
 }
 
 @media screen and (min-width: 992px) {
