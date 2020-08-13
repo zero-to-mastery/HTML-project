@@ -56,6 +56,13 @@
     text-align: center;
     padding: 10px;
 }
+#about-title:hover {
+    text-decoration: underline;
+    color: lightblue;
+    opacity: 0.5;
+    text-transform: uppercase;
+    border-top: 1px solid;
+}
 
 .card {
     margin-right: 2%;
