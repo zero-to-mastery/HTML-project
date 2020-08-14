@@ -70,7 +70,7 @@ canvas{
 .count-particles{
   -webkit-user-select: none;
   margin-top: 5px;
-  margin-left: 5px;
+  /* margin-left: 5px; caused overflow on x */
 }
 
 #stats{
