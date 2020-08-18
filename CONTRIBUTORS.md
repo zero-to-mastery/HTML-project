@@ -40,7 +40,7 @@
 
 [@steveburton](https://github.com/SteveBurtonWebDev)
 
-[@Ejiro-Asiuwhu](https://github.com/Ejiro-Asiuwhu)
+[@Ejiro-Asiuwhu](https://github.com/ejirocodes)
 
 [@borason](https://github.com/borason)
 
