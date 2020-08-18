@@ -1,3 +1,8 @@
+#instructor_container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
 .navbar-collapse {
     color: #000 !important;
 }
