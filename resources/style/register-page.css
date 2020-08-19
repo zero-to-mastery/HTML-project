@@ -6,12 +6,12 @@
 }
 .register-container{
     height: auto;
-    padding: 10%;
+    padding: 100px;
     font-family: 'Montserrat', sans-serif;
 }
 .register-container h1{
  text-align: center;
- margin-bottom: 5%;
+ margin-bottom: 50px;
  text-shadow: 2px 2px gray;
 }
 
