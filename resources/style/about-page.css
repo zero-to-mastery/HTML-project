@@ -26,9 +26,15 @@
     transition: all 1s;
 }
 
+/*
+
 #instructor-img:hover, #instructor-title:hover {
     transform: scale(1.1);
 }
+
+removed unnecessary scale
+
+*/
 
 .about-container{
     padding: 100px 10%;
