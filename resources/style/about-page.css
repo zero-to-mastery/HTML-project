@@ -41,6 +41,7 @@ removed unnecessary scale
     font-family: 'Montserrat', sans-serif;
     /* display: flex; issue with heading and page layout */
     display: block;
+    max-width: 1800px;
 }
 .about-container h1{
     margin-bottom: 5%;
