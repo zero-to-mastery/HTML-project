@@ -445,6 +445,11 @@ i:hover {
   fill: #000000;
 }
 
+::selection {
+  background-color: pink;
+  color: rgb(43, 56, 55);
+}
+
 /*** MEDIA QUERIES ***/
 
 @media screen and (max-width: 576px) {
