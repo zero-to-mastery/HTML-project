@@ -466,7 +466,7 @@ i:hover {
   .navbar-expand-lg .navbar-nav .nav-link {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
-    padding: 0px;
+    padding: .15rem .25rem;
   }
 }
 
