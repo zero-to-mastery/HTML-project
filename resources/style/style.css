@@ -94,7 +94,7 @@ nav.navbar button.navbar-toggler {
 .navbar a:hover,
 .navbar-dark a:hover {
   transition: all 0.3s ease-out;
-  border: 2px solid black;
+  background-color: #d1d1d1;
 }
 
 .navbar a:focus {
