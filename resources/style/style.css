@@ -258,6 +258,9 @@ nav.navbar button.navbar-toggler {
 
 #course-img {
   height: 300px;
+
+  /* add smooth transition */
+  transition: all .5s linear;
 }
 
 #course-img:hover {
