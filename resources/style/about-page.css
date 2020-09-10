@@ -1,30 +1,30 @@
 #instructor_container {
-    max-width: 1250px;
-    margin: 0 auto;
+  max-width: 1250px;
+  margin: 0 auto;
 }
 
 .navbar-collapse {
-    color: #000 !important;
+  color: #000 !important;
 }
-.navbar a{
-    color: black !important;
+.navbar a {
+  color: black !important;
 }
-.navbar a:hover{
-    transform: scale(1.3);
-    background-color: rgb(219, 255, 255);
+.navbar a:hover {
+  transform: scale(1.3);
+  background-color: rgb(219, 255, 255);
 }
 
 #instructor-title {
-    padding-right: 20px;
-    transition: all 1s;
+  padding-right: 20px;
+  transition: all 1s;
 }
 
 #instructor-img {
-    border-radius: 50%;
-    margin-left: auto;
-    width: 200px;
-    height: 200px;
-    transition: all 1s;
+  border-radius: 50%;
+  margin-left: auto;
+  width: 200px;
+  height: 200px;
+  transition: all 1s;
 }
 
 /*
@@ -37,57 +37,101 @@ removed unnecessary scale
 
 */
 
-.about-container{
-    padding: 100px 10%;
-    font-family: 'Montserrat', sans-serif;
-    /* display: flex; issue with heading and page layout */
-    display: block;
-    max-width: 1800px;
+.about-container {
+  padding: 100px 10% 20px;
+  font-family: "Montserrat", sans-serif;
+  /* display: flex; issue with heading and page layout */
+  display: block;
+  max-width: 1800px;
+  margin-top: 5rem;
 }
-.about-container h1{
-    margin-bottom: 5%;
-    /* display: flex; */
+
+.info {
+  border-left: 1px solid #000;
 }
-.list-group{
-    margin: 2.5% auto;
-    font-family: 'Montserrat', sans-serif;
+
+.about-container h2 {
+  margin-bottom: 2%;
+  border-bottom: 1px dotted #000;
+  padding: 0 0 15px;
+  /* display: flex; */
 }
-.list-group-item:first-child{
-    border-top: none;
+.list-group {
+  margin: 2.5% auto;
+  font-family: "Montserrat", sans-serif;
 }
-.list-group-item{
-    background-color: transparent !important;
-    transition: all 0.2s ease-in;
+.list-group-item:first-child {
+  border-top: none;
+}
+.list-group-item {
+  background-color: transparent !important;
+  transition: all 0.2s ease-in;
 }
 
 .about-instructor {
-    margin: 0px 5vw;
-    text-align: justify;
+  margin: 0px 5vw;
+  text-align: justify;
 }
 
 #about-title {
-    text-align: center;
-    padding: 10px;
+  text-align: center;
+  padding: 10px;
 }
 #about-title:hover {
-    text-decoration: underline;
-    color: lightblue;
-    opacity: 0.5;
-    text-transform: uppercase;
-    border-top: 1px solid;
+  text-decoration: underline;
+  color: lightblue;
+  opacity: 0.5;
+  text-transform: uppercase;
+  border-top: 1px solid;
 }
 
 .card {
-    margin-right: 2%;
+  margin-right: 2%;
 }
 
 .card-desc {
-    padding: 10%;
+  padding: 10%;
 }
 
 .buttons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (min-width:768px) and (max-width:991px){
+    
+.info {
+    border-left:1px solid #000;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  
+  .about-container h3 {
+    font-size: 1.5rem;
+  }
+
+  
+.info {
+    border-left:none;
+  }
+
+  
+  .about-container h2 {
+    border-bottom: 1px solid #000;
+  }
+  
+
+}
+
+@media (max-width:767px){
+    .info{
+        border-left:none;
+    }
+    .about-container h3{
+        font-size: 1.2rem;
+    }
 }
