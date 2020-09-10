@@ -156,10 +156,12 @@
 
 [@GoGi2712](https://github.com/GoGi2712/)
 
-[@AswinBarath] (https://github.com/AswinBarath/)
+[@AswinBarath](https://github.com/AswinBarath/)
 
-[@bregarulai] (https://github.com/bregarulai/)
+[@bregarulai](https://github.com/bregarulai/)
 
 [@Bhavna121](https://github.com/Bhavna121/)
 
 [@Sara-2007](https://github.com/Sara-2007)
+
+[@Rishi-121](https://github.com/Rishi-121)
