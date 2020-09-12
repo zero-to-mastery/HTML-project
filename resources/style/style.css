@@ -1,7 +1,4 @@
 /* GENERAL SECTION */
-html {
-  scroll-behavior: smooth;
-}
 body {
   margin: 0;
   padding: 0;
@@ -483,19 +480,19 @@ i:hover {
 }
 
 .gotopbtn {
-  float: right;
+  position: fixed;
+  display: none;
   width: 50px;
   height: 50px;
-  background:#435da7;
-  bottom: 40px;
-  right: 50px;
+  border-radius: 25px ;
+  background:#007bff;
   
-  text-decoration: none;
+  bottom: 30px;
+  right: 20px;
+  z-index: 1;
+
   text-align: center;
-  line-height: 50px;
+  line-height: 40px;
   color: rgb(255, 255, 255);
-  font-size: 22px;
-
+  font-size: 50px;
 }
-
-

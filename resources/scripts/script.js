@@ -74,3 +74,22 @@ const navScroll = () => {
 }
 
 window.addEventListener('scroll', navScroll);
+
+/*Scroll to top when arrow up clicked BEGIN*/
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 90) {
+        $('.gotopbtn').fadeIn();
+    } else {
+        $('.gotopbtn').fadeOut();
+    }
+});
+$(document).ready(function() {
+    $(".gotopbtn").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "fast");
+        return false;
+    });
+
+});
+ /*Scroll to top when arrow up clicked END*/
