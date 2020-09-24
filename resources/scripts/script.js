@@ -62,16 +62,21 @@ $(function () {
 
 const navbar = document.querySelector('.navbar');
 const navlink = document.querySelectorAll('.nav-link');
-
-
-
+const headertext = document.querySelector('#headerText');
+ 
 const navScroll = () => {
-	if (document.documentElement.scrollTop > 80) {
-		navbar.classList.add('navbar-light');
-	} else {
-		navbar.classList.remove('navbar-light');
-	}
+
+			if (document.documentElement.scrollTop > 80) {
+				navbar.classList.add('navbar-light');
+				navbar.classList.remove('navbar-dark');
+				headertext.classList.add('header-text-light');
+			} else {
+				navbar.classList.remove('navbar-light');
+				navbar.classList.add('navbar-dark');
+				headertext.classList.remove('header-text-light');
+			}
 }
+
 
 window.addEventListener('scroll', navScroll);
 

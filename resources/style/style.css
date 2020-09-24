@@ -471,13 +471,13 @@ i:hover {
     height: 200px;
   }
 
-  .navbar {
+  /* .navbar {
     background-color: #fff;
-  }
+  } 
 
   .navbar a {
     color: #000;
-  }
+  } */
 }
 
 @media screen and (min-width: 992px) {
@@ -504,4 +504,8 @@ i:hover {
   line-height: 40px;
   color: rgb(255, 255, 255);
   font-size: 50px;
+}
+
+.header-text-light{
+  color: #000;
 }
