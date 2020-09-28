@@ -91,9 +91,11 @@ nav.navbar button.navbar-toggler {
 
 
 .navbar a {
-  /* color: #fff !important; */
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
+}
+.navbar a:hover {
+  color: #000 !important;
 }
 
 .nav-link {
@@ -508,4 +510,12 @@ i:hover {
 
 .header-text-light{
   color: #000;
+}
+
+.draggable-slide a:hover {
+color: yellow;
+text-decoration: none;
+}
+.active-link {
+  border-bottom:3px solid rgb(105, 102, 102);
 }
