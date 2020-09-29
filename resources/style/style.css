@@ -67,6 +67,10 @@ nav.navbar button.navbar-toggler {
   color: rgb(0, 0, 0) !important;
 }
 
+.navbar-light .navbar-nav .nav-item::after {
+  background-color: rgb(105, 102, 102);
+}
+
 /* Navbar colours for Javascript */
 
 .light {
@@ -88,33 +92,38 @@ nav.navbar button.navbar-toggler {
   padding: 0;
 }
 
-
-
 .navbar a {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
-.navbar a:hover {
-  color: #000 !important;
-}
 
 .nav-link {
   color: #e5e0e0;
+  border-radius: 5px;
+  transition: .3s;
 }
 
-.navbar a:hover,
-.navbar-dark a:hover {
-  transition: all 0.3s ease-out;
-  background-color: #d1d1d1;
+.nav-item::after {
+  content: '';
+  display: block;
+  height: 3px;
+  border-radius: 10px;
+  transition: width .2s ease-out;
+  background-color: rgba(255,255,255,.5);
+  width: 0;
 }
+
+.nav-item:hover::after {
+  width: 100%;
+  transition: width .2s ease-in;
+}
+
+/* .active-link:hover::after {
+  width: 0;
+} */
 
 .navbar a:focus {
   outline: 2px dotted #a4afd4;
-}
-
-.nav-item a:hover{
-  background-color: #d1d1d1;
-  border-radius: 5px;
 }
 
 .navbar-collapse ul {
