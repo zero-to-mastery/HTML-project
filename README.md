@@ -4,7 +4,7 @@ Hey there, welcome to our HTML open source project. Redesign the HTML landing pa
 
 # Contribution Guide
 
-- Fork the repository, clone and make sure you are not working on the `master branch`
+- Fork the repository, clone and make sure that you are not working on the `master branch` repository!
 
 ```bash
 git clone https://github.com/{your-github-username-here}/HTML-project.git
@@ -18,9 +18,9 @@ cd HTML-project
 git checkout -b {name-of-the-branch-here}
 ```
 
-- Make your contribution :)
+- Make your contribution too :)
 
-- Open a Pull Request.
+- Open a Pull Request also.
 
 - For demo click on this [link](https://zero-to-mastery.github.io/HTML-project/)
 
