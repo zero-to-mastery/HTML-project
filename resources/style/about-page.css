@@ -87,6 +87,11 @@ removed unnecessary scale
 
 .card {
   margin-right: 2%;
+  box-shadow: none;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 18px 2px rgba(0, 0, 0, 0.288);
 }
 
 .card-desc {
