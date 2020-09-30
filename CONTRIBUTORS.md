@@ -176,4 +176,4 @@
 
 [@Nenamed](https:github.com/Nenamed/)
 
-[@Surya742](https:github.com/Surya742/)
+[@Surya742](https://github.com/Surya742/)
