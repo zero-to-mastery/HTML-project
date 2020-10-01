@@ -1,5 +1,7 @@
 # HTML-project from Ground zero Level
 
+an amazing project sir but plz make index page of resources
+
 Hey there, welcome to our HTML open source project. Redesign the HTML landing page and have fun doing it. Happy coding :)
 
 # Contribution Guide
