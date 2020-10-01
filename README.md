@@ -1,12 +1,12 @@
 # HTML-project from Ground zero Level
 
-an amazing project sir but plz make index page of resources
+An Amazing poject sir but plz make index page of resources
 
 Hey there, welcome to our HTML open source project. Redesign the HTML landing page and have fun doing it. Happy coding :)
 
 # Contribution Guide
 
-- Fork the repository, clone and make sure that you are not working on the `master branch` repository!
+- Fork the repository, clone and make sure that you are not working on the `MASTER BRANCH' repository!
 
 ```bash
 git clone https://github.com/{your-github-username-here}/HTML-project.git
@@ -30,5 +30,5 @@ git checkout -b {name-of-the-branch-here}
 
 # Zero to Mastery Course on Udemy
 
-**Click [here](https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/) to buy the course**
+**Click [here](https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/) to buy the course now***
 
