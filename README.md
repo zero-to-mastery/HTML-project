@@ -1,3 +1,5 @@
+an amazing project sir but plz make index page of resources
+
 # HTML-project
 
 Hey there, welcome to our HTML open source project. Redesign the HTML landing page and have fun doing it. Happy coding :)
