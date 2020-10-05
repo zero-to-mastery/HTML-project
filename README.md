@@ -1,6 +1,4 @@
-# HTML-project from Ground zero Level
-
-An Amazing poject sir but plz make index page of resources
+# HTML-Project from Ground Zero Level
 
 Hey there, welcome to our HTML open source project. Redesign the HTML landing page and have fun doing it. Happy coding :)
 
@@ -24,11 +22,10 @@ git checkout -b {name-of-the-branch-here}
 
 - Open a Pull Request also.
 
-- For demo click on this [link](https://zero-to-mastery.github.io/HTML-project/)
+- For demo click on this [link](https://zero-to-mastery.github.io/HTML-project/).
 
-- **Read [this](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork) or watch [this](https://www.youtube.com/watch?v=G1I3HF4YWEw) for more help**
+- **Read [this](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork) or watch [this](https://www.youtube.com/watch?v=G1I3HF4YWEw) for more help**.
 
 # Zero to Mastery Course on Udemy
 
-**Click [here](https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/) to buy the course now***
-
+**Click [here](https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/) to buy the course now**
