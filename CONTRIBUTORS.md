@@ -156,10 +156,48 @@
 
 [@GoGi2712](https://github.com/GoGi2712/)
 
-[@AswinBarath] (https://github.com/AswinBarath/)
+[@AswinBarath](https://github.com/AswinBarath/)
 
-[@bregarulai] (https://github.com/bregarulai/)
+[@bregarulai](https://github.com/bregarulai/)
 
 [@Bhavna121](https://github.com/Bhavna121/)
 
 [@kunalprakash1309](https://github.com/kunalprakash1309/)
+
+[@Sara-2007](https://github.com/Sara-2007)
+
+[@Rishi-121](https:github.com/Rishi-121/)
+
+[@shamikakumar](https://github.com/shamikakumar)
+
+[@Vikramadithya10](https:github.com/Vikramadithya10/)
+
+[@amanbijalwan](https://github.com/amanbijalwan)
+
+[@ivioje](https:github.com/ivioje/)
+
+[@Nenamed](https:github.com/Nenamed/)
+
+[@Surya742](https://github.com/Surya742/)
+
+[@kyriakoszafeiropoulos](https:github.com/kyriakoszafeiropoulos/)
+
+[@suman-nath](https://github.com/suman-nath/)
+
+[@mohitsoni-dev](https://github.com/mohitsoni-dev/)
+
+[@KrishnaMahato](https://github.com/krishna9304/)
+
+[@Ashutosh00710](https://github.com/Ashutosh00710/)
+
+[@navdeepsingh4298](https://github.com/navdeepsingh4298)
+
+[@otfigo87](https:github.com/otfigo87/)
+
+[@Ashutosh00710](https:github.com/Ashutosh00710/)
+
+[@godnondsilva](https://github.com/godnondsilva/)
+
+[@AdityaSaroj](https:github.com/AdityaSaroj/)
+
+[@AnastasiaCortes](https:github.com/AnastasiaCortes)

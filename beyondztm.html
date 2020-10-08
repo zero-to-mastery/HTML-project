@@ -15,11 +15,16 @@
     <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="resources/style/style.css" />
+    <link rel="stylesheet" href="resources/style/beyondztm.css" />
+    <!-- Dark Mode -->
+    <link rel='stylesheet' type='text/css' href='resources/style/themeToggle.css'>
+    <script src='resources/scripts/themeToggle.js' defer></script>
+    <!-- /Dark Mode -->
 </head>
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
         <a class="navbar-brand" href="index.html"><img src="resources/images/logo.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,18 +47,27 @@
                   </li>
             </ul>
         </div>
-        <a class="nav-link ml-md-auto" href="beyondztm.html">Beyond Zero to Mastery</a>
+        <div class='theme-toggle-container'>
+			<span class='theme-toggle-text'>Light Mode</span>
+            <label class='theme-toggle'>
+                <input id='theme-toggle-switch' type='checkbox'>
+                <span class='slider round'></span>
+            </label>
+        </div>
+        <a class="nav-link active-link ml-md-auto" href="beyondztm.html">Beyond Zero to Mastery<i class="fas fa-arrow-right"></i></a>
     </nav>
+
 
     <div class="animated bounce">
         <div class="container-fluid header-container">
             <div class="header-container-bg-fade">
                 <div id="particles-js"></div>
-                <div class="header-content"><br>   
-                    <h1>Web Development<br>
+                <div class="header-content"><br>
+                    <h1>
+                    <div draggable="true" class="draggable-slide"><a href="https://www.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap/"
+                            target="_blank">Web Development<br></div>
                         <hr>
-                        <a href="https://www.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap/"
-                            target="_blank">Junior to Senior Roadmap</a>
+                    <a>Junior to Senior Roadmap</a>
                     </h1>
                     <div class="paragraph">
                         <h5>Even after reaching mastery, sometimes, one is left with a taste of wanting more.
@@ -68,10 +82,11 @@
             <div class="header-container-bg-fade">
                 <div id="particles-js"></div>
                 <div class="header-content"><br>   
-                    <h1>Javascript Web Projects<br>
+                    <h1>
+                        <div draggable="true" class="draggable-slide"><a href="https://www.udemy.com/course/javascript-web-projects-to-build-your-portfolio-resume/"
+                            target="_blank">Javascript Web Projects<br></div>
                         <hr>
-                        <a href="https://www.udemy.com/course/javascript-web-projects-to-build-your-portfolio-resume/"
-                            target="_blank">20 Projects to Build Your Portfolio</a>
+                        <a> 20 Projects to Build Your Portfolio</a>
                     </h1>
                     <div class="paragraph">
                         <h5>EModern HTML5, CSS3, and JavaScript to build Responsive and Mobile Friendly projects for your dream portfolio and resume!
@@ -84,10 +99,10 @@
                 <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="line-height: 32px">
                     <h5>If you enjoyed the course like I did, share it so more people can enjoy it!</h5>
                     <div class="buttons">
-                        <a class="a2a_button_facebook"><i class="fab fa-facebook fa-4x"></i></a>
-                        <a class="a2a_button_twitter"><i class="fab fa-twitter fa-4x"></i></a>
-                        <a class="a2a_button_email"><i class="fas fa-envelope-square fa-4x"></i></a>
-                        <a class="a2a_button_whatsapp"><i class="fab fa-whatsapp fa-4x"></i></a>
+                        <a class="a2a_button_facebook"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a class="a2a_button_twitter"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a class="a2a_button_email"><i class="fas fa-envelope-square fa-2x"></i></a>
+                        <a class="a2a_button_whatsapp"><i class="fab fa-whatsapp fa-2x"></i></a>
                     </div>
                 </div>
 

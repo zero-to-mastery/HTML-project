@@ -17,6 +17,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
   <link rel="stylesheet" href="resources/style/style.css" />
   <link rel="stylesheet" href="resources/style/about-page.css" />
+  <!-- Dark Mode -->
+  <link rel='stylesheet' type='text/css' href='resources/style/themeToggle.css'>
+  <script src='resources/scripts/themeToggle.js' defer></script>
+  <!-- /Dark Mode -->
 </head>
 
 <body>
@@ -42,11 +46,18 @@
           <a class="nav-link" href="register.html">Sign Up</a>
         </li>
         <li class="nav-item register-link">
-          <a class="nav-link" href="contributersProfile.html">Contributors</a>
+          <a class="nav-link active-link" href="contributersProfile.html">Contributors</a>
         </li>
       </ul>
     </div>
-    <a class="nav-link ml-md-auto" href="beyondztm.html">Beyond Zero to Mastery</a>
+    <div class='theme-toggle-container'>
+      <span class='theme-toggle-text'>Light Mode</span>
+      <label class='theme-toggle'>
+        <input id='theme-toggle-switch' type='checkbox'>
+        <span class='slider round'></span>
+      </label>
+    </div>
+    <a class="nav-link ml-md-auto" href="beyondztm.html">Beyond Zero to Mastery <i class="fas fa-arrow-right"></i></a>
   </nav>
   <div class="animated bounce">
     <div class="container-fluid about-container">
@@ -380,7 +391,36 @@
           <a class="float-right" href="https://github.com/AswinBarath">Visit GitHub Profile</a>
           <div class="dropDownContent"></div>
         </li>
-
+        <li class="list-group-item dropDown">
+          @Vikramadithya10
+          <a class="float-right" href="https://github.com/Vikramadithya10">Visit GitHub Profile</a>
+          <div class="dropDownContent"></div>
+        </li>
+        <li class="list-group-item dropDown">
+          @amanbijalwan
+          <a class="float-right" href="https://github.com/amanbijalwan">Visit Github Profile</a>
+          <div class="dropDownContent"></div>
+        </li>
+        <li class="list-group-item dropDown">
+          @Surya742
+          <a class="float-right" href="https://github.com/Surya742">Visit Github Profile</a>
+          <div class="dropDownContent"></div>
+        </li>
+        <li class="list-group-item dropDown">
+          @KrishnaMahato
+          <a class="float-right" href="https://github.com/krishna9304">Visit Github Profile</a>
+          <div class="dropDownContent"></div>
+        </li>
+        <li class="list-group-item dropDown">
+          @Ashurosh00710
+          <a class="float-right" href="https://github.com/Ashutosh00710">Visit Github Profile</a>
+          <div class="dropDownContent"></div>
+        </li>
+        <li class="list-group-item dropDown">
+          @navdeepsingh4298
+          <a class="float-right" href="https://github.com/navdeepsingh4298">Visit Github Profile</a>
+          <div class="dropDownContent"></div>
+        </li>
       </ul>
     </div>
     <div class="container-fluid footer-container">
@@ -393,42 +433,56 @@
           <div class="dropDownContent"></div>
           </li>
           <li class="list-group-item dropDown">
-            @savvasg35
-            <a class="float-right" href="https://github.com/Savvasg35">Visit Github Profile</a>
+            <!-- @savvasg35 -->
+            <a class="float-right" href="https://github.com/Savvasg35">@savvasg35</a>
             <div class="dropDownContent"></div>
           </li>
           <li class="list-group-item dropDown">
-            @chettriyuvraj
-            <a class="float-right" href="https://github.com/chettriyuvraj">Visit Github Profile</a>
+            <!-- @chettriyuvraj -->
+            <a class="float-right" href="https://github.com/chettriyuvraj">@chettriyuvraj</a>
             <div class="dropDownContent"></div>
           </li>
           <li class="list-group-item dropDown">
-            @gustnbones
-            <a class="float-right" href="https://github.com/gustnbones">Visit Github Profile</a>
+            <!-- @gustnbones -->
+            <a class="float-right" href="https://github.com/gustnbones">@gustnbones</a>
             <div class="dropDownContent"></div>
           </li>
 
           <li class="list-group-item dropDown">
-            @ohnomig
-            <a class="float-right" href="https://github.com/ohnomig">Visit Github Profile</a>
+            <!-- @ohnomig -->
+            <a class="float-right" href="https://github.com/ohnomig">@ohnomig</a>
             <div class="dropDownContent"></div>
           </li>
           <li class="list-group-item dropDown">
-            @piincher
-            <a class="float-right" href="https://github.com/piincher">Visit Github Profile</a>
+            <!-- @piincher -->
+            <a class="float-right" href="https://github.com/piincher">@piincher</a>
             <div class="dropDownContent"></div>
           </li>
           <li class="list-group-item dropDown">
-            @elidvenega
-            <a class="float-right" href="https://github.com/elidvenega">Visit Github Profile</a>
+            <!-- @elidvenega -->
+            <a class="float-right" href="https://github.com/elidvenega">@elidvenega</a>
             <div class="dropDownContent"></div>
           </li>
           <li class="list-group-item dropDown">
-            @asouthard1012
-            <a class="float-right" href="https://github.com/asouthard1012">Visit Github Profile</a>
+            <!-- @asouthard1012 -->
+            <a class="float-right" href="https://github.com/asouthard1012">@asouthard1012</a>
             <div class="dropDownContent"></div>
           </li>
-
+          <li class="list-group-item dropDown">
+            <!-- @rishi-121 -->
+            <a class="float-right" href="https://github.com/rishi-121">@rishi-121</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            <!-- @asouthard1012 -->
+            <a class="float-right" href="https://github.com/asouthard1012">@kyriakoszafeiropoulos</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            <!-- @krishna9304 -->
+            <a class="float-right" href="https://github.com/krishna9304">@KrishnaMahato</a>
+            <div class="dropDownContent"></div>
+          </li>
           </ul>
         </div>
         <div class="container-fluid footer-container">
@@ -438,10 +492,10 @@
               enjoy it!
             </h5>
             <div class="buttons">
-              <a class="a2a_button_facebook"><i class="fab fa-facebook fa-4x"></i></a>
-              <a class="a2a_button_twitter"><i class="fab fa-twitter fa-4x"></i></a>
-              <a class="a2a_button_email"><i class="fas fa-envelope-square fa-4x"></i></a>
-              <a class="a2a_button_whatsapp"><i class="fab fa-whatsapp fa-4x"></i></a>
+              <a class="a2a_button_facebook"><i class="fab fa-facebook fa-2x"></i></a>
+              <a class="a2a_button_twitter"><i class="fab fa-twitter fa-2x"></i></a>
+              <a class="a2a_button_email"><i class="fas fa-envelope-square fa-2x"></i></a>
+              <a class="a2a_button_whatsapp"><i class="fab fa-whatsapp fa-2x"></i></a>
             </div>
           </div>
           <!-- <div id="credits">
@@ -458,13 +512,13 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+      </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
       integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-    </script>
+      </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-    </script>
+      </script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="resources/scripts/script.js"></script>

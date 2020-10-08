@@ -18,16 +18,15 @@ body {
 }
 
 #course-button:hover {
-  transform: scale(10.20);
-  animation: pulse 2s infinite,
-  nudge 5s linear infinite alternate;
+  transform: scale(10.2);
+  animation: pulse 2s infinite, nudge 5s linear infinite alternate;
 }
 
 /* NAVBAR STYLE */
 nav.navbar button.navbar-toggler {
   margin-right: auto;
-  border-color : rgba(210, 69, 75, 0.15);
-  background-color: #fbd6db4f;
+  border-color: #777;
+  background-color: #999;
 }
 
 .navbar-light.scrolled {
@@ -36,7 +35,7 @@ nav.navbar button.navbar-toggler {
   transition: background-color 400ms ease-out;
 }
 
-.buttons>a>i {
+.buttons > a > i {
   cursor: pointer;
   transition: opacity 200ms;
 }
@@ -51,11 +50,20 @@ nav.navbar button.navbar-toggler {
 .navbar-light {
   /* background-color: transparent !important; causes issue with minimized nav */
 
-  /* background-color: #fff;
+/* background-color: #fff;
 }  */
 
 .navbar {
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(0, 0, 0, 0.125);
+  box-shadow: 0 1px 15px rgba(27, 31, 35, 0.15) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(0, 0, 0) !important;
 }
 
 /* Navbar colours for Javascript */
@@ -65,10 +73,10 @@ nav.navbar button.navbar-toggler {
 }
 
 .transparent {
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
 
   background-color: #fff;
-  -webkit-box-shadow: 0px 12px 21px 0px rgba(0,0,0,0.58); 
+  -webkit-box-shadow: 0px 12px 21px 0px rgba(0, 0, 0, 0.58);
   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.322);
 }
 
@@ -79,12 +87,12 @@ nav.navbar button.navbar-toggler {
   padding: 0;
 }
 
-
-
 .navbar a {
-  /* color: #fff !important; */
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
+}
+.navbar a:hover {
+  color: #000 !important;
 }
 
 .nav-link {
@@ -101,7 +109,7 @@ nav.navbar button.navbar-toggler {
   outline: 2px dotted #a4afd4;
 }
 
-.nav-item a:hover{
+.nav-item a:hover {
   background-color: #d1d1d1;
   border-radius: 5px;
 }
@@ -127,7 +135,7 @@ nav.navbar button.navbar-toggler {
   padding: 0;
 }
 
-.course-details-content h2{
+.course-details-content h2 {
   color: #e6e6e6;
 }
 
@@ -168,7 +176,7 @@ nav.navbar button.navbar-toggler {
   text-align: center;
 }
 
-.masteryColor{
+.masteryColor {
   color: yellow;
   font-weight: bold;
 }
@@ -252,7 +260,7 @@ nav.navbar button.navbar-toggler {
 /*.course-details-content ul {
   margin: 1rem 0rem 0rem 0rem;
 }*/
-.course-details-content ul li{
+.course-details-content ul li {
   margin: 1rem 0rem 0rem 0rem;
 }
 
@@ -260,11 +268,10 @@ nav.navbar button.navbar-toggler {
   height: 300px;
 
   /* add smooth transition */
-  transition: all .5s linear;
+  transition: all 0.5s linear;
 }
 
 #course-img:hover {
-  cursor: pointer;
   transition: transform 1s;
   transform: scale(1.1);
 }
@@ -311,6 +318,7 @@ nav.navbar button.navbar-toggler {
 
 .software-details h4 {
   text-align: center;
+  margin-top: 10px;
 }
 
 /* FOOTER SECTION */
@@ -398,7 +406,7 @@ i:hover {
 }
 
 .list-group-item:hover .dropDownContent {
-  font-style: italic;
+  /* font-style: italic; */
   max-height: 100px;
   padding: 0px 10px 0px 10px;
 }
@@ -457,26 +465,57 @@ i:hover {
 /*** MEDIA QUERIES ***/
 
 @media screen and (max-width: 576px) {
-
   #course-img {
     height: 200px;
   }
 
-  .navbar {
+  /* .navbar {
     background-color: #fff;
-  }
+  } 
 
   .navbar a {
     color: #000;
-  }
+  } */
 }
 
 @media screen and (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
-    padding: .15rem .25rem;
+    padding: 0.15rem 0.25rem;
   }
 }
 
+.gotopbtn {
+  position: fixed;
+  display: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background: #007bff;
 
+  bottom: 30px;
+  right: 20px;
+  z-index: 1;
+
+  text-align: center;
+  line-height: 40px;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+.gotopbtn:hover {
+  background-color: #fff;
+}
+
+.header-text-light {
+  color: #000;
+}
+
+.draggable-slide a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+.active-link {
+  border-bottom: 3px solid rgb(105, 102, 102);
+}

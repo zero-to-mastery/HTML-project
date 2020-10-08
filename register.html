@@ -34,6 +34,10 @@
     />
     <link rel="stylesheet" href="resources/style/style.css" />
     <link rel="stylesheet" href="resources/style/register-page.css" />
+    <!-- Dark Mode -->
+    <link rel='stylesheet' type='text/css' href='resources/style/themeToggle.css'>
+    <script src='resources/scripts/themeToggle.js' defer></script>
+    <!-- /Dark Mode -->
   </head>
 
   <body>
@@ -56,14 +60,21 @@
                   <a class="nav-link" href="instructor.html">Instructor</a> 
               </li>
               <li class="nav-item register-link">
-                  <a class="nav-link" href="register.html">Sign Up</a>
+                  <a class="nav-link active-link" href="register.html">Sign Up</a>
               </li>
               <li class="nav-item register-link">
                   <a class="nav-link" href="contributersProfile.html">Contributors</a>
               </li>
           </ul>
       </div>
-      <a class="nav-link ml-md-auto" href="beyondztm.html">Beyond Zero to Mastery</a>
+      <div class='theme-toggle-container'>
+        <span class='theme-toggle-text'>Light Mode</span>
+              <label class='theme-toggle'>
+                  <input id='theme-toggle-switch' type='checkbox'>
+                  <span class='slider round'></span>
+              </label>
+          </div>
+      <a class="nav-link ml-md-auto" href="beyondztm.html">Beyond Zero to Mastery <i class="fas fa-arrow-right"></i></a>
   </nav>
 
     <div class="animated bounce">
@@ -170,16 +181,16 @@
           </h5>
           <div class="buttons">
             <a class="a2a_button_facebook"
-              ><i class="fab fa-facebook fa-4x"></i
+              ><i class="fab fa-facebook fa-2x"></i
             ></a>
             <a class="a2a_button_twitter"
-              ><i class="fab fa-twitter fa-4x"></i
+              ><i class="fab fa-twitter fa-2x"></i
             ></a>
             <a class="a2a_button_email"
-              ><i class="fas fa-envelope-square fa-4x"></i
+              ><i class="fas fa-envelope-square fa-2x"></i
             ></a>
             <a class="a2a_button_whatsapp"
-              ><i class="fab fa-whatsapp fa-4x"></i
+              ><i class="fab fa-whatsapp fa-2x"></i
             ></a>
           </div>
         </div>
