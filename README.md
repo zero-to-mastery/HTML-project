@@ -1,4 +1,5 @@
-# HTML-project from Ground zero Level
+
+# HTML-Project from Ground Zero Level
 
 Hey there, welcome to our HTML open source project. Redesign the HTML landing page and have fun doing it. Happy coding :)
 
@@ -22,9 +23,9 @@ git checkout -b {name-of-the-branch-here}
 
 - Open a Pull Request also.
 
-- For demo click on this [link](https://zero-to-mastery.github.io/HTML-project/)
+- For demo click on this [link](https://zero-to-mastery.github.io/HTML-project/).
 
-- **Read [this](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork) or watch [this](https://www.youtube.com/watch?v=G1I3HF4YWEw) for more help**
+- **Read [this](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork) or watch [this](https://www.youtube.com/watch?v=G1I3HF4YWEw) for more help**.
 
 # Zero to Mastery Course
 

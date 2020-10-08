@@ -182,10 +182,21 @@
 
 [@suman-nath](https://github.com/suman-nath/)
 
-[@mohitsoni-dev](https:github.com/mohitsoni-dev/)
+[@mohitsoni-dev](https://github.com/mohitsoni-dev/)
 
-[@KrishnaMahato](https:github.com/krishna9304/)
+[@KrishnaMahato](https://github.com/krishna9304/)
+
+[@Ashutosh00710](https://github.com/Ashutosh00710/)
+
+[@navdeepsingh4298](https://github.com/navdeepsingh4298)
+
+[@otfigo87](https:github.com/otfigo87/)
 
 [@Ashutosh00710](https:github.com/Ashutosh00710/)
 
 [@godnondsilva](https://github.com/godnondsilva/)
+
+[@AdityaSaroj](https:github.com/AdityaSaroj/)
+
+[@AnastasiaCortes](https:github.com/AnastasiaCortes)
+
