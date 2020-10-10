@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#more {display: none;}
+</style>
     <title>The Web Developer 2020</title>
 
     <link rel="icon" href="resources\images\logo.png" />
@@ -142,36 +146,47 @@
           Toronto for many years and is now taking all that he has learned, to
           teach programming skills and to help you discover the amazing career
           opportunities that being a developer allows in life.
-        </p>
-        <p>
-          an overwhelming number of online courses, tutorials, and books that
+          An overwhelming number of online courses, tutorials, and books that
           are overly verbose and inadequate at teaching proper skills. Most
           people feel paralyzed and don't know where to start when learning a
           complex subject matter, or even worse, most people don't have $20,000
           to spend on a coding bootcamp. Programming skills should be affordable
           and open to all. An education material should teach real-life skills
           that are current and they should not waste a student's valuable time.
-          Having learned important lessons from working for Fortune 500
+        <span id="dots">...</span><span id="more">  Having learned important lessons from working for Fortune 500
           companies, tech startups, to even founding his own business, he is now
           dedicating 100% of his time to teaching others valuable software
           development skills to take control of their life and work in an
           exciting industry with infinite possibilities.
-        </p>
-
-        <p>
           Andrei promises you that there are no other courses out there as
           comprehensive and as well explained. He believes that to learn
           anything of value, you need to start with the foundation and develop
           the roots of the tree. Only from there will you be able to learn
           concepts and specific skills(leaves) that connect to the foundation.
           Learning becomes exponential when structured in this way.
-        </p>
-
-        <p>
           Taking his experience in educational psychology and coding, Andrei's
           courses will take you on an understanding of complex subjects that you
           never thought would be possible.
-        </p>
+          </span></p>
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
       </div>
       <h2 style="text-align: center; margin-top: 5%">View Andrei's Courses</h2>
       <div style="margin-top: 3%" class="container card-group">
