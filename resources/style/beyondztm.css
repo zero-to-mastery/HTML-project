@@ -10,7 +10,7 @@
   color: white !important;
 }
 .navbar a:hover {
-  transform: scale(0.5);
+  transform: scale(0.6);
   background-color: #d1d1d1;
 }
 
