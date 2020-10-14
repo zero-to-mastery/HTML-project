@@ -1,6 +1,6 @@
 ---
 layout: base
-title: '404 - File Not Found'
+title: '404 - Page Not Found'
 permalink: /404.html
 ---
 
@@ -10,17 +10,43 @@ permalink: /404.html
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>404 - File Not Found</title>
+    <title>404 - Page Not Found</title>
+    <style type="text/css">
+	    .card {
+		    display: flex;
+		    flex-direction: column;
+		    max-width: 340px;
+		    padding: 20px;
+		    background: white;
+		    align-items: center;
+		    border-radius: 10px;
+		}
+	    .container {
+	    	display: flex;
+	    	align-items: center;
+	    	justify-content: center;
+	    	height: 100vh;
+	    	width: 100vw;
+    	}
+    	body {
+		    font-family: Helvetica;
+		    background: black;
+		    overflow: hidden;
+		    margin: 0;
+		    padding: 0;
+		}
+    </style>
   </head>
 
   <body>
-    <div class="row">
-      <div class="small-12 columns">
-        <h1>We could not find that page</h1>
-        <article>Please Check Your Link</article>
-        <!-- adding a link to go to home page -->
-        <a href="index.html">Home</a>
-      </div>
+    <div class="container">
+    	<div class="card">
+	      	<h1>404</h1>
+	        <h2>We could not find that page</h2>
+	        <article>Please check the URL</article>
+	        <!-- adding a link to go to home page -->
+	        <a href="index.html">Back to our site</a>
+    	</div>
     </div>
   </body>
 </html>
