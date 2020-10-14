@@ -493,6 +493,7 @@ i:hover {
   height: 50px;
   border-radius: 25px;
   background: #007bff;
+  transition: all .2s ease-out;
 
   bottom: 30px;
   right: 20px;
