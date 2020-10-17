@@ -13,6 +13,9 @@
   transform: scale(1.3);
   background-color: rgb(219, 255, 255);
 }
+.theme-toggle-text{
+  color: black;
+}
 
 #instructor-title {
   padding-right: 20px;
