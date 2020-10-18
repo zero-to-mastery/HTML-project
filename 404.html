@@ -16,8 +16,8 @@ permalink: /404.html
 		    display: flex;
 		    flex-direction: column;
 		    max-width: 340px;
-		    padding: 20px;
-		    background: white;
+		    padding: 8px;
+		    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 		    align-items: center;
 		    border-radius: 10px;
 		}
@@ -28,6 +28,12 @@ permalink: /404.html
 	    	height: 100vh;
 	    	width: 100vw;
     	}
+          .content {
+                  text-align:center;
+                  margin:0px;
+                  background-color:white;
+                  padding:10px;
+                   }
     	body {
 		    font-family: Helvetica;
 		    background: black;
@@ -41,11 +47,13 @@ permalink: /404.html
   <body>
     <div class="container">
     	<div class="card">
+             <div class="content">
 	      	<h1>404</h1>
 	        <h2>We could not find that page</h2>
 	        <article>Please check the URL</article>
 	        <!-- adding a link to go to home page -->
 	        <a href="index.html">Back to our site</a>
+             </div>
     	</div>
     </div>
   </body>
