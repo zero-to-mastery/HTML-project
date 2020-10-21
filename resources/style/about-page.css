@@ -9,10 +9,6 @@
 .navbar a {
   color: black !important;
 }
-.navbar a:hover {
-  transform: scale(1.3);
-  background-color: rgb(219, 255, 255);
-}
 
 #instructor-title {
   padding-right: 20px;
@@ -25,6 +21,15 @@
   width: 200px;
   height: 200px;
   transition: all 1s;
+}
+
+#myBtn{
+  border: 0;
+  background-color: #91308E;
+  padding: .45rem .9rem;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 /*
