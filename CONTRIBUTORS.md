@@ -209,3 +209,7 @@
 [@gsakshay](https://github.com/gsakshay)
 
 [@SkyC0der](https://github.com/SkyC0der)
+
+[@Harsh](https://github.com/xpharsh)
+
+[@StrykerKent](https://github.com/StrykerKent)
