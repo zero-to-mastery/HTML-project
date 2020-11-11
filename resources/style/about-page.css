@@ -57,10 +57,12 @@ removed unnecessary scale
   display: block;
   max-width: 1800px;
   margin-top: 5rem;
+  text-align: center;
 }
 
 .info {
   border-left: 1px solid #000;
+  text-align: left;
 }
 
 .about-container h2 {
