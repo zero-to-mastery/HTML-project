@@ -8,7 +8,7 @@ body {
 #course-button {
   margin: 30px;
   padding: 10px 20px;
-  transition: 0.2s;
+ 
 }
 
 #course-button:hover {
@@ -18,8 +18,8 @@ body {
 }
 
 #course-button:hover {
-  transform: scale(10.2);
-  animation: pulse 2s infinite, nudge 5s linear infinite alternate;
+  transform: scale(1.1);
+  animation: pulse 800ms infinite, nudge 1s linear infinite alternate;
 }
 
 /* NAVBAR STYLE */
@@ -395,14 +395,17 @@ i:hover {
 
 .dropDownContent {
   position: absolute;
-  background-color: #f1f1f1;
-  left: 50px;
+  background-color: #1c91c7;
+  left: 10;
   max-height: 0;
   overflow: hidden;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   padding: 0;
   transition: max-height 0.2s ease-in;
+  border-radius: 10px;
+  color: #ffffff;
+  
 }
 
 .list-group-item:hover {
@@ -413,7 +416,7 @@ i:hover {
 .list-group-item:hover .dropDownContent {
   /* font-style: italic; */
   max-height: 100px;
-  padding: 0px 10px 0px 10px;
+  padding: 5px 15px 5px 15px;
 }
 
 .list-group-item p {
