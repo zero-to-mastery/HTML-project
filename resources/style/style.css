@@ -101,7 +101,10 @@ nav.navbar button.navbar-toggler {
   color: white;
 }
 
-.navbar a:hover,
+.navbar a:hover {
+  color: #000 !important;
+  transition: all 0.3s ease-out;
+}
 .navbar-dark a:hover {
   color:white !important;
   transition: all 0.3s ease-out;
@@ -117,6 +120,9 @@ nav.navbar button.navbar-toggler {
   color:#91308E;
   border-radius: 3px;
   
+}
+.nav-link i {
+  padding-left: 10px;
 }
 
 .navbar-collapse ul {
