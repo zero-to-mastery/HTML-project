@@ -31,8 +31,10 @@ nav.navbar button.navbar-toggler {
 
 .navbar-light.scrolled {
   background-color: #fff !important;
-  color: #000 !important;
   transition: background-color 400ms ease-out;
+}
+.navbar-light.scrolled a{
+  color: #000 !important;
 }
 
 .buttons > a > i {
