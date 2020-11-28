@@ -1,3 +1,5 @@
+[@akashjoffl](https://github.com/akashjoffl)
+
 [@excel61](https://github.com/excel61)
 
 [@varun-sirpal10](https://github.com/varun-sirpal10)
@@ -201,3 +203,18 @@
 [@AdityaSaroj](https:github.com/AdityaSaroj/)
 
 [@AnastasiaCortes](https:github.com/AnastasiaCortes)
+
+[@yessirali](https:github.com/yessirali)
+ 
+[@gsakshay](https://github.com/gsakshay)
+
+[@SkyC0der](https://github.com/SkyC0der)
+
+[@Harsh](https://github.com/xpharsh)
+
+[@StrykerKent](https://github.com/StrykerKent)
+
+[@Davekibh](https://github.com/Davekibh)
+
+[@lonecreationwastaken](https://github.com/lonecreationwastaken)
+

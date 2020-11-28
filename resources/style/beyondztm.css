@@ -18,7 +18,7 @@
   color: white !important;
 }
 .navbar-light.scrolled {
-  background-color: black !important;
+  /* background-color: black !important; */
   color: white !important;
   transition: background-color 400ms ease-out;
 }

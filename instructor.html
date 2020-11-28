@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#more {display: none;}
+</style>
     <title>The Web Developer 2020</title>
 
     <link rel="icon" href="resources\images\logo.png" />
@@ -71,8 +75,8 @@
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
-          <li class="nav-item register-link">
-            <a class="nav-link active-link" href="instructor.html"
+          <li class="nav-item register-link active-link">
+            <a class="nav-link " href="instructor.html"
               >Instructor</a
             >
           </li>
@@ -142,36 +146,51 @@
           Toronto for many years and is now taking all that he has learned, to
           teach programming skills and to help you discover the amazing career
           opportunities that being a developer allows in life.
+
         </p>
         <p>
-          an overwhelming number of online courses, tutorials, and books that
+
+          An overwhelming number of online courses, tutorials, and books that
           are overly verbose and inadequate at teaching proper skills. Most
           people feel paralyzed and don't know where to start when learning a
           complex subject matter, or even worse, most people don't have $20,000
           to spend on a coding bootcamp. Programming skills should be affordable
           and open to all. An education material should teach real-life skills
           that are current and they should not waste a student's valuable time.
-          Having learned important lessons from working for Fortune 500
+        <span id="dots">...</span><span id="more">  Having learned important lessons from working for Fortune 500
           companies, tech startups, to even founding his own business, he is now
           dedicating 100% of his time to teaching others valuable software
           development skills to take control of their life and work in an
           exciting industry with infinite possibilities.
-        </p>
-
-        <p>
           Andrei promises you that there are no other courses out there as
           comprehensive and as well explained. He believes that to learn
           anything of value, you need to start with the foundation and develop
           the roots of the tree. Only from there will you be able to learn
           concepts and specific skills(leaves) that connect to the foundation.
           Learning becomes exponential when structured in this way.
-        </p>
-
-        <p>
           Taking his experience in educational psychology and coding, Andrei's
           courses will take you on an understanding of complex subjects that you
           never thought would be possible.
-        </p>
+          </span></p>
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
       </div>
       <h2 style="text-align: center; margin-top: 5%">View Andrei's Courses</h2>
       <div style="margin-top: 3%" class="container card-group">
@@ -315,6 +334,154 @@
             >
             <a
               href="https://academy.zerotomastery.io/p/the-complete-junior-to-senior-web-developer-roadmap"
+              class="btn btn-primary"
+              target="_blank"
+              >Academy</a
+            >
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: 3%" class="container card-group">
+        <div class="card" data-aos="fade-right">
+          <img
+            src="https://img-a.udemycdn.com/course/480x270/2771350_d87b_3.jpg"
+            class="card-img-top"
+            alt="Learning to Learn Efficient Learning Zero to Mastery Andrei Neagoie Udemy"
+          />
+          <div class="card-desc">
+            <h5 class="card-title">
+              Learning to Learn [Efficient Learning]: Zero to Mastery
+            </h5>
+            <a
+              href="https://www.udemy.com/course/learning-to-learn-efficient-learning-zero-to-mastery/"
+              class="btn btn-danger"
+              target="_blank"
+              >Udemy</a
+            >
+            <a
+              href="https://academy.zerotomastery.io/p/learning-to-learn-efficient-learning-zero-to-mastery-blueprint"
+              class="btn btn-primary"
+              target="_blank"
+              >Academy</a
+            >
+          </div>
+        </div>
+        <div class="card" data-aos="fade-up">
+          <img
+            src="https://img-a.udemycdn.com/course/480x270/3138058_45fe.jpg"
+            class="card-img-top"
+            alt="Deno The Complete Guide Zero to Mastery Andrei Neagoie Udemy"
+          />
+          <div class="card-desc">
+            <h5 class="card-title">
+              Deno: The Complete Guide Zero to Mastery
+            </h5>
+            <a
+              href="https://www.udemy.com/course/deno-the-complete-guide-zero-to-mastery/"
+              class="btn btn-danger"
+              target="_blank"
+              >Udemy</a
+            >
+            <a
+              href="https://academy.zerotomastery.io/p/deno-the-complete-guide-zero-to-mastery"
+              class="btn btn-primary"
+              target="_blank"
+              >Academy</a
+            >
+          </div>
+        </div>
+        <div class="card" data-aos="fade-left">
+          <img
+            src="https://img-a.udemycdn.com/course/480x270/3030132_afb3.jpg"
+            class="card-img-top"
+            alt="JavaScript Web Projects 20 Projects to Build Your Portfolio Zero to Mastery Andrei Neagoie Udemy Jacinto Wong"
+          />
+          <div class="card-desc">
+            <h5 class="card-title">
+              JavaScript Web Projects: 20 Projects to Build Your Portfolio
+            </h5>
+            <a
+              href="https://www.udemy.com/course/javascript-web-projects-to-build-your-portfolio-resume/"
+              class="btn btn-danger"
+              target="_blank"
+              >Udemy</a
+            >
+            <a
+              href="https://academy.zerotomastery.io/p/javascript-projects"
+              class="btn btn-primary"
+              target="_blank"
+              >Academy</a
+            >
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: 3%" class="container card-group">
+        <div class="card" data-aos="fade-right">
+          <img
+            src="https://img-a.udemycdn.com/course/480x270/2851942_0cb0_2.jpg"
+            class="card-img-top"
+            alt="Complete SQL plus Databases Bootcamp Zero to Mastery 2021 Andrei Neagoie Udemy Mo Binni"
+          />
+          <div class="card-desc">
+            <h5 class="card-title">
+              Complete SQL + Databases Bootcamp: Zero to Mastery [2021]
+            </h5>
+            <a
+              href="https://www.udemy.com/course/complete-sql-databases-bootcamp-zero-to-mastery/"
+              class="btn btn-danger"
+              target="_blank"
+              >Udemy</a
+            >
+            <a
+              href="https://academy.zerotomastery.io/p/complete-sql-database-bootcamp-zero-to-mastery"
+              class="btn btn-primary"
+              target="_blank"
+              >Academy</a
+            >
+          </div>
+        </div>
+        <div class="card" data-aos="fade-up">
+          <img
+            src="https://img-a.udemycdn.com/course/480x270/3227583_5e75_5.jpg"
+            class="card-img-top"
+            alt="Complete Web and Mobile Designer in 2021 UI/UX, Figma, plus more Zero to Mastery Andrei Neagoie Udemy Daniel Schifano"
+          />
+          <div class="card-desc">
+            <h5 class="card-title">
+              Complete Web & Mobile Designer in 2021: UI/UX, Figma, +more
+            </h5>
+            <a
+              href="https://www.udemy.com/course/complete-web-designer-mobile-designer-zero-to-mastery/"
+              class="btn btn-danger"
+              target="_blank"
+              >Udemy</a
+            >
+            <a
+              href="https://academy.zerotomastery.io/p/complete-web-and-mobile-designer"
+              class="btn btn-primary"
+              target="_blank"
+              >Academy</a
+            >
+          </div>
+        </div>
+        <div class="card" data-aos="fade-left">
+          <img
+            src="https://img-a.udemycdn.com/course/480x270/1501104_967d_12.jpg"
+            class="card-img-top"
+            alt="JavaScript The Advanced Concepts Zero to Mastery Andrei Neagoie Udemy"
+          />
+          <div class="card-desc">
+            <h5 class="card-title">
+              JavaScript: The Advanced Concepts
+            </h5>
+            <a
+              href="https://www.udemy.com/course/advanced-javascript-concepts/"
+              class="btn btn-danger"
+              target="_blank"
+              >Udemy</a
+            >
+            <a
+              href="https://academy.zerotomastery.io/p/advanced-javascript-concepts"
               class="btn btn-primary"
               target="_blank"
               >Academy</a

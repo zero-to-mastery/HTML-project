@@ -54,7 +54,7 @@ nav.navbar button.navbar-toggler {
 }  */
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #210120;                /*changed background color */
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -63,7 +63,8 @@ nav.navbar button.navbar-toggler {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgb(0, 0, 0) !important;
+  color: black !important;
+  font-weight: bold;
 }
 
 /* Navbar colours for Javascript */
@@ -92,26 +93,30 @@ nav.navbar button.navbar-toggler {
   font-size: 16px;
 }
 .navbar a:hover {
-  color: #000 !important;
+  color: white;
 }
 
 .nav-link {
-  color: #e5e0e0;
+  text-decoration: none;
+  color: white;
 }
 
 .navbar a:hover,
 .navbar-dark a:hover {
+  color:white !important;
   transition: all 0.3s ease-out;
-  background-color: #d1d1d1;
+  /* background-color: #91308E; */
 }
 
 .navbar a:focus {
   outline: 2px dotted #a4afd4;
 }
 
-.nav-item a:hover {
-  background-color: #d1d1d1;
-  border-radius: 5px;
+.active-link,.nav-item:hover {
+  /* background-color: #91308E; */
+  color:#91308E;
+  border-radius: 3px;
+  
 }
 
 .navbar-collapse ul {
@@ -493,6 +498,7 @@ i:hover {
   height: 50px;
   border-radius: 25px;
   background: #007bff;
+  transition: all .2s ease-out;
 
   bottom: 30px;
   right: 20px;

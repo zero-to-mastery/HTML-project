@@ -1,26 +1,38 @@
----
+<!-- ---
 layout: base
-title: '404 - File Not Found'
+title: '404 - Page Not Found'
 permalink: /404.html
----
+--- -->
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>404 - File Not Found</title>
-  </head>
 
-  <body>
-    <div class="row">
-      <div class="small-12 columns">
-        <h1>We could not find that page</h1>
-        <article>Please Check Your Link</article>
-        <!-- adding a link to go to home page -->
-        <a href="index.html">Home</a>
-      </div>
-    </div>
-  </body>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>404 - Page Not Found</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="resources/style/style.css" />
+		<link rel="stylesheet" href="resources/style/about-page.css" />
+	</head>
+
+<body class="bg-light">
+	<div class="container pt-5">
+		<div class="rounded mt-5 w-50 mx-auto border p-3 mb-5 bg-white rounded">
+			<div class="p-4">
+				<h1>404</h1>
+				<h2>We could not find that page</h2>
+				<article>Please check the URL</article>
+				<!-- adding a link to go to home page -->
+				<button class="mt-2" id="myBtn">
+					<a href="index.html" class="text-white text-decoration-none">Back to our site</a>
+				</button>
+				
+			</div>
+		</div>
+	</div>
+</body>
+
 </html>
