@@ -181,8 +181,13 @@ nav.navbar button.navbar-toggler {
   text-align: center;
 }
 
-.masteryColor {
-  color: yellow;
+
+#ZTM_colourGreen {
+  color: greenyellow;
+}
+
+#ZTM_colourRed {
+  color: red;
   font-weight: bold;
 }
 
