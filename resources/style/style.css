@@ -35,7 +35,7 @@ nav.navbar button.navbar-toggler {
   transition: background-color 400ms ease-out;
 }
 
-.buttons > a > i {
+.buttons>a>i {
   cursor: pointer;
   transition: opacity 200ms;
 }
@@ -54,7 +54,8 @@ nav.navbar button.navbar-toggler {
 }  */
 
 .navbar {
-  background-color: #210120;                /*changed background color */
+  background-color: transparent;
+  /*changed background color */
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -92,6 +93,7 @@ nav.navbar button.navbar-toggler {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
+
 .navbar a:hover {
   color: white;
 }
@@ -103,7 +105,7 @@ nav.navbar button.navbar-toggler {
 
 .navbar a:hover,
 .navbar-dark a:hover {
-  color:white !important;
+  color: white !important;
   transition: all 0.3s ease-out;
   /* background-color: #91308E; */
 }
@@ -112,11 +114,12 @@ nav.navbar button.navbar-toggler {
   outline: 2px dotted #a4afd4;
 }
 
-.active-link,.nav-item:hover {
+.active-link,
+.nav-item:hover {
   /* background-color: #91308E; */
-  color:#91308E;
+  color: #000;
   border-radius: 3px;
-  
+
 }
 
 .navbar-collapse ul {
@@ -347,6 +350,13 @@ nav.navbar button.navbar-toggler {
   left: 50%;
   transform: translate(-50%, 5%);
 }
+
+/* laptop img */
+#credits #laptop {
+  height: 30px;
+  width: 30px;
+}
+
 .a2a_button_instagram,
 .a2a_button_facebook,
 .a2a_button_twitter,
@@ -525,6 +535,7 @@ i:hover {
   color: yellow;
   text-decoration: none;
 }
+
 .active-link {
   border-bottom: 3px solid rgb(105, 102, 102);
 }
