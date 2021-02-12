@@ -187,6 +187,7 @@ nav.navbar button.navbar-toggler {
 .masteryColor {
   color: yellow;
   font-weight: bold;
+  font-family: 'Lilita One', cursive;
 }
 
 .header-content hr {
@@ -202,6 +203,7 @@ nav.navbar button.navbar-toggler {
   padding: 0;
   font-size: 3em;
   font-family: "Montserrat", sans-serif;
+  font-family: 'Lilita One', cursive;
 }
 
 .header-content a {
