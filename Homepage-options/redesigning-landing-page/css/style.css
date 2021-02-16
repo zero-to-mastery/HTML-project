@@ -14,7 +14,7 @@ body {
 nav {
     margin-top: 10px;
     padding: 30px;
-    background-color: #111111;
+    background-color: rgb(225,225,225);
 }
 
 .logo img {

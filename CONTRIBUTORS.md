@@ -219,3 +219,8 @@
 [@lonecreationwastaken](https://github.com/lonecreationwastaken)
 
 [@adamwojnicki](https://github.com/adamwojnicki)
+
+[@Panchowasaki] (https://gibhub.com/panchowasaki)
+
+[@PleaBanshee](https://github.com/PleaBanshee)
+
