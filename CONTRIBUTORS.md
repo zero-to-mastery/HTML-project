@@ -205,7 +205,7 @@
 [@AnastasiaCortes](https:github.com/AnastasiaCortes)
 
 [@yessirali](https:github.com/yessirali)
- 
+
 [@gsakshay](https://github.com/gsakshay)
 
 [@SkyC0der](https://github.com/SkyC0der)
@@ -221,4 +221,10 @@
 [@mrsindelic](https://github.com/mrsindelic)
 
 [@Panchowasaki](https://gibhub.com/panchowasaki)
+
+[@adamwojnicki](https://github.com/adamwojnicki)
+
+[@Panchowasaki](https://gibhub.com/panchowasaki)
+
+[@PleaBanshee](https://github.com/PleaBanshee)
 

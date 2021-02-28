@@ -42,6 +42,7 @@ html[theme='dark'] {
 	display: inline-block;
 	width: 60px;
 	height: 34px;
+	margin-left: 10px;
 }
 
 /* Hide Default HTML Checkbox */
