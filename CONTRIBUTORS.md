@@ -228,8 +228,11 @@
 
 [@PleaBanshee](https://github.com/PleaBanshee)
 
+[@cntran](https://github.com/cntran)
+
 [@nishadmm](https://github.com/nishadmm)
 
 [@adityakumar48](https://github.com/adityakumar48)
 
 [@Bear-crawl](https://github.com/Bear-crawl)
+
