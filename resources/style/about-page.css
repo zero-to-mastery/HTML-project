@@ -10,12 +10,11 @@
   color: black !important;
 }
 
-
 .navbar a:hover {
   transform: scale(1.1);
   /* background-color: rgb(219, 255, 255); */
 }
-.theme-toggle-text{
+.theme-toggle-text {
   color: black;
 }
 
@@ -53,7 +52,7 @@ removed unnecessary scale
 
 .about-container {
   padding: 100px 10% 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   /* display: flex; issue with heading and page layout */
   display: block;
   max-width: 1800px;
@@ -74,11 +73,10 @@ removed unnecessary scale
 }
 .list-group {
   margin: 2.5% auto;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .list-group-item:first-child {
   border-top: none;
-
 }
 .list-group-item {
   background-color: transparent !important;
@@ -98,7 +96,6 @@ removed unnecessary scale
 #about-title:hover {
   transform: scale(1.1);
   transition: all 0.3s ease-out;
-  
 }
 
 #myBtn:hover {

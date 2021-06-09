@@ -3,7 +3,7 @@ const itemClicked3 = () => window.open('VueInfoPage.html', '_blank');
 const itemClicked2 = () => window.open('jQueryInfoPage.html', '_blank');
 const itemClicked = () => window.open('javaScriptInfoPage.html', '_blank');
 
-var clicked = 0;
+let clicked = 0;
 
 const javaScriptCategorySelected = () => {
 	let selectedItem = document.getElementById("javascript");
@@ -40,7 +40,7 @@ const javaScriptCategorySelected = () => {
 
 $(function () {
 	$(document).scroll(function () {
-		var $nav = $(".navbar-light");
+		const $nav = $(".navbar-light");
 		$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 	});
 });
@@ -63,7 +63,7 @@ $(function () {
 const navbar = document.querySelector('.navbar');
 const navlink = document.querySelectorAll('.nav-link');
 const headertext = document.querySelector('#headerText');
- 
+
 const navScroll = () => {
 
 			if (document.documentElement.scrollTop > 80) {
@@ -82,7 +82,7 @@ window.addEventListener('scroll', navScroll);
 
 /*Scroll to top when arrow up clicked BEGIN*/
 $(window).scroll(function() {
-    var height = $(window).scrollTop();
+    const height = $(window).scrollTop();
     if (height > 90) {
         $('.gotopbtn').fadeIn();
     } else {
@@ -97,4 +97,4 @@ $(document).ready(function() {
     });
 
 });
- /*Scroll to top when arrow up clicked END*/
+/*Scroll to top when arrow up clicked END*/

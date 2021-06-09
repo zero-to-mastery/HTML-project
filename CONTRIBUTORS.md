@@ -68,6 +68,8 @@
 
 [@sandy8169](https://github.com/sandy8169)
 
+[@princeo1](https://github.com/princeo1)
+
 [@Itailevi420](https://github.com/Itailevi420)
 
 [@p4avinash](https://github.com/p4avinash)
@@ -205,7 +207,7 @@
 [@AnastasiaCortes](https:github.com/AnastasiaCortes)
 
 [@yessirali](https:github.com/yessirali)
- 
+
 [@gsakshay](https://github.com/gsakshay)
 
 [@SkyC0der](https://github.com/SkyC0der)
@@ -218,8 +220,32 @@
 
 [@lonecreationwastaken](https://github.com/lonecreationwastaken)
 
-[@Panchowasaki] (https://gibhub.com/panchowasaki)
+[@mrsindelic](https://github.com/mrsindelic)
+
+[@Panchowasaki](https://gibhub.com/panchowasaki)
+
+[@adamwojnicki](https://github.com/adamwojnicki)
+
+[@Panchowasaki](https://gibhub.com/panchowasaki)
+
+[@PleaBanshee](https://github.com/PleaBanshee)
+
+[@Iftee97](https://github.com/Iftee97)
+
+[@AAD93](https://github.com/AAD93)
+
+[@Daarkinvaader] (http://github.com/Daarkinvaader)
+
+[@rinaldopasa](https://github.com/rinaldopasa)
+
+[@cntran](https://github.com/cntran)
+
+[@nishadmm](https://github.com/nishadmm)
+
+[@adityakumar48](https://github.com/adityakumar48)
 
 [@PleaBanshee](https://github.com/PleaBanshee)
 
 [@stefanjames](https://github.com/stefanjames)
+
+[@Bear-crawl](https://github.com/Bear-crawl)

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>ToDo List</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        h1 {
+            margin-top: 10px;
+            margin-bottom: 30px;
+            font-size: 5em;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .newBtn {
+            margin: 10px;
+            background-color: #dc3545;
+        }
+
+        .done {
+            text-decoration: line-through;
+        }
+
+        #reload {
+            margin: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>ToDo List</h1>
+    <form action="/nowhere">
+        <input type="text" id="product" name="product" placeholder="enter item">
+        <button>Submit</button>
+    </form>
+
+    <br><br>
+    <h3>List:</h3>
+    <ul id="list"></ul>
+    <button id="reload" onclick="location.reload()">Refresh</button>
+
+
+    <!-- ------------------------------------------------------------- -->
+    <!-- ------------------------------------------------------------- -->
+
+
+    <script>
+        let form = document.querySelector('form');
+        form.addEventListener("submit", (event) => {
+            let product = document.querySelector("#product");
+            let li = document.createElement("li");
+            let btn = document.createElement("button");
+            let span = document.createElement("span");
+
+            btn.innerText = "Delete Item";
+            btn.classList.add("newBtn");
+
+            li.append(product.value, btn);
+            li.addEventListener('click', () => {
+                li.classList.toggle('done');
+            });
+            span.append(li);
+            let ul = document.querySelector("#list");
+            ul.append(span);
+
+            btn.addEventListener("click", () => {
+                span.remove();
+            })
+
+            product.value = "";
+
+            event.preventDefault();
+        });
+    </script>
+</body>
+
+</html>
