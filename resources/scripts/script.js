@@ -3,7 +3,7 @@ const itemClicked3 = () => window.open('VueInfoPage.html', '_blank');
 const itemClicked2 = () => window.open('jQueryInfoPage.html', '_blank');
 const itemClicked = () => window.open('javaScriptInfoPage.html', '_blank');
 
-var clicked = 0;
+let clicked = 0;
 
 const javaScriptCategorySelected = () => {
 	let selectedItem = document.getElementById("javascript");
@@ -40,20 +40,61 @@ const javaScriptCategorySelected = () => {
 
 $(function () {
 	$(document).scroll(function () {
-	  var $nav = $(".navbar-light");
-	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+		const $nav = $(".navbar-light");
+		$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 	});
-  });
-
-$(".card").hover(
-	function () {
-		$(this).filter(':not(:animated)').animate({
-			zoom: '125%'
-		}, 500).css('background', '#eee');
-		// This only fires if the row is not undergoing an animation when you mouseover it
-	},
-	function () {
-		$(this).animate({
-			zoom: '100%'
-		}, 500).css('background', 'transparent');
 });
+
+// $(".card").hover(
+// 	function () {
+// 		$(this).filter(':not(:animated)').animate({
+// 			zoom: '125%'
+// 		}, 500).css('background', '#eee');
+// 		// This only fires if the row is not undergoing an animation when you mouseover it
+// 	},
+// 	function () {
+// 		$(this).animate({
+// 			zoom: '100%'
+// 		}, 500).css('background', 'transparent');
+// });
+
+//NAVBAR - Change opacity and colours on scroll
+
+const navbar = document.querySelector('.navbar');
+const navlink = document.querySelectorAll('.nav-link');
+const headertext = document.querySelector('#headerText');
+
+const navScroll = () => {
+
+			if (document.documentElement.scrollTop > 80) {
+				navbar.classList.add('navbar-light');
+				navbar.classList.remove('navbar-dark');
+				headertext.classList.add('header-text-light');
+			} else {
+				navbar.classList.remove('navbar-light');
+				navbar.classList.add('navbar-dark');
+				headertext.classList.remove('header-text-light');
+			}
+}
+
+
+window.addEventListener('scroll', navScroll);
+
+/*Scroll to top when arrow up clicked BEGIN*/
+$(window).scroll(function() {
+    const height = $(window).scrollTop();
+    if (height > 90) {
+        $('.gotopbtn').fadeIn();
+    } else {
+        $('.gotopbtn').fadeOut();
+    }
+});
+$(document).ready(function() {
+    $(".gotopbtn").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "fast");
+        return false;
+    });
+
+});
+/*Scroll to top when arrow up clicked END*/

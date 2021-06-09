@@ -52,7 +52,7 @@ canvas{
   top: 48px;
   left: 0;
   width: 80px;
-  color: #13E8E9;
+  color: #fff;
   font-size: .8em;
   text-align: left;
   text-indent: 4px;
@@ -70,7 +70,7 @@ canvas{
 .count-particles{
   -webkit-user-select: none;
   margin-top: 5px;
-  margin-left: 5px;
+  /* margin-left: 5px; caused overflow on x */
 }
 
 #stats{
