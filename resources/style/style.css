@@ -94,20 +94,23 @@ nav.navbar button.navbar-toggler {
   font-size: 16px;
 }
 
-.navbar a:hover {
+/* .navbar a:hover {
   color: white;
-}
+} */
 
 .nav-link {
   text-decoration: none;
   color: white;
 }
 
-.navbar a:hover,
-.navbar-dark a:hover {
-  color: white !important;
+.navbar a:hover {
+  color: rgb(95, 95, 95) !important;
   transition: all 0.3s ease-out;
   /* background-color: #91308E; */
+}
+.navbar-dark a:hover {
+  color: rgb(255, 255, 255) !important;
+  transition: all 0.3s ease-out;
 }
 
 .navbar a:focus {
