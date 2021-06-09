@@ -244,4 +244,8 @@
 
 [@adityakumar48](https://github.com/adityakumar48)
 
+[@PleaBanshee](https://github.com/PleaBanshee)
+
+[@stefanjames](https://github.com/stefanjames)
+
 [@Bear-crawl](https://github.com/Bear-crawl)
