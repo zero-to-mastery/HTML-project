@@ -228,6 +228,8 @@
 
 [@PleaBanshee](https://github.com/PleaBanshee)
 
+[@AAD93](https://github.com/AAD93)
+
 [@Daarkinvaader] (http://github.com/Daarkinvaader)
 
 [@rinaldopasa](https://github.com/rinaldopasa)
