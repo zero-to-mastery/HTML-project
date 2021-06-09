@@ -9,7 +9,6 @@ body {
 #course-button {
   margin: 30px;
   padding: 10px 20px;
- 
 }
 
 #course-button:hover {
@@ -36,7 +35,7 @@ nav.navbar button.navbar-toggler {
   transition: background-color 400ms ease-out;
 }
 
-.buttons>a>i {
+.buttons > a > i {
   cursor: pointer;
   transition: opacity 200ms;
 }
@@ -65,7 +64,7 @@ nav.navbar button.navbar-toggler {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: black !important;
+  color: #f5f5f5 !important;
   font-weight: bold;
 }
 
@@ -90,9 +89,8 @@ nav.navbar button.navbar-toggler {
   padding: 0;
 }
 
-
 .navbar a {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
 }
 
@@ -121,7 +119,6 @@ nav.navbar button.navbar-toggler {
   /* background-color: #91308E; */
   color: #000;
   border-radius: 3px;
-
 }
 
 .navbar-collapse ul {
@@ -136,7 +133,7 @@ nav.navbar button.navbar-toggler {
 /* HEADER SECTION */
 .header-container {
   height: 100vh;
-  background-image: url("../images/laptop-header.jpg");
+  background-image: url('../images/laptop-header.jpg');
   /* background-position: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -204,7 +201,7 @@ nav.navbar button.navbar-toggler {
   text-align: center;
   padding: 0;
   font-size: 3em;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-family: 'Lilita One', cursive;
 }
 
@@ -249,7 +246,7 @@ nav.navbar button.navbar-toggler {
 
 .details-container h2 {
   margin: 2rem 0rem 0rem 0rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
 
@@ -259,7 +256,7 @@ nav.navbar button.navbar-toggler {
 
 .details-container p {
   margin: 0rem 0rem 0rem 0rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .course-details-content {
@@ -292,11 +289,11 @@ nav.navbar button.navbar-toggler {
 .software-details {
   margin: 5rem 0;
   padding: 0rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .software-details h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-weight: bold;
   margin-bottom: 2rem;
@@ -340,7 +337,7 @@ nav.navbar button.navbar-toggler {
   position: relative;
   padding: 4rem 2rem;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .footer-container h5 {
@@ -419,7 +416,6 @@ i:hover {
   transition: max-height 0.2s ease-in;
   border-radius: 10px;
   color: #ffffff;
-  
 }
 
 .list-group-item:hover {
@@ -515,7 +511,7 @@ i:hover {
   height: 50px;
   border-radius: 25px;
   background: #007bff;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
 
   bottom: 30px;
   right: 20px;
@@ -532,7 +528,7 @@ i:hover {
 }
 
 .header-text-light {
-  color: #000;
+  /* color: #000; */
 }
 
 .draggable-slide a:hover {
