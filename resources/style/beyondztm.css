@@ -3,22 +3,24 @@
   margin: 0 auto;
 }
 
+}
 .navbar-collapse {
   color: white !important;
 }
+
 .navbar a {
   color: white !important;
 }
-.navbar a:hover {
-  transform: scale(1.3);
-  background-color: #d1d1d1;
+.nav-item > a:hover {
+  transform: scale(1.2);
+  /* background-color: #d1d1d1; */
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: white !important;
 }
 .navbar-light.scrolled {
-  /* background-color: black !important; */
+  background-color: black !important;
   color: white !important;
   transition: background-color 400ms ease-out;
 }

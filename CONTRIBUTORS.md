@@ -68,6 +68,8 @@
 
 [@sandy8169](https://github.com/sandy8169)
 
+[@princeo1](https://github.com/princeo1)
+
 [@Itailevi420](https://github.com/Itailevi420)
 
 [@p4avinash](https://github.com/p4avinash)
@@ -228,4 +230,25 @@
 
 [@PleaBanshee](https://github.com/PleaBanshee)
 
+
 [@AakashChahal](https://github.com/AakashChahal)
+
+[@Iftee97](https://github.com/Iftee97)
+
+[@AAD93](https://github.com/AAD93)
+
+[@Daarkinvaader] (http://github.com/Daarkinvaader)
+
+[@rinaldopasa](https://github.com/rinaldopasa)
+
+[@cntran](https://github.com/cntran)
+
+[@nishadmm](https://github.com/nishadmm)
+
+[@adityakumar48](https://github.com/adityakumar48)
+
+[@PleaBanshee](https://github.com/PleaBanshee)
+
+[@stefanjames](https://github.com/stefanjames)
+
+[@Bear-crawl](https://github.com/Bear-crawl)

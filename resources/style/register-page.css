@@ -5,9 +5,9 @@
     color: black !important;
 }
 .register-container{
-    min-height: calc(100vh - 212px);
+    min-height: calc(100vh - 280px);
     max-width: 1500px;
-    padding: 100px;
+    padding: 100px 100px 0px 100px;
     font-family: 'Montserrat', sans-serif;
 }
 .register-container h1{
@@ -26,5 +26,26 @@
 }
 
 #submit-btn:hover{
-    box-shadow: 5px 3px gray;
+    box-shadow: 5px 3px 5px rgb(128, 128, 128, 0.5);
+    
+}
+/* Added Pikachu animation */
+.running_pikachu img{
+    padding-left: 50px;
+    filter: drop-shadow(0px 15px 8px rgb(82, 82, 82, 0.5));
+}
+.running_pikachu p{
+    filter: drop-shadow(0px 15px 8px rgb(82, 82, 82, 0.5));
+    font-size: 2.5em;
+    font-style: italic ;
+}
+.running_pikachu { 
+    display: flex;
+    align-items: center;
+    position: relative;
+    animation: mymove 10s ease-in infinite;
+}
+@keyframes mymove {
+        from {left: -550px;}
+        to {left: 1900px;}
 }

@@ -8,6 +8,10 @@ body {
 #course-button {
     margin: 30px;
     padding: 10px 20px;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  scroll-behavior: smooth;
 }
 
 #course-button:hover {
@@ -102,11 +106,16 @@ nav.navbar button.navbar-toggler {
     color: white;
 }
 
+
 .navbar a:hover,
 .navbar-dark a:hover {
     color: white !important;
     transition: all 0.3s ease-out;
     /* background-color: #91308E; */
+}
+.navbar-dark a:hover {
+  color: rgb(255, 255, 255) !important;
+  transition: all 0.3s ease-out;
 }
 
 .navbar a:focus {
@@ -118,6 +127,7 @@ nav.navbar button.navbar-toggler {
     /* background-color: #91308E; */
     color: #000;
     border-radius: 3px;
+
 }
 
 .navbar-collapse ul {
