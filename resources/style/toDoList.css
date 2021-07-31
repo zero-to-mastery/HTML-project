@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(70, 163, 163);
+}
+
+.todo_list{
+    width: 420px;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.todo_list h1{
+    margin: 0;
+    padding: 0.5em 0;
+    color: rgb(70, 163, 163);
+    text-shadow: 2px 2px 8px rgb(133, 204, 204);
+    text-align: center;
+    border-top: 1em solid black;
+    border-bottom: 1px solid white;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    background-color: white;
+}
+
+.todo_list p{
+    margin: 0;
+    padding: 0.5em 0;
+    background-color: white;
+}
+
+.todo_list .list input[type=checkbox]{
+    position: absolute;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.todo_list .list label{
+    position: relative;
+    display: block;
+    padding: .75em 1em;
+    cursor: pointer;
+    background-color: white;
+    transition: .3s ease-in-out;
+}
+
+.todo_list .list label:hover{
+    transform: translateX(-1em);
+}
+
+.todo_list .list label::before{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgb(177, 169, 169);
+    border-radius: 30%;
+    vertical-align: middle;
+    margin-right: .5em;
+}
+
+.todo_list .list label::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom : 0;
+    width: 0;
+    background-color: black;
+    transition: .3s ease-in-out;
+}
+
+.todo_list .list label:hover::after{
+    width: 5px;
+}
+
+.todo_list .list label .fa-check{
+    position: absolute;
+    left: .7em;
+    top: .25em;
+    font-size: 1.7em;
+    color: black;
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+
+.todo_list .list input[type=checkbox]:checked + label .fa-check{
+    opacity: 1;
+}
+
+.todo_list .list label .label{
+    position: relative;
+    color: black;
+    transition: .3s ease-in-out;
+}
+
+.todo_list .list input[type=checkbox]:checked + label .label{
+    color: rgb(187, 179, 179);
+}
+
+.todo_list .list label .label::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 100;
+    top: 50%;
+    height: 1px;
+    background-color: rgb(187, 179, 179);
+    transition: .3s ease-in-out;
+}
+
+.todo_list .list input[type=checkbox]:checked + label .label::after{
+    right: 0;
+}
+
+.todo_list footer{
+    margin: 0;
+    padding: .7em 0;
+    border-top: 1px solid white;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background-color: black;
+}
