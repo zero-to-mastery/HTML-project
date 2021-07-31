@@ -1,89 +1,61 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="resources\style\toDoList.css">
     <title>ToDo List</title>
-
-    <style>
-        body {
-            text-align: center;
-            font-family: 'Josefin Sans', sans-serif;
-        }
-
-        h1 {
-            margin-top: 10px;
-            margin-bottom: 30px;
-            font-size: 5em;
-        }
-
-        li {
-            list-style: none;
-        }
-
-        .newBtn {
-            margin: 10px;
-            background-color: #dc3545;
-        }
-
-        .done {
-            text-decoration: line-through;
-        }
-
-        #reload {
-            margin: 25px;
-        }
-    </style>
 </head>
 
 <body>
-    <h1>ToDo List</h1>
-    <form action="/nowhere">
-        <input type="text" id="product" name="product" placeholder="enter item">
-        <button>Submit</button>
-    </form>
-
-    <br><br>
-    <h3>List:</h3>
-    <ul id="list"></ul>
-    <button id="reload" onclick="location.reload()">Refresh</button>
-
-
-    <!-- ------------------------------------------------------------- -->
-    <!-- ------------------------------------------------------------- -->
-
-
-    <script>
-        let form = document.querySelector('form');
-        form.addEventListener("submit", (event) => {
-            let product = document.querySelector("#product");
-            let li = document.createElement("li");
-            let btn = document.createElement("button");
-            let span = document.createElement("span");
-
-            btn.innerText = "Delete Item";
-            btn.classList.add("newBtn");
-
-            li.append(product.value, btn);
-            li.addEventListener('click', () => {
-                li.classList.toggle('done');
-            });
-            span.append(li);
-            let ul = document.querySelector("#list");
-            ul.append(span);
-
-            btn.addEventListener("click", () => {
-                span.remove();
-            })
-
-            product.value = "";
-
-            event.preventDefault();
-        });
-    </script>
+    <section class="todo_list">
+        <h1>To Do List</h1>
+        <p>Follow the checklist to learn web application from zero to mastery :)</p>
+        <div class="list">
+            <input type="checkbox" id="list01">
+            <label for="list01">
+                <i class="fas fa-check"></i>
+                <span class="label">Web application study</span>
+            </label>
+        </div>
+        <div class="list">
+            <input type="checkbox" id="list02">
+            <label for="list02">
+                <i class="fas fa-check"></i>
+                <span class="label">Review existing web application</span>
+            </label>
+        </div>
+        <div class="list">
+            <input type="checkbox" id="list03">
+            <label for="list03">
+                <i class="fas fa-check"></i>
+                <span class="label">Survey of the web development tool</span>
+            </label>
+        </div>
+        <div class="list">
+            <input type="checkbox" id="list04">
+            <label for="list04">
+                <i class="fas fa-check"></i>
+                <span class="label">Start coding with the templates provided</span>
+            </label>
+        </div>
+        <div class="list">
+            <input type="checkbox" id="list05">
+            <label for="list05">
+                <i class="fas fa-check"></i>
+                <span class="label">Code your own website</span>
+            </label>
+        </div>
+        <footer></footer>
+    </section>
 </body>
 
 </html>
