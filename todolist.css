@@ -16,7 +16,12 @@ font-family: 'Josefin Sans', sans-serif;
     margin-left: 250px;
     margin-bottom: -150px;
     margin-top: -10px;
+    transition: all .2s ease-in-out;
    
+}
+
+.ztmlogo:hover{
+	transform: scale(1.2);
 }
 
 h1 {
