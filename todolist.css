@@ -4,6 +4,7 @@ background: -webkit-linear-gradient(to right, rgb(0, 9, 41), rgb(1, 35, 17), rgb
 background: linear-gradient(to right, rgb(0, 9, 41), rgb(1, 35, 17), rgb(44, 2, 2));
 text-align: center;
 font-family: 'Josefin Sans', sans-serif;
+cursor: pointer;
 }
 
 .ztmlogo{
