@@ -1,0 +1,68 @@
+body {
+background: black; 
+/*background: -webkit-linear-gradient(to right, rgb(0, 0, 0), rgb(42, 109, 131), rgb(0, 0, 0));  
+background: linear-gradient(to right, rgb(0, 0, 0), rgb(42, 109, 131), rgb(0, 0, 0));*/
+}
+
+h1 {
+	padding-top: 20px;
+	letter-spacing: 4px;
+  	word-spacing: -8px;
+  	color: #fff;
+  	text-shadow: 
+    3px 3px 20px #f5f5f5,
+    -2px 1px 30px #f5f5f5;
+}
+
+h3 {
+	margin-top: -30px;
+	margin-right: 300px;
+	letter-spacing: 4px;
+  	word-spacing: -8px;
+  	color: #fff;
+  	text-shadow: 
+    3px 3px 20px #f5f5f5,
+    -2px 1px 30px #f5f5f5;
+}
+
+
+ #submitbtn, #reload {
+	border-radius: 10px;
+	border-color: whitesmoke;
+	background-color: black;
+	color: white;
+}
+
+#product {
+	border-radius: 10px;
+	border-color: whitesmoke;
+	background-color: whitesmoke;
+	color: black;
+}
+
+input::placeholder {
+	color: black;
+}
+
+hr {
+	background-color: white;
+}
+
+#list>li {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+li{
+  font-size: 25px;
+  color: whitesmoke;
+}
+
+.newBtn {
+	font-size: 15px;
+	height: 30px;
+	width: 60px;
+	border-radius: 10px;
+	margin: auto;
+}

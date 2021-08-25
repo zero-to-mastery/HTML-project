@@ -5,6 +5,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="todolist.css">
 
     <title>ToDo List</title>
 
@@ -26,7 +27,7 @@
 
         .newBtn {
             margin: 10px;
-            background-color: #dc3545;
+            background-color: whitesmoke;
         }
 
         .done {
@@ -40,10 +41,11 @@
 </head>
 
 <body>
-    <h1>ToDo List</h1>
+    <hr>
+    <h1>ToDo List</h1><hr>
     <form action="/nowhere">
-        <input type="text" id="product" name="product" placeholder="enter item">
-        <button>Submit</button>
+        <input type="text" id="product" name="product" placeholder="Enter item">
+        <button id="submitbtn">Submit</button>
     </form>
 
     <br><br>
@@ -64,7 +66,7 @@
             let btn = document.createElement("button");
             let span = document.createElement("span");
 
-            btn.innerText = "Delete Item";
+            btn.innerText = "Delete";
             btn.classList.add("newBtn");
 
             li.append(product.value, btn);
