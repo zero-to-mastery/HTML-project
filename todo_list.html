@@ -5,53 +5,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" href="resources\images\logo.png" />
     <link rel="stylesheet" type="text/css" href="todolist.css">
 
     <title>ToDo List</title>
-
-    <style>
-        body {
-            text-align: center;
-            font-family: 'Josefin Sans', sans-serif;
-        }
-
-        h1 {
-            margin-top: 10px;
-            margin-bottom: 30px;
-            font-size: 5em;
-        }
-
-        li {
-            list-style: none;
-        }
-
-        .newBtn {
-            margin: 10px;
-            background-color: whitesmoke;
-        }
-
-        .done {
-            text-decoration: line-through;
-        }
-
-        #reload {
-            margin: 25px;
-        }
-    </style>
 </head>
 
 <body>
     <hr>
+     <a class="ztmlogo" href="todo_list.html"><img src="resources/images/ZTM_logo.png" alt="logo"></a>
     <h1>ToDo List</h1><hr>
     <form action="/nowhere">
         <input type="text" id="product" name="product" placeholder="Enter item">
         <button id="submitbtn">Submit</button>
-    </form>
+    </form> <button id="reload" onclick="location.reload()">Refresh</button>
 
     <br><br>
     <h3>List:</h3>
     <ul id="list"></ul>
-    <button id="reload" onclick="location.reload()">Refresh</button>
 <!-- Background animation html ----------------------------- -->
     <div class='light x1'></div>
     <div class='light x2'></div>

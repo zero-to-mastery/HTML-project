@@ -2,9 +2,27 @@ body {
 background: black; 
 background: -webkit-linear-gradient(to right, rgb(0, 9, 41), rgb(1, 35, 17), rgb(44, 2, 2));  
 background: linear-gradient(to right, rgb(0, 9, 41), rgb(1, 35, 17), rgb(44, 2, 2));
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+.ztmlogo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-content: center;
+    margin: 0;
+    margin-left: 250px;
+    margin-bottom: -150px;
+    margin-top: -10px;
+   
 }
 
 h1 {
+	margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 5em;
 	padding-top: 20px;
 	letter-spacing: 4px;
   	word-spacing: -8px;
@@ -35,6 +53,11 @@ h3 {
 	font-weight: bold;
 }
 
+#reload {
+	margin-left: 190px;
+	margin-top: 20px;
+}
+
 #product {
 	border-radius: 10px;
 	border-color: whitesmoke;
@@ -47,6 +70,8 @@ input::placeholder {
 	color: rgb(1, 35, 17);
 	font-size: 20px;
 	font-weight: bold;
+	text-align: center;
+	padding: 20px 0;
 }
 
 hr {
@@ -63,6 +88,7 @@ li{
   font-size: 25px;
   font-weight: bold;
   color: whitesmoke;
+  list-style: none;
 }
 
 .newBtn {
@@ -72,8 +98,15 @@ li{
 	width: 60px;
 	border-radius: 10px;
 	margin: auto;
+	margin: 10px;
+    background-color: whitesmoke;
 }
 
+.done {
+      text-decoration: line-through;
+}
+
+       
 
 /* Background Animation. 
 Source: codepen.io/beshoooo/pen/jmbGNd */
