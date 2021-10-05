@@ -407,6 +407,99 @@ i:hover {
   height: 140px;
 }
 
+ /*.container1 {
+    width: 100%;
+    
+    display: flex; 
+    align-items: stretch; 
+    justify-content: space-around; 
+  }*/
+  
+  /*.card {
+    width: 300px; 
+    border: 2px solid red;
+  }*/
+
+/*.row {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2%;
+  }
+  
+  .col {
+    border: solid;
+    border-color: rgb(203, 215, 228);
+    border-width: 1px;
+  }*/
+
+  /*.row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .col {
+    flex-basis: 30%;
+    box-sizing: border-box;
+    border: solid;
+  }
+
+  .xx{
+      width: 100%;
+  }*/
+
+/*.container{
+    overflow:hidden;
+    
+}
+.col {
+    float: left;    
+    margin-bottom: -10000px;
+    padding-bottom: 10000px;
+}*/
+
+/*#container3 {
+    float:left;
+    width:100%;
+    
+    overflow:hidden;
+    position:relative;
+}
+#container2 {
+    float:left;
+    width:100%;
+    
+    position:relative;
+    right:60%;
+}
+#container1 {
+    float:left;
+    width:100%;
+    
+    position:relative;
+    right:50%;
+}
+#col1 {
+    float:left;
+    width:26%;
+    position:relative;
+    left:72%;
+    overflow:hidden;
+}
+#col2 {
+    float:left;
+    width:26%;
+    position:relative;
+    left:76%;
+    overflow:hidden;
+}
+#col3 {
+    float:left;
+    width:26%;
+    position:relative;
+    left:80%;
+    overflow:hidden;
+}*/
+
 .dropDown {
   position: relative;
   display: inline-block;
