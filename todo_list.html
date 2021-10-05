@@ -43,7 +43,7 @@
     <h1>ToDo List</h1>
     <form action="/nowhere">
         <input type="text" id="product" name="product" placeholder="enter item">
-        <button>Submit</button>
+        <button disabled id="btn-submit">Submit</button>
     </form>
 
     <br><br>
@@ -58,8 +58,16 @@
 
     <script>
         let form = document.querySelector('form');
+        let product = document.getElementById("product");
+        let buttonSubmit = document.getElementById("btn-submit")
+
+
+        product.addEventListener('keyup', (event) => {
+        let value = event.target.value;
+        value !== '' ?  buttonSubmit.disabled = false :  buttonSubmit.disabled = true
+        });
+
         form.addEventListener("submit", (event) => {
-            let product = document.querySelector("#product");
             let li = document.createElement("li");
             let btn = document.createElement("button");
             let span = document.createElement("span");
@@ -80,7 +88,7 @@
             })
 
             product.value = "";
-
+            buttonSubmit.disabled = true;
             event.preventDefault();
         });
     </script>
