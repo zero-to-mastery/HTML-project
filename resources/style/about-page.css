@@ -75,9 +75,10 @@ removed unnecessary scale
   margin: 2.5% auto;
   font-family: 'Montserrat', sans-serif;
 }
-.list-group-item:first-child {
+/* .list-group-item:first-child {
   border-top: none;
-}
+} */
+
 .list-group-item {
   background-color: transparent !important;
   transition: all 0.2s ease-in-out;
