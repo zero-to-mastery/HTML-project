@@ -69,11 +69,9 @@ const navScroll = () => {
 			if (document.documentElement.scrollTop > 80) {
 				navbar.classList.add('navbar-light');
 				navbar.classList.remove('navbar-dark');
-				headertext.classList.add('header-text-light');
 			} else {
 				navbar.classList.remove('navbar-light');
 				navbar.classList.add('navbar-dark');
-				headertext.classList.remove('header-text-light');
 			}
 }
 
@@ -81,14 +79,14 @@ const navScroll = () => {
 window.addEventListener('scroll', navScroll);
 
 /*Scroll to top when arrow up clicked BEGIN*/
-$(window).scroll(function() {
-    const height = $(window).scrollTop();
-    if (height > 90) {
-        $('.gotopbtn').fadeIn();
-    } else {
-        $('.gotopbtn').fadeOut();
-    }
-});
+// $(window).scroll(function() {
+//     const height = $(window).scrollTop();
+//     if (height > 90) {
+//         $('.gotopbtn').fadeIn();
+//     } else {
+//         $('.gotopbtn').fadeOut();
+//     }
+// });
 $(document).ready(function() {
     $(".gotopbtn").click(function(event) {
         event.preventDefault();
