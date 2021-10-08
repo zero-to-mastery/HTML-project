@@ -1,0 +1,67 @@
+/* Made by sahil verma*/
+
+
+#ner{
+    background: #111111;
+    height:100vh;
+    width:100vw;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:500;
+}
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.loader span {
+    font-family: arial;
+    font-size: 20px;
+    color: rgba(255,255,255,.1);
+    display: inline-block;
+    transition: all .5s;
+    animation: animate 5s infinite;
+}
+.loader span:nth-child(1) {
+    animation-delay: .1s;
+}
+.loader span:nth-child(2) {
+    animation-delay: .2s;
+}
+.loader span:nth-child(3) {
+    animation-delay: .3s;
+}
+.loader span:nth-child(4) {
+    animation-delay: .4s;
+}
+.loader span:nth-child(5) {
+    animation-delay: .5s;
+}
+.loader span:nth-child(6) {
+    animation-delay: .6s;
+}
+.loader span:nth-child(7) {
+    animation-delay: .7s;
+}
+@keyframes animate {
+    0% {
+        color: rgba(0,0,0,.9);
+        transform: translateY(0);
+        margin-left: 0;
+    }
+    25% {
+        color: #ff0000;
+        transform: translateY(-15px);
+        margin-left: 10px;
+        text-shadow: 0 15px 5px rgba(255,255,255,6);
+    }
+    100% {
+        color: rgba(255,255,255,.9);
+        transform: translateY(0);
+        margin-left: 0;
+    }
+}
+
+/* THANKS FOR WISITING */
