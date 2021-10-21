@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-}
+
 .navbar-collapse {
   color: white !important;
 }
@@ -11,9 +11,9 @@
 .navbar a {
   color: white !important;
 }
-.nav-item > a:hover {
-  transform: scale(1.2);
-  /* background-color: #d1d1d1; */
+.nav-item a:hover {
+  transform: scale(1.1);
+  /* background-color: black; */
 }
 
 .navbar-light .navbar-nav .nav-link {

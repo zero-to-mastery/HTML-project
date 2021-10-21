@@ -99,6 +99,7 @@ nav.navbar button.navbar-toggler {
 
 .navbar a:hover {
   color: white;
+  transform: scale(1.1);
 }
 
 .nav-link {
