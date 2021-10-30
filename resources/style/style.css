@@ -407,6 +407,15 @@ i:hover {
   height: 140px;
 }
 
+.git{
+  margin: 5px 0 5px 0;
+}
+
+.git a:hover {
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
  /*.container1 {
     width: 100%;
     

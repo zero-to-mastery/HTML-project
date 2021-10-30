@@ -237,7 +237,7 @@
 
 [@AAD93](https://github.com/AAD93)
 
-[@Daarkinvaader] (http://github.com/Daarkinvaader)
+[@Daarkinvaader](http://github.com/Daarkinvaader)
 
 [@rinaldopasa](https://github.com/rinaldopasa)
 
@@ -258,3 +258,7 @@
 [@RojinPm](https://github.com/RojinPm)
 
 [@fatin3ihsan](https://github.com/fatin3ihsan)
+
+[@christopher-force](https://github.com/christopher-force)
+
+[@sahilverma0433](https://github.com/cryptic-padawan)
