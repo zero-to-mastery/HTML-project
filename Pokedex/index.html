@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Pokedex</title>
+        <link rel='stylesheet' type='text/css' href='./style.css'/>
+        <script type='text/javascript' src='./index.js'></script>
+        <link rel='icon' href='./favicon.ico'/>
+    </head>
+    <body>
+        <div id="flexbox">
+            <div id="card">
+                <h2>Type the pokemon name or number</h2>
+                <div id="form">
+                    <input type="text" id="input" value="">
+                    <button onclick="load()">Find</button>
+                </div>
+                <div id="error">
+                    Unable to find request Pokemon, please insert a valid Pokemon name or number.
+                </div>
+                <div id="conteiner">
+                    <div id="images">
+                        <p id="id"></p>
+                        <img id="image" src="./assets/question_mark.png">
+                        <div id="types">
+                            <img class="type" id="type1"/>
+                            <img class="type" id="type2"/>
+                        </div>
+                    </div>
+                    <div class="stats">
+                        <div class="">Name: </div>
+                        <div class="">HP: </div>
+                        <div class="">Attack: </div>
+                        <div class="">Defense: </div>
+                        <div class="">Sp.Attack: </div>
+                        <div class="">Sp.Defense: </div>
+                        <div class="">Speed: </div>
+                    </div>
+                    <div class="stats">
+                        <div id="name"></div>
+                        <div id="hp"></div>
+                        <div id="at"></div>
+                        <div id="df"></div>
+                        <div id="spat"></div>
+                        <div id="spdf"></div>
+                        <div id="speed"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

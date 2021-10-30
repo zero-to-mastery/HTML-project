@@ -1,0 +1,57 @@
+.loader {
+    position: relative;
+    background-color:black;
+    border: 16px groove  #1e37d8;
+    border-radius: 50%;
+    border-bottom: 16px solid  #cc208e;
+    border-top: 16px solid  #cc208e;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 1.0s linear
+    infinite;
+    animation: spin 1.0s linear infinite;
+  }
+  @-webkit-keyframes spin {
+  0% {-webkit-transform: rotate(0deg);}
+    100% { -webkit-transform:
+    rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .container{
+      width: 10%;
+      height: 10%;
+      margin: 0;
+      padding: 0;
+      background-color: Azure;
+      opacity: 0.3;
+      display: inline-table;
+  }
+  #startButtonId {
+    position:relative;
+    top:-544px;
+    border-radius: 50%;
+    border-bottom: 14px   ;
+    border-top: 14px   ;
+    width: 100px;
+    height: 100px;
+   -webkit-animation: anticlockwisespin 1.0s linear infinite;
+   -moz-animation: anticlockwisespin 1.0s linear
+    infinite;
+    animation: anticlockwisespin 1.0s linear infinite;
+    background-color: black;
+  
+  }
+  @keyframes anticlockwisespin {
+    0% { transform: rotate(360deg); }
+    100% { transform: rotate(0deg); }
+  }
+  #buttonText {
+  color: white;
+  text-align: center;
+  font-size: x-large ;
+  }
+  
