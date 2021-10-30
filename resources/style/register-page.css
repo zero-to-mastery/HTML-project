@@ -4,10 +4,10 @@ body, html {
 }
 
 .navbar-collapse {
-    color: #000 !important;
+    /* color: #000 !important; */
 }
 .navbar a{
-    color: black !important;
+    /* color: black !important; */
 }
 .register-container{
     min-height: calc(100vh - 280px);

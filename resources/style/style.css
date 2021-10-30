@@ -2,7 +2,6 @@
 body {
   margin: 0;
   padding: 0;
-  color: #000000;
 }
 
 #course-button {
@@ -57,7 +56,7 @@ nav.navbar button.navbar-toggler {
 }  */
 
 .navbar {
-  background-color: transparent;
+  background-color: lightcoral;
   /*changed background color */
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   border-bottom-width: 1px;
@@ -67,7 +66,7 @@ nav.navbar button.navbar-toggler {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: black !important;
+  /* color: black !important; */
   font-weight: bold;
 }
 
@@ -93,7 +92,6 @@ nav.navbar button.navbar-toggler {
 }
 
 .navbar a {
-  font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
 
@@ -113,10 +111,7 @@ nav.navbar button.navbar-toggler {
   transition: all 0.3s ease-out;
   /* background-color: #91308E; */
 }
-.navbar-dark a:hover {
-  color: rgb(255, 255, 255) !important;
-  transition: all 0.3s ease-out;
-}
+
 
 .navbar a:focus {
   outline: 2px dotted #a4afd4;
@@ -130,11 +125,11 @@ nav.navbar button.navbar-toggler {
 }
 
 .navbar-collapse ul {
-  margin-left: auto;
+  /* margin-left: auto; */
 }
 
 .navbar-collapse ul li {
-  margin: auto 10px;
+  /* margin: auto 5px; */
   padding: 0 1rem;
 }
 
@@ -209,8 +204,7 @@ nav.navbar button.navbar-toggler {
   text-align: center;
   padding: 0;
   font-size: 3em;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Lilita One", cursive;
+  font-family: "Montserrat","Lilita One", cursive sans-serif;
 }
 
 .header-content a {
@@ -611,7 +605,7 @@ i:hover {
   .navbar-expand-lg .navbar-nav .nav-link {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
-    padding: 0.15rem 0.25rem;
+    /* padding: 0.15rem 0.25rem; */
   }
 }
 
