@@ -1,50 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-#more {display: none;}
-</style>
+    <style>
+      #more {
+        display: none;
+      }
+
+    </style>
     <title>The Web Developer 2021</title>
 
     <link rel="icon" href="resources/images/logo.png" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
     <link rel="stylesheet" href="resources/style/style.css" />
     <link rel="stylesheet" href="resources/style/about-page.css" />
     <!-- Dark Mode -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="resources/style/themeToggle.css"
-    />
+    <link rel="stylesheet" type="text/css" href="resources/style/themeToggle.css" />
     <script src="resources/scripts/themeToggle.js" defer></script>
     <!-- /Dark Mode -->
     <!-- AOS -->
@@ -52,59 +32,50 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="index.html"
-        ><img src="resources/images/logo.png" alt=""
-      /></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <a class="navbar-brand" href="index.html"><img src="resources/images/ZTM_logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link font-weight-bold" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
-          <li class="nav-item register-link active-link">
-            <a class="nav-link " href="instructor.html"
-              >Instructor</a
-            >
+          <li class="nav-item active-link">
+            <a class="nav-link" href="instructor.html">Instructor</a>
           </li>
-          <li class="nav-item register-link">
+          <li class="nav-item">
             <a class="nav-link" href="register.html">Sign Up</a>
           </li>
-          <li class="nav-item register-link">
-            <a class="nav-link" href="todo_list.html">Student Projects</a>
-          </li>
-          <li class="nav-item register-link">
+          <li class="nav-item">
             <a class="nav-link" href="contributersProfile.html">Contributors</a>
           </li>
-          <li class="nav-item register-link">
+          <li class="nav-item">
+            <a class="nav-link" href="todo_list.html">Student Projects</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="contact-us.html">Contact Us</a>
-        </li>
+          </li>
         </ul>
       </div>
       <div class="theme-toggle-container">
-        <span class="theme-toggle-text">Light Mode</span>
+        <span class="theme-toggle-text my-2">Light Mode</span>
         <label class="theme-toggle">
-          <input id="theme-toggle-switch" type="checkbox" />
+          <input id="theme-toggle-switch" type="checkbox">
           <span class="slider round"></span>
         </label>
       </div>
-      <a class="nav-link ml-md-auto" href="beyondztm.html"
-        >Beyond Zero to Mastery <i class="fas fa-arrow-right"></i
-      ></a>
+      <a id="headerText" class="nav-link ml-md-auto" href="beyondztm.html">Beyond Zero to Mastery <i
+          class="fas fa-arrow-right"></i></a>
     </nav>
+
+    <!-- END navbar	 -->
     <div id="instructor_container">
       <div class="container-fluid about-container">
         <!-- <div id="instructor-title">
@@ -122,12 +93,8 @@
 
         <div class="row">
           <div class="col-lg-3 col-md-5">
-            <img
-              id="instructor-img"
-              src="https://img-c.udemycdn.com/user/200_H/38516954_b11c_3.jpg"
-              alt="Andrei Neagoie"
-              class="shadow"
-            />
+            <img id="instructor-img" src="https://img-c.udemycdn.com/user/200_H/38516954_b11c_3.jpg"
+              alt="Andrei Neagoie" class="shadow" />
           </div>
           <div class="col-lg-9 col-md-7 mt-3 info">
             <h4 class="animated bounce text-muted">Instructor</h4>
@@ -161,409 +128,241 @@
           people simply feel <strong>paralyzed</strong> and don't know where to start when learning a
           complex subject matter, or even worse, most people don't have $20,000 and 40+ hours a week
           to spend on a coding bootcamp. Programming skills should be affordable
-          and open to all. Educational material should teach real-life skills
-          that are current and they should not waste any bit of student's valuable time.
-        <span id="dots">...</span><span id="more">  Having learned important lessons from working for Fortune 500
-          companies, tech startups, to even founding his own business, he is now
-          dedicating 100% of his time to teaching others valuable software
-          development skills so that they may take control of their life and work in an
-          exciting industry with <strong>infinite</strong> possibilities.
-          Andrei promises you that there are no other courses out there as
-          comprehensive and as well explained. He believes that to learn
-          anything of value, you need to start with the foundation and develop
-          the roots of the tree. Only from there will you be able to learn
-          concepts and specific skills(leaves) that connect to the foundation.
-          Learning becomes exponential when structured in this way.
-          Taking his experience in educational psychology and coding, Andrei's
-          courses will take you on a journey of understanding of complex subjects that you
-          never thought would be possible.
-          </span></p>
+          and open to all. An education material should teach real-life skills
+          that are current and they should not waste a student's valuable time.
+          <span id="dots">...</span><span id="more"> Having learned important lessons from working for Fortune 500
+            companies, tech startups, to even founding his own business, he is now
+            dedicating 100% of his time to teaching others valuable software
+            development skills to take control of their life and work in an
+            exciting industry with infinite possibilities.
+            Andrei promises you that there are no other courses out there as
+            comprehensive and as well explained. He believes that to learn
+            anything of value, you need to start with the foundation and develop
+            the roots of the tree. Only from there will you be able to learn
+            concepts and specific skills(leaves) that connect to the foundation.
+            Learning becomes exponential when structured in this way.
+            Taking his experience in educational psychology and coding, Andrei's
+            courses will take you on an understanding of complex subjects that you
+            never thought would be possible.
+          </span>
+        </p>
         <button onclick="myFunction()" id="myBtn">Read more</button>
 
-<script>
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+        <script>
+          function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more"; 
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less"; 
-    moreText.style.display = "inline";
-  }
-}
-</script>
+            if (dots.style.display === "none") {
+              dots.style.display = "inline";
+              btnText.innerHTML = "Read more";
+              moreText.style.display = "none";
+            } else {
+              dots.style.display = "none";
+              btnText.innerHTML = "Read less";
+              moreText.style.display = "inline";
+            }
+          }
+        </script>
       </div>
       <h2 style="text-align: center; margin-top: 5%">View Andrei's Courses</h2>
       <div style="margin-top: 3%" class="container card-group">
         <div class="card" data-aos="fade-right">
-          <img
-            src="https://img-c.udemycdn.com/course/480x270/2473048_8255_5.jpg"
-            class="card-img-top"
-            alt="..."
-          />
+          <img src="https://img-c.udemycdn.com/course/480x270/2473048_8255_5.jpg" class="card-img-top" alt="..." />
           <div class="card-desc">
             <h5 class="card-title">
               Complete Python Developer in 2021: Zero to Mastery
             </h5>
-            <a
-              href="https://www.udemy.com/course/complete-python-developer-zero-to-mastery/"
-              class="btn btn-danger"
-              target="_blank"
-              >Udemy</a
-            >
-            <a
-              href="https://academy.zerotomastery.io/p/complete-python-developer-zero-to-mastery"
-              class="btn btn-primary"
-              target="_blank"
-              >Academy</a
-            >
+            <a href="https://www.udemy.com/course/complete-python-developer-zero-to-mastery/" class="btn btn-danger"
+              target="_blank">Udemy</a>
+            <a href="https://academy.zerotomastery.io/p/complete-python-developer-zero-to-mastery"
+              class="btn btn-primary" target="_blank">Academy</a>
           </div>
         </div>
         <div class="card" data-aos="fade-down">
-          <img
-            src="https://img-c.udemycdn.com/course/480x270/1430746_2f43_10.jpg"
-            class="card-img-top"
-            alt="..."
-          />
+          <img src="https://img-c.udemycdn.com/course/480x270/1430746_2f43_10.jpg" class="card-img-top" alt="..." />
           <div class="card-desc">
             <h5 class="card-title">
               The Complete Web Developer in 2021: Zero to Mastery
             </h5>
-            <a
-              href="https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/"
-              class="btn btn-danger"
-              target="_blank"
-              >Udemy</a
-            >
-            <a
-              href="https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery"
-              class="btn btn-primary"
-              target="_blank"
-              >Academy</a
-            >
+            <a href="https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/" class="btn btn-danger"
+              target="_blank">Udemy</a>
+            <a href="https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery" class="btn btn-primary"
+              target="_blank">Academy</a>
           </div>
         </div>
         <div class="card" data-aos="fade-left">
-          <img
-            src="https://img-c.udemycdn.com/course/480x270/1917546_682b_3.jpg"
-            class="card-img-top"
-            alt="..."
-          />
+          <img src="https://img-c.udemycdn.com/course/480x270/1917546_682b_3.jpg" class="card-img-top" alt="..." />
           <div class="card-desc">
             <h5 class="card-title">
               Master the Coding Interview: Data Structures + Algorithms
             </h5>
-            <a
-              href="https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/"
-              class="btn btn-danger"
-              target="_blank"
-              >Udemy</a
-            >
-            <a
-              href="https://academy.zerotomastery.io/p/master-the-coding-interview-data-structures-algorithms"
-              class="btn btn-primary"
-              target="_blank"
-              >Academy</a
-            >
+            <a href="https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/"
+              class="btn btn-danger" target="_blank">Udemy</a>
+            <a href="https://academy.zerotomastery.io/p/master-the-coding-interview-data-structures-algorithms"
+              class="btn btn-primary" target="_blank">Academy</a>
           </div>
         </div>
       </div>
       <div style="margin-top: 3%" class="container card-group">
         <div class="card" data-aos="fade-right">
-          <img
-            src="https://img-c.udemycdn.com/course/480x270/2365628_0b60_8.jpg"
-            class="card-img-top"
-            alt="..."
-          />
+          <img src="https://img-c.udemycdn.com/course/480x270/2365628_0b60_8.jpg" class="card-img-top" alt="..." />
           <div class="card-desc">
             <h5 class="card-title">
               Complete React Developer in 2021 (w/ Redux, Hooks, GraphQL)
             </h5>
-            <a
-              href="https://www.udemy.com/course/complete-react-developer-zero-to-mastery/"
-              class="btn btn-danger"
-              target="_blank"
-              >Udemy</a
-            >
-            <a
-              href="https://academy.zerotomastery.io/p/complete-react-developer-redux-hooks-graphql-zero-to-mastery"
-              class="btn btn-primary"
-              target="_blank"
-              >Academy</a
-            >
+            <a href="https://www.udemy.com/course/complete-react-developer-zero-to-mastery/" class="btn btn-danger"
+              target="_blank">Udemy</a>
+            <a href="https://academy.zerotomastery.io/p/complete-react-developer-redux-hooks-graphql-zero-to-mastery"
+              class="btn btn-primary" target="_blank">Academy</a>
           </div>
         </div>
         <div class="card" data-aos="fade-up">
-          <img
-            src="https://img-c.udemycdn.com/course/480x270/2511476_4e38_5.jpg"
-            class="card-img-top"
-            alt="..."
-          />
+          <img src="https://img-c.udemycdn.com/course/480x270/2511476_4e38_5.jpg" class="card-img-top" alt="..." />
           <div class="card-desc">
             <h5 class="card-title">
               Complete Machine Learning and Data Science: Zero to Mastery
             </h5>
-            <a
-              href="https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/"
-              class="btn btn-danger"
-              target="_blank"
-              >Udemy</a
-            >
-            <a
-              href="https://academy.zerotomastery.io/p/complete-machine-learning-and-data-science-bootcamp-zero-to-mastery"
-              class="btn btn-primary"
-              target="_blank"
-              >Academy</a
-            >
+            <a href="https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/"
+              class="btn btn-danger" target="_blank">Udemy</a>
+            <a href="https://academy.zerotomastery.io/p/complete-machine-learning-and-data-science-bootcamp-zero-to-mastery"
+              class="btn btn-primary" target="_blank">Academy</a>
           </div>
         </div>
         <div class="card" data-aos="fade-left">
-          <img
-            src="https://img-c.udemycdn.com/course/480x270/1650610_2673_6.jpg"
-            class="card-img-top"
-            alt="..."
-          />
+          <img src="https://img-c.udemycdn.com/course/480x270/1650610_2673_6.jpg" class="card-img-top" alt="..." />
           <div class="card-desc">
             <h5 class="card-title">
               The Complete Junior to Senior Web Developer Roadmap (2021)
             </h5>
-            <a
-              href="https://www.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap/"
-              class="btn btn-danger"
-              target="_blank"
-              >Udemy</a
-            >
-            <a
-              href="https://academy.zerotomastery.io/p/the-complete-junior-to-senior-web-developer-roadmap"
-              class="btn btn-primary"
-              target="_blank"
-              >Academy</a
-            >
+            <a href="https://www.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap/"
+              class="btn btn-danger" target="_blank">Udemy</a>
+            <a href="https://academy.zerotomastery.io/p/the-complete-junior-to-senior-web-developer-roadmap"
+              class="btn btn-primary" target="_blank">Academy</a>
           </div>
         </div>
       </div>
       <div style="margin-top: 3%" class="container card-group">
         <div class="card" data-aos="fade-right">
-          <img
-            src="https://img-c.udemycdn.com/course/480x270/2771350_d87b_4.jpg"
-            class="card-img-top"
-            alt="Learning to Learn Efficient Learning Zero to Mastery Andrei Neagoie Udemy"
-          />
+          <img src="https://img-c.udemycdn.com/course/480x270/2771350_d87b_4.jpg" class="card-img-top"
+            alt="Learning to Learn Efficient Learning Zero to Mastery Andrei Neagoie Udemy" />
           <div class="card-desc">
             <h5 class="card-title">
               Learning to Learn [Efficient Learning]: Zero to Mastery
             </h5>
-            <a
-              href="https://www.udemy.com/course/learning-to-learn-efficient-learning-zero-to-mastery/"
-              class="btn btn-danger"
-              target="_blank"
-              >Udemy</a
-            >
-            <a
-              href="https://academy.zerotomastery.io/p/learning-to-learn-efficient-learning-zero-to-mastery-blueprint"
-              class="btn btn-primary"
-              target="_blank"
-              >Academy</a
-            >
+            <a href="https://www.udemy.com/course/learning-to-learn-efficient-learning-zero-to-mastery/"
+              class="btn btn-danger" target="_blank">Udemy</a>
+            <a href="https://academy.zerotomastery.io/p/learning-to-learn-efficient-learning-zero-to-mastery-blueprint"
+              class="btn btn-primary" target="_blank">Academy</a>
           </div>
         </div>
         <div class="card" data-aos="fade-up">
-          <img
-            src="https://img-c.udemycdn.com/course/480x270/3138058_45fe_2.jpg"
-            class="card-img-top"
-            alt="Deno The Complete Guide Zero to Mastery Andrei Neagoie Udemy"
-          />
+          <img src="https://img-c.udemycdn.com/course/480x270/3138058_45fe_2.jpg" class="card-img-top"
+            alt="Deno The Complete Guide Zero to Mastery Andrei Neagoie Udemy" />
           <div class="card-desc">
             <h5 class="card-title">
               Deno: The Complete Guide Zero to Mastery
             </h5>
-            <a
-              href="https://www.udemy.com/course/deno-the-complete-guide-zero-to-mastery/"
-              class="btn btn-danger"
-              target="_blank"
-              >Udemy</a
-            >
-            <a
-              href="https://academy.zerotomastery.io/p/deno-the-complete-guide-zero-to-mastery"
-              class="btn btn-primary"
-              target="_blank"
-              >Academy</a
-            >
+            <a href="https://www.udemy.com/course/deno-the-complete-guide-zero-to-mastery/" class="btn btn-danger"
+              target="_blank">Udemy</a>
+            <a href="https://academy.zerotomastery.io/p/deno-the-complete-guide-zero-to-mastery" class="btn btn-primary"
+              target="_blank">Academy</a>
           </div>
         </div>
         <div class="card" data-aos="fade-left">
-          <img
-            src="https://img-c.udemycdn.com/course/480x270/3030132_afb3_2.jpg"
-            class="card-img-top"
-            alt="JavaScript Web Projects 20 Projects to Build Your Portfolio Zero to Mastery Andrei Neagoie Udemy Jacinto Wong"
-          />
+          <img src="https://img-c.udemycdn.com/course/480x270/3030132_afb3_2.jpg" class="card-img-top"
+            alt="JavaScript Web Projects 20 Projects to Build Your Portfolio Zero to Mastery Andrei Neagoie Udemy Jacinto Wong" />
           <div class="card-desc">
             <h5 class="card-title">
               JavaScript Web Projects: 20 Projects to Build Your Portfolio
             </h5>
-            <a
-              href="https://www.udemy.com/course/javascript-web-projects-to-build-your-portfolio-resume/"
-              class="btn btn-danger"
-              target="_blank"
-              >Udemy</a
-            >
-            <a
-              href="https://academy.zerotomastery.io/p/javascript-projects"
-              class="btn btn-primary"
-              target="_blank"
-              >Academy</a
-            >
+            <a href="https://www.udemy.com/course/javascript-web-projects-to-build-your-portfolio-resume/"
+              class="btn btn-danger" target="_blank">Udemy</a>
+            <a href="https://academy.zerotomastery.io/p/javascript-projects" class="btn btn-primary"
+              target="_blank">Academy</a>
           </div>
         </div>
       </div>
       <div style="margin-top: 3%" class="container card-group">
         <div class="card" data-aos="fade-right">
-          <img
-            src="https://img-c.udemycdn.com/course/480x270/2851942_0cb0_3.jpg"
-            class="card-img-top"
-            alt="Complete SQL plus Databases Bootcamp Zero to Mastery 2021 Andrei Neagoie Udemy Mo Binni"
-          />
+          <img src="https://img-c.udemycdn.com/course/480x270/2851942_0cb0_3.jpg" class="card-img-top"
+            alt="Complete SQL plus Databases Bootcamp Zero to Mastery 2021 Andrei Neagoie Udemy Mo Binni" />
           <div class="card-desc">
             <h5 class="card-title">
               Complete SQL + Databases Bootcamp: Zero to Mastery [2021]
             </h5>
-            <a
-              href="https://www.udemy.com/course/complete-sql-databases-bootcamp-zero-to-mastery/"
-              class="btn btn-danger"
-              target="_blank"
-              >Udemy</a
-            >
-            <a
-              href="https://academy.zerotomastery.io/p/complete-sql-database-bootcamp-zero-to-mastery"
-              class="btn btn-primary"
-              target="_blank"
-              >Academy</a
-            >
+            <a href="https://www.udemy.com/course/complete-sql-databases-bootcamp-zero-to-mastery/"
+              class="btn btn-danger" target="_blank">Udemy</a>
+            <a href="https://academy.zerotomastery.io/p/complete-sql-database-bootcamp-zero-to-mastery"
+              class="btn btn-primary" target="_blank">Academy</a>
           </div>
         </div>
         <div class="card" data-aos="fade-up">
-          <img
-            src="https://img-c.udemycdn.com/course/480x270/3227583_5e75_6.jpg"
-            class="card-img-top"
-            alt="Complete Web and Mobile Designer in 2021 UI/UX, Figma, plus more Zero to Mastery Andrei Neagoie Udemy Daniel Schifano"
-          />
+          <img src="https://img-c.udemycdn.com/course/480x270/3227583_5e75_6.jpg" class="card-img-top"
+            alt="Complete Web and Mobile Designer in 2021 UI/UX, Figma, plus more Zero to Mastery Andrei Neagoie Udemy Daniel Schifano" />
           <div class="card-desc">
             <h5 class="card-title">
               Complete Web & Mobile Designer in 2021: UI/UX, Figma, +more
             </h5>
-            <a
-              href="https://www.udemy.com/course/complete-web-designer-mobile-designer-zero-to-mastery/"
-              class="btn btn-danger"
-              target="_blank"
-              >Udemy</a
-            >
-            <a
-              href="https://academy.zerotomastery.io/p/complete-web-and-mobile-designer"
-              class="btn btn-primary"
-              target="_blank"
-              >Academy</a
-            >
+            <a href="https://www.udemy.com/course/complete-web-designer-mobile-designer-zero-to-mastery/"
+              class="btn btn-danger" target="_blank">Udemy</a>
+            <a href="https://academy.zerotomastery.io/p/complete-web-and-mobile-designer" class="btn btn-primary"
+              target="_blank">Academy</a>
           </div>
         </div>
         <div class="card" data-aos="fade-left">
-          <img
-            src="https://img-c.udemycdn.com/course/480x270/1501104_967d_13.jpg"
-            class="card-img-top"
-            alt="JavaScript The Advanced Concepts Zero to Mastery Andrei Neagoie Udemy"
-          />
+          <img src="https://img-c.udemycdn.com/course/480x270/1501104_967d_13.jpg" class="card-img-top"
+            alt="JavaScript The Advanced Concepts Zero to Mastery Andrei Neagoie Udemy" />
           <div class="card-desc">
             <h5 class="card-title">
               JavaScript: The Advanced Concepts
             </h5>
-            <a
-              href="https://www.udemy.com/course/advanced-javascript-concepts/"
-              class="btn btn-danger"
-              target="_blank"
-              >Udemy</a
-            >
-            <a
-              href="https://academy.zerotomastery.io/p/advanced-javascript-concepts"
-              class="btn btn-primary"
-              target="_blank"
-              >Academy</a
-            >
+            <a href="https://www.udemy.com/course/advanced-javascript-concepts/" class="btn btn-danger"
+              target="_blank">Udemy</a>
+            <a href="https://academy.zerotomastery.io/p/advanced-javascript-concepts" class="btn btn-primary"
+              target="_blank">Academy</a>
           </div>
         </div>
       </div>
-      <div
-        style="margin-top: 3%; margin-bottom: 3%"
-        class="container d-flex justify-content-center"
-      >
-        <a
-          class="btn btn-lg btn-danger"
-          href="https://www.udemy.com/user/andrei-neagoie/"
-          target="_blank"
-          >View All Udemy Courses</a
-        >&nbsp;&nbsp;
-        <a
-          class="btn btn-lg btn-primary"
-          href="https://zerotomastery.io/courses/"
-          target="_blank"
-          >View All Academy Courses</a
-        >
+      <div style="margin-top: 3%; margin-bottom: 3%" class="container d-flex justify-content-center">
+        <a class="btn btn-lg btn-danger" href="https://www.udemy.com/user/andrei-neagoie/" target="_blank">View All
+          Udemy Courses</a>&nbsp;&nbsp;
+        <a class="btn btn-lg btn-primary" href="https://zerotomastery.io/courses/" target="_blank">View All Academy
+          Courses</a>
       </div>
     </div>
     <div class="container-fluid footer-container">
-      <div
-        class="a2a_kit a2a_kit_size_32 a2a_default_style"
-        style="line-height: 32px"
-      >
+      <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="line-height: 32px">
         <h5>
           If you enjoyed the course like I did, share it so more people can
           enjoy it!
         </h5>
         <div class="buttons">
-          <a class="a2a_button_facebook"
-            ><i class="fab fa-facebook fa-2x"></i
-          ></a>
+          <a class="a2a_button_facebook"><i class="fab fa-facebook fa-2x"></i></a>
           <a class="a2a_button_twitter"><i class="fab fa-twitter fa-2x"></i></a>
-          <a class="a2a_button_email"
-            ><i class="fas fa-envelope-square fa-2x"></i
-          ></a>
-          <a class="a2a_button_whatsapp"
-            ><i class="fab fa-whatsapp fa-2x"></i
-          ></a>
+          <a class="a2a_button_email"><i class="fas fa-envelope-square fa-2x"></i></a>
+          <a class="a2a_button_whatsapp"><i class="fab fa-whatsapp fa-2x"></i></a>
         </div>
       </div>
       <div id="credits">
         <div class="center git">
           <a href="https://github.com/zero-to-mastery/HTML-project">
-              <img id="laptop" src="resources/images/git.svg" title="Repository link" alt="Git Icon" border="0" >
+            <img id="laptop" src="resources/images/git.svg" title="Repository link" alt="Git Icon" border="0">
           </a>
         </div>
         Made by Tatyana K. &copy; All rights reserved ;)
       </div>
     </div>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+      </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+      </script>
     <script type="text/javascript" src="resources/scripts/script.js"></script>
     <script async src="https://static.addtoany.com/menu/page.js"></script>
     <!-- AOS -->
@@ -577,4 +376,5 @@ function myFunction() {
       });
     </script>
   </body>
+
 </html>

@@ -18,7 +18,10 @@ html[theme='dark'] {
 .theme-toggle-container {
 	z-index: 100;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
+	margin-right: 20px;
+
 }
 
 .theme-toggle-container span {
@@ -27,22 +30,13 @@ html[theme='dark'] {
 	color: black;
 }
 
-/* Theme Text */
-
-.theme-toggle-text {
-	position: relative;
-	top: -4px;
-	right: 5px;
-}
-
 /* Box Around Slider */
 
 .theme-toggle {
 	position: relative;
 	display: inline-block;
 	width: 60px;
-	height: 34px;
-	margin-left: 10px;
+	height: 26px;
 }
 
 /* Hide Default HTML Checkbox */
@@ -66,10 +60,10 @@ html[theme='dark'] {
 
 .slider::before {
 	position: absolute;
-	bottom: 4px;
+	bottom: 3px;
 	left: 4px;
-	width: 26px;
-	height: 26px;
+	width: 20px;
+	height: 20px;
 	background-color: white;
 	content: '';
 	transition: 0.4s;
@@ -85,7 +79,7 @@ input:focus + .slider {
 }
 
 input:checked + .slider::before {
-	transform: translateX(26px);
+	transform: translateX(32px);
 }
 
 /* Rounded Slider */

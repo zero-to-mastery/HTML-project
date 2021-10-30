@@ -1,91 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>The Web Developer 2021</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="icon" href="resources\images\logo.png" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
-    />
     <link rel="stylesheet" href="resources/style/style.css" />
     <link rel="stylesheet" href="resources/style/about-page.css" />
     <!-- Dark Mode -->
-    <link rel='stylesheet' type='text/css' href='resources/style/themeToggle.css'>
-    <script src='resources/scripts/themeToggle.js' defer></script>
+    <link rel="stylesheet" type="text/css" href="resources/style/themeToggle.css" />
+    <script src="resources/scripts/themeToggle.js" defer></script>
     <!-- /Dark Mode -->
   </head>
 
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="index.html"
-        ><img src="resources/images/logo.png" alt=""
-      /></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <a class="navbar-brand" href="index.html"><img src="resources/images/ZTM_logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link font-weight-bold" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active-link">
+            <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item register-link">
             <a class="nav-link" href="instructor.html">Instructor</a>
           </li>
-          <li class="nav-item register-link">
+          <li class="nav-item">
             <a class="nav-link" href="register.html">Sign Up</a>
           </li>
-          <li class="nav-item register-link">
-            <a class="nav-link" href="todo_list.html">Student Projects</a>
-          </li>
-          <li class="nav-item register-link">
+          <li class="nav-item">
             <a class="nav-link" href="contributersProfile.html">Contributors</a>
           </li>
-          <li class="nav-item register-link">
+          <li class="nav-item">
+            <a class="nav-link" href="todo_list.html">Student Projects</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="contact-us.html">Contact Us</a>
-        </li>
+          </li>
         </ul>
       </div>
-      <div class='theme-toggle-container'>
-        <span class='theme-toggle-text'>Light Mode</span>
-              <label class='theme-toggle'>
-                  <input id='theme-toggle-switch' type='checkbox'>
-                  <span class='slider round'></span>
-              </label>
-          </div>
-      <a class="nav-link ml-md-auto" href="beyondztm.html"
-        >Beyond Zero to Mastery <i class="fas fa-arrow-right"></i></a
-      >
+      <div class="theme-toggle-container">
+        <span class="theme-toggle-text my-2">Light Mode</span>
+        <label class="theme-toggle">
+          <input id="theme-toggle-switch" type="checkbox">
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <a id="headerText" class="nav-link ml-md-auto" href="beyondztm.html">Beyond Zero to Mastery <i
+          class="fas fa-arrow-right"></i></a>
     </nav>
 
+    <!-- END navbar	 -->
     <div class="animated bounce">
       <div class="container-fluid about-container">
         <h1 class="animated bounce">The Complete Web Developer in 2021: ZTM</h1>
@@ -210,7 +190,8 @@
             ECMA Script Concepts
             <div class="dropDownContent">
               <small>
-                Latest Javascript trends with concepts ranging from ES5, ES6 to ES9 & ES10.
+                Latest Javascript trends with concepts ranging from ES5, ES6 to
+                ES9 & ES10.
               </small>
             </div>
           </li>
@@ -349,10 +330,14 @@
           <li class="list-group-item dropDown">
             Extras
             <div class="dropDownContent">
-              <small style="text-align: center;"> A Special Thank You Gift! </small>
+              <small style="text-align: center">
+                A Special Thank You Gift!
+              </small>
             </div>
           </li>
-          <h5 style="display:flex; justify-content:center;"><a href="https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/" target="_blank">Find the course here</a></h5>
+          <h5 style="display: flex; justify-content: center"><a
+              href="https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/" target="_blank">Find the
+              course here</a></h5>
         </ul>
       </div>
       <div class="container-fluid footer-container">
@@ -370,34 +355,24 @@
         <div id="credits">
           <div class="center git">
             <a href="https://github.com/zero-to-mastery/HTML-project">
-                <img id="laptop" src="resources/images/git.svg" title="Repository link" alt="Git Icon" border="0" >
+              <img id="laptop" src="resources/images/git.svg" title="Repository link" alt="Git Icon" border="0" />
             </a>
           </div>
           Made by Tatyana K. &copy; All rights reserved ;)
         </div>
       </div>
     </div>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+      </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+      </script>
     <script type="text/javascript" src="resources/scripts/script.js"></script>
     <script async src="https://static.addtoany.com/menu/page.js"></script>
   </body>
+
 </html>

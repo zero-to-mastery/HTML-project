@@ -1,87 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Sign Up</title>
 
     <link rel="icon" href="resources\images\logo.png" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
     <link rel="stylesheet" href="resources/style/style.css" />
     <link rel="stylesheet" href="resources/style/register-page.css" />
     <!-- Dark Mode -->
-    <link rel='stylesheet' type='text/css' href='resources/style/themeToggle.css'>
-    <script src='resources/scripts/themeToggle.js' defer></script>
+    <link rel="stylesheet" type="text/css" href="resources/style/themeToggle.css" />
+    <script src="resources/scripts/themeToggle.js" defer></script>
     <!-- /Dark Mode -->
   </head>
 
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="index.html"><img src="resources/images/logo.png" alt=""></a>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <a class="navbar-brand" href="index.html"><img src="resources/images/ZTM_logo.png" alt="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item register-link">
-                  <a class="nav-link" href="instructor.html">Instructor</a> 
-              </li>
-              <li class="nav-item register-link active-link">
-                  <a class="nav-link " href="register.html">Sign Up</a>
-              </li>
-              <li class="nav-item register-link">
-                <a class="nav-link" href="todo_list.html">Student Projects</a>
-              </li>
-              <li class="nav-item register-link">
-                  <a class="nav-link" href="contributersProfile.html">Contributors</a>
-              </li>
-              <li class="nav-item register-link">
-                <a class="nav-link" href="contact-us.html">Contact Us</a>
-            </li>
-          </ul>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="instructor.html">Instructor</a>
+          </li>
+          <li class="nav-item active-link">
+            <a class="nav-link" href="register.html">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contributersProfile.html">Contributors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="todo_list.html">Student Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact-us.html">Contact Us</a>
+          </li>
+        </ul>
       </div>
-      <div class='theme-toggle-container'>
-        <span class='theme-toggle-text'>Light Mode</span>
-              <label class='theme-toggle'>
-                  <input id='theme-toggle-switch' type='checkbox'>
-                  <span class='slider round'></span>
-              </label>
-          </div>
-      <a class="nav-link ml-md-auto" href="beyondztm.html">Beyond Zero to Mastery <i class="fas fa-arrow-right"></i></a>
-  </nav>
+      <div class="theme-toggle-container">
+        <span class="theme-toggle-text my-2">Light Mode</span>
+        <label class="theme-toggle">
+          <input id="theme-toggle-switch" type="checkbox">
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <a id="headerText" class="nav-link ml-md-auto" href="beyondztm.html">Beyond Zero to Mastery <i
+          class="fas fa-arrow-right"></i></a>
+    </nav>
+
+    <!-- END navbar	 -->
 
     <div class="animated bounce">
       <div class="container-fluid register-container">
@@ -93,141 +77,85 @@
               <div class="col">
                 <div class="form-group">
                   <label>First Name:</label>
-                  <input
-                    type="text"
-                    class="form-control focus"
-                    placeholder="Jane"
-                    required
-                  />
+                  <input type="text" class="form-control focus" placeholder="Jane" required />
                 </div>
               </div>
               <div class="col">
                 <div class="form-group">
                   <label>Last Name:</label>
-                  <input
-                    type="text"
-                    class="form-control focus"
-                    placeholder="Doe"
-                    required
-                  />
+                  <input type="text" class="form-control focus" placeholder="Doe" required />
                 </div>
               </div>
             </div>
             <div class="form-group">
               <label>Email:</label>
-              <input
-                type="email"
-                class="form-control focus"
-                placeholder="jane.doe@gmail.com"
-                required
-              />
+              <input type="email" class="form-control focus" placeholder="jane.doe@gmail.com" required />
             </div>
             <div class="form-group focus">
               <label>Password:</label>
-              <input
-                type="password"
-                class="form-control focus"
-                placeholder="*********"
-                required
-              />
+              <input type="password" class="form-control focus" placeholder="*********" required />
             </div>
             <div class="form-group">
               <label>Gender:</label>
               <div class="form-check form-check-inline">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="inlineRadioOptions"
-                  id="inlineRadio1"
-                  value="option1"
-                  required
-                />
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"
+                  required />
                 <label class="form-check-label" for="inlineRadio1">Male</label>
               </div>
               <div class="form-check form-check-inline">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="inlineRadioOptions"
-                  id="inlineRadio2"
-                  value="option2"
-                  required
-                />
-                <label class="form-check-label" for="inlineRadio2"
-                  >Female</label
-                >
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"
+                  required />
+                <label class="form-check-label" for="inlineRadio2">Female</label>
               </div>
               <div class="form-check form-check-inline">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="inlineRadioOptions"
-                  id="inlineRadio3"
-                  value="option3"
-                  required
-                />
-                <label class="form-check-label" for="inlineRadio3"
-                  >Other</label
-                >
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"
+                  required />
+                <label class="form-check-label" for="inlineRadio3">Other</label>
               </div>
             </div>
-            <button type="submit" id='submit-btn' class="btn btn-danger">Submit</button>
+            <button type="submit" id="submit-btn" class="btn btn-danger">Submit</button>
           </form>
         </div>
       </div>
       <!-- added pikachu -->
-      <div class= "running_pikachu">
+      <div class="running_pikachu">
         <p>Thank you for registering!</p>
-        <img src="resources/images/Pikachu.gif" alt="pikachu_gif" width= "100" class="pikachu">
+        <img src="resources/images/Pikachu.gif" alt="pikachu_gif" width="100" class="pikachu" />
       </div>
       <div class="container-fluid footer-container">
-        <div
-          class="a2a_kit a2a_kit_size_32 a2a_default_style"
-          style="line-height: 32px"
-        >
+        <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="line-height: 32px">
           <h5>
             If you enjoyed the course like I did, share it so more people can
             enjoy it!
           </h5>
           <div class="buttons">
-            <a class="a2a_button_facebook"
-              ><i class="fab fa-facebook fa-2x"></i
-            ></a>
+            <a class="a2a_button_facebook"><i class="fab fa-facebook fa-2x"></i></a>
             <a class="a2a_button_twitter"><i class="fab fa-twitter fa-2x"></i></a>
-            <a class="a2a_button_email"
-              ><i class="fas fa-envelope-square fa-2x"></i
-            ></a>
-            <a class="a2a_button_whatsapp"
-              ><i class="fab fa-whatsapp fa-2x"></i
-            ></a>
+            <a class="a2a_button_email"><i class="fas fa-envelope-square fa-2x"></i></a>
+            <a class="a2a_button_whatsapp"><i class="fab fa-whatsapp fa-2x"></i></a>
           </div>
         </div>
         <div id="credits">
           <div class="center git">
             <a href="https://github.com/zero-to-mastery/HTML-project">
-                <img id="laptop" src="resources/images/git.svg" title="Repository link" alt="Git Icon" border="0" >
+              <img id="laptop" src="resources/images/git.svg" title="Repository link" alt="Git Icon" border="0" />
             </a>
           </div>
           Made by Tatyana K. &copy; All rights reserved ;)
         </div>
       </div>
     </div>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"></script>
     <script type="text/javascript" src="resources/scripts/script.js"></script>
     <script async src="https://static.addtoany.com/menu/page.js"></script>
   </body>
+
 </html>

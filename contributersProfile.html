@@ -1,589 +1,596 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>The Web Developer 2020</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The Web Developer 2020</title>
 
-  <link rel="icon" href="resources\images\logo.png" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
-  <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
-  <link rel="stylesheet" href="resources/style/style.css" />
-  <link rel="stylesheet" href="resources/style/about-page.css" />
-  <!-- Dark Mode -->
-  <link rel='stylesheet' type='text/css' href='resources/style/themeToggle.css'>
-  <script src='resources/scripts/themeToggle.js' defer></script>
-  <!-- /Dark Mode -->
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="icon" href="resources\images\logo.png" />
+    <link rel="stylesheet" href="resources/style/style.css" />
+    <link rel="stylesheet" href="resources/style/about-page.css" />
+    <!-- Dark Mode -->
+    <link rel='stylesheet' type='text/css' href='resources/style/themeToggle.css'>
+    <script src='resources/scripts/themeToggle.js' defer></script>
+    <!-- /Dark Mode -->
+  </head>
 
-<body>
-  <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <a class="navbar-brand" href="index.html"><img src="resources/images/logo.png" alt=""></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item register-link">
-          <a class="nav-link" href="instructor.html">Instructor</a>
-        </li>
-        <li class="nav-item register-link">
-          <a class="nav-link" href="register.html">Sign Up</a>
-        </li>
-        <li class="nav-item register-link">
-          <a class="nav-link" href="todo_list.html">Student Projects</a>
-        </li>
-        <li class="nav-item register-link active-link">
-          <a class="nav-link " href="contributersProfile.html">Contributors</a>
-        </li>
-        <li class="nav-item register-link">
-          <a class="nav-link" href="contact-us.html">Contact Us</a>
-        </li>
-      </ul>
-    </div>
-    <div class='theme-toggle-container'>
-      <span class='theme-toggle-text'>Light Mode</span>
-      <label class='theme-toggle'>
-        <input id='theme-toggle-switch' type='checkbox'>
-        <span class='slider round'></span>
-      </label>
-    </div>
-    <a class="nav-link ml-md-auto" href="beyondztm.html">Beyond Zero to Mastery <i class="fas fa-arrow-right"></i></a>
-  </nav>
-  <div class="animated bounce">
-    <div class="container-fluid about-container">
-      <h1 class="animated bounce">Zero to Mastery Family</h1>
-      <h2 class="animated bounce">Contributors</h2>
-
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item dropDown">
-          @dandyson
-          <a class="float-right" href="https://github.com/dandyson">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @excel61
-          <a class="float-right" href="https://github.com/excel61">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @varun-sirpal10
-          <a class="float-right" href="https://github.com/varun-sirpal10">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @DarrnyH
-          <a class="float-right" href="https://github.com/DarrnyH">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @nidvar
-          <a class="float-right" href="https://github.com/nidvar">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @kitokomatondo
-          <a class="float-right" href="https://github.com/kitokomatondo">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @crux-in-lan
-          <a class="float-right" href="https://github.com/crux-in-lan">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @SaitejaVemula
-          <a class="float-right" href="https://github.com/SaitejaVemula">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @mehul1011
-          <a class="float-right" href="https://github.com/mehul1011">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @VidhyaJayakumar
-          <a class="float-right" href="https://github.com/VidhyaJayakumar">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @shubhamd99
-          <a class="float-right" href="https://github.com/shubhamd99">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @dejiabiola
-          <a class="float-right" href="https://github.com/dejiabiola">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @lisapnct
-          <a class="float-right" href="https://github.com/lisapnct">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @Sysonec
-          <a class="float-right" href="https://github.com/Sysonec">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @markg29
-          <a class="float-right" href="https://github.com/markg29">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @Kallinicos
-          <a class="float-right" href="https://github.com/Kallinicos">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @jflores3531
-          <a class="float-right" href="https://github.com/jflores3531">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @MLit10
-          <a class="float-right" href="https://github.com/MLit10">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @BARANLANKA
-          <a class="float-right" href="https://github.com/BARANLANKA">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @Edmonanto
-          <a class="float-right" href="https://github.com/Edmonanto">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @steveburton
-          <a class="float-right" href="https://github.com/steveburton">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @Ejiro-Asiuwhu
-          <a class="float-right" href="https://github.com/Ejiro-Asiuwhu">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @borason
-          <a class="float-right" href="https://github.com/borason">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @charley81
-          <a class="float-right" href="https://github.com/charley81">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @alon1525
-          <a class="float-right" href="https://github.com/alon1525">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @CedarSky
-          <a class="float-right" href="https://github.com/CedarSky">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @paulbillings
-          <a class="float-right" href="https://github.com/paulbillings">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @chantelletjie
-          <a class="float-right" href="https://github.com/chantelletjie">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @haiivan
-          <a class="float-right" href="https://github.com/haiivan">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @ricksnow26
-          <a class="float-right" href="https://github.com/ricksnow26">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @itshally
-          <a class="float-right" href="https://github.com/itshally">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @joshuafolorunsho
-          <a class="float-right" href="https://github.com/joshuafolorunsho">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @codepol
-          <a class="float-right" href="https://github.com/codepol">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @sandy8169
-          <a class="float-right" href="https://github.com/sandy8169">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @Itailevi420
-          <a class="float-right" href="https://github.com/Itailevi420">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @p4avinash
-          <a class="float-right" href="https://github.com/p4avinash">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @mughees-asif
-          <a class="float-right" href="https://github.com/mughees-asif">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @FrancoMuniz
-          <a class="float-right" href="https://github.com/FrancoMuniz">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @KingLui22
-          <a class="float-right" href="https://github.com/KingLui22">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @tpartridge1
-          <a class="float-right" href="https://github.com/tpartridge1">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @felipegcruz
-          <a class="float-right" href="https://github.com/felipegcruz">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @Umair-1119
-          <a class="float-right" href="https://github.com/Umair-1119">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @ihouwat
-          <a class="float-right" href="https://github.com/ihouwat">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @wilsonzeg
-          <a class="float-right" href="https://github.com/wilsonzeg">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @VelizarStavrev
-          <a class="float-right" href="https://github.com/VelizarStavrev">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @javfue
-          <a class="float-right" href="https://github.com/javfue">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @Ram-1984
-          <a class="float-right" href="https://github.com/Ram-1984">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @CTMBeast
-          <a class="float-right" href="https://github.com/CTMBeast">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @AmrithaM
-          <a class="float-right" href="https://github.com/AmrithaM">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @andy890275
-          <a class="float-right" href="https://github.com/andy890275">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @stanluxembourg
-          <a class="float-right" href="https://github.com/stanluxembourg">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @fumiadeyemi
-          <a class="float-right" href="https://github.com/fumiadeyemi">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @elenaandersson
-          <a class="float-right" href="https://github.com/elenaandersson">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @khushbooJangle
-          <a class="float-right" href="https://github.com/khushbooJangle">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @lakshmivardini-369
-          <a class="float-right" href="https://github.com/lakshmivardini-369">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @eduardoramosdev
-          <a class="float-right" href="https://github.com/eduardoramosdev">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @Gittenger
-          <a class="float-right" href="https://github.com/gittenger">Visit Github Profile</a>
-        <li class="list-group-item dropDown">
-          @amita1996
-          <a class="float-right" href="https://github.com/amita1996">Visit Github Profile</a>
-        <li class="list-group-item dropDown">
-          @nnhhiilliisstt
-          <a class="float-right" href="https://github.com/nnhhiilliisstt">Visit Github Profile</a>
-        <li class="list-group-item dropDown">
-          @yuchi0307
-          <a class="float-right" href="https://github.com/yuchi0307">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-
-        <li class="list-group-item dropDown">
-          @HasselGR
-          <a class="float-right" href="https://github.com/HasselGR">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @mwilke08
-          <a class="float-right" href="https://github.com/mwilke08">Visit Github Profile</a>
-
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @savvasg35
-          <a class="float-right" href="https://github.com/Savvasg35">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @chettriyuvraj
-          <a class="float-right" href="https://github.com/chettriyuvraj">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @gustnbones
-          <a class="float-right" href="https://github.com/gustnbones">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @HugMP
-          <a class="float-right" href="https://github.com/HugMP">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @AswinBarath
-          <a class="float-right" href="https://github.com/AswinBarath">Visit GitHub Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @Vikramadithya10
-          <a class="float-right" href="https://github.com/Vikramadithya10">Visit GitHub Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @amanbijalwan
-          <a class="float-right" href="https://github.com/amanbijalwan">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @Surya742
-          <a class="float-right" href="https://github.com/Surya742">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @KrishnaMahato
-          <a class="float-right" href="https://github.com/krishna9304">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @Ashurosh00710
-          <a class="float-right" href="https://github.com/Ashutosh00710">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @navdeepsingh4298
-          <a class="float-right" href="https://github.com/navdeepsingh4298">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @gabriielftn
-          <a class="float-right" href="https://github.com/gabrielftn">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @nipeli
-          <a class="float-right" href="https://github.com/nipeli">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <li class="list-group-item dropDown">
-          @akash-kamat
-          <a class="float-right" href="https://github.com/akash-kamat">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-        <!-- @Christopher Force -->
-        <li class="list-group-item dropDown">
-          @Christopher-Force
-          <a class="float-right" href="https://github.com/Christopher-Force">Visit Github Profile</a>
-          <div class="dropDownContent"></div>
-        </li>
-      </ul>
-    </div>
-    <div class="container-fluid footer-container">
-      <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="line-height: 32px;">
-        <h5>
-          If you enjoyed the course like I did, share it so more people can
-          enjoy it!
-        </h5>
-        <div class="buttons">
-          <div class="dropDownContent"></div>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <a class="navbar-brand" href="index.html"><img src="resources/images/ZTM_logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="index.html">Home</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="instructor.html">Instructor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html">Sign Up</a>
+          </li>
+          <li class="nav-item active-link">
+            <a class="nav-link" href="contributersProfile.html">Contributors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="todo_list.html">Student Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact-us.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="theme-toggle-container">
+        <span class="theme-toggle-text my-2">Light Mode</span>
+        <label class="theme-toggle">
+          <input id="theme-toggle-switch" type="checkbox">
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <a id="headerText" class="nav-link ml-md-auto" href="beyondztm.html">Beyond Zero to Mastery <i
+          class="fas fa-arrow-right"></i></a>
+    </nav>
+
+    <!-- END navbar	 -->
+    <div class="animated bounce">
+      <div class="container-fluid about-container">
+        <h1 class="animated bounce">Zero to Mastery Family</h1>
+        <h2 class="animated bounce">Contributors</h2>
+
+        <ul class="list-group list-group-flush">
           <li class="list-group-item dropDown">
-            <!-- @savvasg35 -->
-            <a class="float-right" href="https://github.com/Savvasg35">@savvasg35</a>
+            @dandyson
+            <a class="float-right" href="https://github.com/dandyson">Visit Github Profile</a>
             <div class="dropDownContent"></div>
           </li>
           <li class="list-group-item dropDown">
-            <!-- @chettriyuvraj -->
-            <a class="float-right" href="https://github.com/chettriyuvraj">@chettriyuvraj</a>
+            @excel61
+            <a class="float-right" href="https://github.com/excel61">Visit Github Profile</a>
             <div class="dropDownContent"></div>
           </li>
           <li class="list-group-item dropDown">
-            <!-- @gustnbones -->
-            <a class="float-right" href="https://github.com/gustnbones">@gustnbones</a>
+            @varun-sirpal10
+            <a class="float-right" href="https://github.com/varun-sirpal10">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @DarrnyH
+            <a class="float-right" href="https://github.com/DarrnyH">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @nidvar
+            <a class="float-right" href="https://github.com/nidvar">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @kitokomatondo
+            <a class="float-right" href="https://github.com/kitokomatondo">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @crux-in-lan
+            <a class="float-right" href="https://github.com/crux-in-lan">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @SaitejaVemula
+            <a class="float-right" href="https://github.com/SaitejaVemula">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @mehul1011
+            <a class="float-right" href="https://github.com/mehul1011">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @VidhyaJayakumar
+            <a class="float-right" href="https://github.com/VidhyaJayakumar">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @shubhamd99
+            <a class="float-right" href="https://github.com/shubhamd99">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @dejiabiola
+            <a class="float-right" href="https://github.com/dejiabiola">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @lisapnct
+            <a class="float-right" href="https://github.com/lisapnct">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @Sysonec
+            <a class="float-right" href="https://github.com/Sysonec">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @markg29
+            <a class="float-right" href="https://github.com/markg29">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @Kallinicos
+            <a class="float-right" href="https://github.com/Kallinicos">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @jflores3531
+            <a class="float-right" href="https://github.com/jflores3531">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @MLit10
+            <a class="float-right" href="https://github.com/MLit10">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @BARANLANKA
+            <a class="float-right" href="https://github.com/BARANLANKA">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @Edmonanto
+            <a class="float-right" href="https://github.com/Edmonanto">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @steveburton
+            <a class="float-right" href="https://github.com/steveburton">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @Ejiro-Asiuwhu
+            <a class="float-right" href="https://github.com/Ejiro-Asiuwhu">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @borason
+            <a class="float-right" href="https://github.com/borason">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @charley81
+            <a class="float-right" href="https://github.com/charley81">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @alon1525
+            <a class="float-right" href="https://github.com/alon1525">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @CedarSky
+            <a class="float-right" href="https://github.com/CedarSky">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @paulbillings
+            <a class="float-right" href="https://github.com/paulbillings">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @chantelletjie
+            <a class="float-right" href="https://github.com/chantelletjie">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @haiivan
+            <a class="float-right" href="https://github.com/haiivan">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @ricksnow26
+            <a class="float-right" href="https://github.com/ricksnow26">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @itshally
+            <a class="float-right" href="https://github.com/itshally">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @joshuafolorunsho
+            <a class="float-right" href="https://github.com/joshuafolorunsho">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @codepol
+            <a class="float-right" href="https://github.com/codepol">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @sandy8169
+            <a class="float-right" href="https://github.com/sandy8169">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @Itailevi420
+            <a class="float-right" href="https://github.com/Itailevi420">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @p4avinash
+            <a class="float-right" href="https://github.com/p4avinash">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @mughees-asif
+            <a class="float-right" href="https://github.com/mughees-asif">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @FrancoMuniz
+            <a class="float-right" href="https://github.com/FrancoMuniz">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @KingLui22
+            <a class="float-right" href="https://github.com/KingLui22">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @tpartridge1
+            <a class="float-right" href="https://github.com/tpartridge1">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @felipegcruz
+            <a class="float-right" href="https://github.com/felipegcruz">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @Umair-1119
+            <a class="float-right" href="https://github.com/Umair-1119">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @ihouwat
+            <a class="float-right" href="https://github.com/ihouwat">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @wilsonzeg
+            <a class="float-right" href="https://github.com/wilsonzeg">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @VelizarStavrev
+            <a class="float-right" href="https://github.com/VelizarStavrev">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @javfue
+            <a class="float-right" href="https://github.com/javfue">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @Ram-1984
+            <a class="float-right" href="https://github.com/Ram-1984">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @CTMBeast
+            <a class="float-right" href="https://github.com/CTMBeast">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @AmrithaM
+            <a class="float-right" href="https://github.com/AmrithaM">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @andy890275
+            <a class="float-right" href="https://github.com/andy890275">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @stanluxembourg
+            <a class="float-right" href="https://github.com/stanluxembourg">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @fumiadeyemi
+            <a class="float-right" href="https://github.com/fumiadeyemi">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @elenaandersson
+            <a class="float-right" href="https://github.com/elenaandersson">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @khushbooJangle
+            <a class="float-right" href="https://github.com/khushbooJangle">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @lakshmivardini-369
+            <a class="float-right" href="https://github.com/lakshmivardini-369">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @eduardoramosdev
+            <a class="float-right" href="https://github.com/eduardoramosdev">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @Gittenger
+            <a class="float-right" href="https://github.com/gittenger">Visit Github Profile</a>
+          <li class="list-group-item dropDown">
+            @amita1996
+            <a class="float-right" href="https://github.com/amita1996">Visit Github Profile</a>
+          <li class="list-group-item dropDown">
+            @nnhhiilliisstt
+            <a class="float-right" href="https://github.com/nnhhiilliisstt">Visit Github Profile</a>
+          <li class="list-group-item dropDown">
+            @yuchi0307
+            <a class="float-right" href="https://github.com/yuchi0307">Visit Github Profile</a>
             <div class="dropDownContent"></div>
           </li>
 
+          <div class="dropDownContent"></div>
+          </li>
           <li class="list-group-item dropDown">
-            <!-- @ohnomig -->
-            <a class="float-right" href="https://github.com/ohnomig">@ohnomig</a>
+            @savvasg35
+            <a class="float-right" href="https://github.com/Savvasg35">Visit Github Profile</a>
             <div class="dropDownContent"></div>
           </li>
           <li class="list-group-item dropDown">
-            <!-- @piincher -->
-            <a class="float-right" href="https://github.com/piincher">@piincher</a>
+            @chettriyuvraj
+            <a class="float-right" href="https://github.com/chettriyuvraj">Visit Github Profile</a>
             <div class="dropDownContent"></div>
           </li>
           <li class="list-group-item dropDown">
-            <!-- @elidvenega -->
-            <a class="float-right" href="https://github.com/elidvenega">@elidvenega</a>
+            @gustnbones
+            <a class="float-right" href="https://github.com/gustnbones">Visit Github Profile</a>
             <div class="dropDownContent"></div>
           </li>
           <li class="list-group-item dropDown">
-            <!-- @asouthard1012 -->
-            <a class="float-right" href="https://github.com/asouthard1012">@asouthard1012</a>
+            @HugMP
+            <a class="float-right" href="https://github.com/HugMP">Visit Github Profile</a>
             <div class="dropDownContent"></div>
           </li>
           <li class="list-group-item dropDown">
-            <!-- @rishi-121 -->
-            <a class="float-right" href="https://github.com/rishi-121">@rishi-121</a>
+            @AswinBarath
+            <a class="float-right" href="https://github.com/AswinBarath">Visit GitHub Profile</a>
             <div class="dropDownContent"></div>
           </li>
           <li class="list-group-item dropDown">
-            <!-- @asouthard1012 -->
-            <a class="float-right" href="https://github.com/asouthard1012">@kyriakoszafeiropoulos</a>
+            @Vikramadithya10
+            <a class="float-right" href="https://github.com/Vikramadithya10">Visit GitHub Profile</a>
             <div class="dropDownContent"></div>
           </li>
           <li class="list-group-item dropDown">
-            <!-- @krishna9304 -->
-            <a class="float-right" href="https://github.com/krishna9304">@KrishnaMahato</a>
+            @amanbijalwan
+            <a class="float-right" href="https://github.com/amanbijalwan">Visit Github Profile</a>
             <div class="dropDownContent"></div>
           </li>
           <li class="list-group-item dropDown">
-            <!-- adamwojnicki -->
-            <a class="float-right" href="https://github.com/adamwojnicki">@adamwojnicki</a>
-            <!-- @Panchowasaki -->
-            <a class="float-right" href="https://github.com/Panchowasaki">@Panchowasaki</a>
+            @Surya742
+            <a class="float-right" href="https://github.com/Surya742">Visit Github Profile</a>
             <div class="dropDownContent"></div>
           </li>
           <li class="list-group-item dropDown">
-            <!-- @Panchowasaki -->
-            <a class="float-right" href="https://github.com/EliasOPrado">@EliasOPrado</a>
+            @KrishnaMahato
+            <a class="float-right" href="https://github.com/krishna9304">Visit Github Profile</a>
             <div class="dropDownContent"></div>
           </li>
           <li class="list-group-item dropDown">
-            <!-- @Bear-crawl -->
-            <a class="float-right" href="https://github.com/Bear-crawl">@Bear-crawl</a>
+            @Ashurosh00710
+            <a class="float-right" href="https://github.com/Ashutosh00710">Visit Github Profile</a>
             <div class="dropDownContent"></div>
           </li>
-          <!-- @Christopher-Force -->
           <li class="list-group-item dropDown">
-            <!-- @Panchowasaki -->
-            <a class="float-right" href="https://github.com/StavrosCaptain">@StavrosCaptain</a>
-            <a class="float-right" href="https://github.com/Christopher-Force">@Christopher-Force</a>
+            @navdeepsingh4298
+            <a class="float-right" href="https://github.com/navdeepsingh4298">Visit Github Profile</a>
             <div class="dropDownContent"></div>
           </li>
-          </ul>
-        </div>
-        <div class="container-fluid footer-container">
-          <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="line-height: 32px;">
-            <h5>
-              If you enjoyed the course like I did, share it so more people can
-              enjoy it!
-            </h5>
-            <div class="buttons">
-              <a class="a2a_button_facebook"><i class="fab fa-facebook fa-2x"></i></a>
-              <a class="a2a_button_twitter"><i class="fab fa-twitter fa-2x"></i></a>
-              <a class="a2a_button_email"><i class="fas fa-envelope-square fa-2x"></i></a>
-              <a class="a2a_button_whatsapp"><i class="fab fa-whatsapp fa-2x"></i></a>
-            </div>
+          <li class="list-group-item dropDown">
+            @gabriielftn
+            <a class="float-right" href="https://github.com/gabrielftn">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @nipeli
+            <a class="float-right" href="https://github.com/nipeli">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <li class="list-group-item dropDown">
+            @akash-kamat
+            <a class="float-right" href="https://github.com/akash-kamat">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+          <!-- @Christopher Force -->
+          <li class="list-group-item dropDown">
+            @Christopher-Force
+            <a class="float-right" href="https://github.com/Christopher-Force">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
+        </ul>
+      </div>
+      <div class="container-fluid footer-container">
+        <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="line-height: 32px;">
+          <h5>
+            If you enjoyed the course like I did, share it so more people can
+            enjoy it!
+          </h5>
+          <div class="buttons">
+            <div class="dropDownContent"></div>
+            </li>
+            <li class="list-group-item dropDown">
+              <!-- @savvasg35 -->
+              <a class="float-right" href="https://github.com/Savvasg35">@savvasg35</a>
+              <div class="dropDownContent"></div>
+            </li>
+            <li class="list-group-item dropDown">
+              <!-- @chettriyuvraj -->
+              <a class="float-right" href="https://github.com/chettriyuvraj">@chettriyuvraj</a>
+              <div class="dropDownContent"></div>
+            </li>
+            <li class="list-group-item dropDown">
+              <!-- @gustnbones -->
+              <a class="float-right" href="https://github.com/gustnbones">@gustnbones</a>
+              <div class="dropDownContent"></div>
+            </li>
+            <li class="list-group-item dropDown">
+              @mwilke08
+              <a class="float-right" href="https://github.com/mwilke08">Visit Github Profile</a>
+
+              <div class="dropDownContent"></div>
+            </li>
+            <li class="list-group-item dropDown">
+              @savvasg35
+              <a class="float-right" href="https://github.com/Savvasg35">Visit Github Profile</a>
+              <div class="dropDownContent"></div>
+            </li>
+            <li class="list-group-item dropDown">
+              @chettriyuvraj
+              <a class="float-right" href="https://github.com/chettriyuvraj">Visit Github Profile</a>
+              <div class="dropDownContent"></div>
+            </li>
+            <li class="list-group-item dropDown">
+              @gustnbones
+              <a class="float-right" href="https://github.com/gustnbones">Visit Github Profile</a>
+              <div class="dropDownContent"></div>
+            </li>
+            <li class="list-group-item dropDown">
+              @HugMP
+              <a class="float-right" href="https://github.com/HugMP">Visit Github Profile</a>
+              <div class="dropDownContent"></div>
+            </li>
+            <li class="list-group-item dropDown">
+              @AswinBarath
+              <a class="float-right" href="https://github.com/AswinBarath">Visit GitHub Profile</a>
+              <div class="dropDownContent"></div>
+            </li>
+            <li class="list-group-item dropDown">
+              @Vikramadithya10
+              <a class="float-right" href="https://github.com/Vikramadithya10">Visit GitHub Profile</a>
+              <div class="dropDownContent"></div>
+            </li>
+            <li class="list-group-item dropDown">
+              @amanbijalwan
+              <a class="float-right" href="https://github.com/amanbijalwan">Visit Github Profile</a>
+              <div class="dropDownContent"></div>
+            </li>
+            <li class="list-group-item dropDown">
+              @Surya742
+              <a class="float-right" href="https://github.com/Surya742">Visit Github Profile</a>
+              <div class="dropDownContent"></div>
+            </li>
+            <li class="list-group-item dropDown">
+              @KrishnaMahato
+              <a class="float-right" href="https://github.com/krishna9304">Visit Github Profile</a>
+              <div class="dropDownContent"></div>
+            </li>
+            <li class="list-group-item dropDown">
+              @Ashurosh00710
+              <a class="float-right" href="https://github.com/Ashutosh00710">Visit Github Profile</a>
+              <div class="dropDownContent"></div>
+            </li>
+            <!-- @Christopher-Force -->
+            <li class="list-group-item dropDown">
+              <!-- @Panchowasaki -->
+              <a class="float-right" href="https://github.com/StavrosCaptain">@StavrosCaptain</a>
+              <a class="float-right" href="https://github.com/Christopher-Force">@Christopher-Force</a>
+              <div class="dropDownContent"></div>
+            </li>
+            </ul>
           </div>
-          <!-- <div id="credits">
+          <div class="container-fluid footer-container">
+            <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="line-height: 32px;">
+              <h5>
+                If you enjoyed the course like I did, share it so more people can
+                enjoy it!
+              </h5>
+              <div class="buttons">
+                <a class="a2a_button_facebook"><i class="fab fa-facebook fa-2x"></i></a>
+                <a class="a2a_button_twitter"><i class="fab fa-twitter fa-2x"></i></a>
+                <a class="a2a_button_email"><i class="fas fa-envelope-square fa-2x"></i></a>
+                <a class="a2a_button_whatsapp"><i class="fab fa-whatsapp fa-2x"></i></a>
+              </div>
+            </div>
+            <div class="container-fluid footer-container">
+              <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="line-height: 32px;">
+                <h5>
+                  If you enjoyed the course like I did, share it so more people can
+                  enjoy it!
+                </h5>
+                <div class="buttons">
+                  <a class="a2a_button_facebook"><i class="fab fa-facebook fa-2x"></i></a>
+                  <a class="a2a_button_twitter"><i class="fab fa-twitter fa-2x"></i></a>
+                  <a class="a2a_button_email"><i class="fas fa-envelope-square fa-2x"></i></a>
+                  <a class="a2a_button_whatsapp"><i class="fab fa-whatsapp fa-2x"></i></a>
+                </div>
+              </div>
+              <!-- <div id="credits">
           Made by p4avinash - with&nbsp;
           <i class="fa fa-heart" aria-hidden="true"></i>
 
         </div> -->
-        </div>
-        <div id="credits">
-          <div class="center git">
-            <a href="https://github.com/zero-to-mastery/HTML-project">
-                <img id="laptop" src="resources/images/git.svg" title="Repository link" alt="Git Icon" border="0" >
-            </a>
+            </div>
+            <div id="credits">
+              <div class="center git">
+                <a href="https://github.com/zero-to-mastery/HTML-project">
+                  <img id="laptop" src="resources/images/git.svg" title="Repository link" alt="Git Icon" border="0">
+                </a>
+              </div>
+              Made by p4avinash - with&nbsp;
+              <i class="fa fa-heart" aria-hidden="true"></i>
+            </div>
           </div>
-          Made by p4avinash - with&nbsp;
-          <i class="fa fa-heart" aria-hidden="true"></i>
         </div>
-      </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-      </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-      </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-      </script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="resources/scripts/script.js"></script>
-    <script async src="https://static.addtoany.com/menu/page.js"></script>
-</body>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+          </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+          integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+          </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+          integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+          </script>
+
+        <script type="text/javascript" src="resources/scripts/script.js"></script>
+        <script async src="https://static.addtoany.com/menu/page.js"></script>
+  </body>
 
 </html>
