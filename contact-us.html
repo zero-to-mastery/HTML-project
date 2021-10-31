@@ -26,7 +26,13 @@
       #title {
         font-size: 50px;
         text-align: center;
-        padding-top: 70px;
+        padding-top: 20px;
+      }
+
+      nav{
+        width: 100%;
+        top:0;
+        left:0 ; 
       }
 
       input[type="text"],
@@ -56,9 +62,12 @@
       }
 
       .container {
+        display: block;
         border-radius: 5px;
         background-color: #f2f2f2;
-        padding: 20px;
+        padding: 30px;
+        margin-top:90px;
+        z-index: 150;
       }
 
     </style>
@@ -67,46 +76,51 @@
 
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="index.html"><img src="resources/images/logo.png" alt="" /></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="instructor.html">Instructor</a>
-          </li>
-          <li class="nav-itemk">
-            <a class="nav-link" href="register.html">Sign Up</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="todo_list.html">Student Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contributersProfile.html">Contributors</a>
-          </li>
-          <li class="nav-item active-link">
-            <a class="nav-link" href="contact-us.html">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-      <div class="theme-toggle-container">
-        <span class="theme-toggle-text">Light Mode</span>
-        <label class="theme-toggle">
-          <input id="theme-toggle-switch" type="checkbox" />
-          <span class="slider round"></span>
-        </label>
-      </div>
-      <a class="nav-link ml-md-auto" href="beyondztm.html">Beyond Zero to Mastery <i class="fas fa-arrow-right"></i></a>
-    </nav>
+    <div style="height:100%;position: fixed;top: 0;left: 0;">
+      
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="resources/images/logo.png" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="instructor.html">Instructor</a>
+            </li>
+            <li class="nav-itemk">
+              <a class="nav-link" href="register.html">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="todo_list.html">Student Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contributersProfile.html">Contributors</a>
+            </li>
+            <li class="nav-item active-link">
+              <a class="nav-link" href="contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="theme-toggle-container">
+          <span class="theme-toggle-text">Light Mode</span>
+          <label class="theme-toggle">
+            <input id="theme-toggle-switch" type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <a class="nav-link ml-md-auto" href="beyondztm.html">Beyond Zero to Mastery <i class="fas fa-arrow-right"></i></a>
+      </nav>   
+    
+    </div>
+    
 
     <div class="container">
       <h1 id="title">Contact Us</h1>
