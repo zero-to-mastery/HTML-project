@@ -25,7 +25,7 @@ html[theme='dark'] {
 
 .theme-toggle-container span {
 	font-size: 1rem;
-	color: black;
+	/* color: black; */
 }
 
 /* Box Around Slider */
