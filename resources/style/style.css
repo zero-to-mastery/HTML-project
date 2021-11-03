@@ -184,7 +184,7 @@ nav.navbar button.navbar-toggler {
 
 .header-content {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ffffff;
@@ -207,7 +207,7 @@ nav.navbar button.navbar-toggler {
   width: 100%;
 
   text-align: center;
-  padding: 0;
+  padding-bottom: 10;
   font-size: 3em;
   font-family: "Montserrat", sans-serif;
   font-family: "Lilita One", cursive;
