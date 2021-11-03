@@ -205,7 +205,7 @@ nav.navbar button.navbar-toggler {
 
 .header-content h1 {
   width: 100%;
-  margin-top: 80px;
+
   text-align: center;
   padding: 0;
   font-size: 3em;
@@ -408,7 +408,7 @@ i:hover {
   height: 140px;
 }
 
-.git{
+.git {
   margin: 5px 0 5px 0;
 }
 
@@ -417,15 +417,15 @@ i:hover {
   transition: 0.2s;
 }
 
- /*.container1 {
+/*.container1 {
     width: 100%;
     
     display: flex; 
     align-items: stretch; 
     justify-content: space-around; 
   }*/
-  
-  /*.card {
+
+/*.card {
     width: 300px; 
     border: 2px solid red;
   }*/
@@ -442,7 +442,7 @@ i:hover {
     border-width: 1px;
   }*/
 
-  /*.row {
+/*.row {
     display: flex;
     justify-content: space-between;
   }
