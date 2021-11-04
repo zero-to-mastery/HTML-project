@@ -125,7 +125,7 @@ nav.navbar button.navbar-toggler {
 .active-link,
 .nav-item:hover {
   /* background-color: #91308E; */
-  color: #000;
+  color: grey;
   border-radius: 3px;
 }
 
