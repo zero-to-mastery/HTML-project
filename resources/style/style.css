@@ -5,26 +5,6 @@ body {
   color: #000000;
 }
 
-#course-button {
-  margin: 30px;
-  padding: 10px 20px;
-  margin: 0;
-  padding: 0;
-  color: #000000;
-  scroll-behavior: smooth;
-}
-
-#course-button:hover {
-  background-color: #007bff;
-  color: #fff;
-  transform: scale(1.2);
-}
-
-#course-button:hover {
-  transform: scale(1.1);
-  animation: pulse 800ms infinite, nudge 1s linear infinite alternate;
-}
-
 /* NAVBAR STYLE */
 nav.navbar button.navbar-toggler {
   margin-right: auto;
@@ -191,10 +171,44 @@ nav.navbar button.navbar-toggler {
   text-align: center;
 }
 
-.masteryColor {
-  color: yellow;
-  font-weight: bold;
-  font-family: "Lilita One", cursive;
+.view-course-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  flex-direction: column;
+}
+
+.button-titel {
+  font-size: 20px;
+  color: black;
+}
+
+#course-button {
+  width: 20%;
+  justify-content: center;
+  margin-top: 20px;
+  color: white;
+  background-color: #158d91;
+  scroll-behavior: smooth;
+  margin: 30px;
+  padding: 10px 20px;
+  border: none;
+}
+
+#course-button:hover {
+  background-color: rgba(21, 141, 145, 0.9);
+  color: #fff;
+  transform: scale(1.2);
+}
+
+#course-button:hover {
+  transform: scale(1.1);
+  animation: pulse 800ms infinite, nudge 1s linear infinite alternate;
+}
+
+.section-header {
+  font-size: 28px;
 }
 
 .header-content hr {
@@ -399,6 +413,10 @@ i:hover {
   display: inline-flex;
 }
 
+.card-deck {
+  margin: 0 20px 0px 20px;
+}
+
 .card {
   transition: all 0.2s ease-in;
 }
@@ -408,7 +426,7 @@ i:hover {
   height: 140px;
 }
 
-.git{
+.git {
   margin: 5px 0 5px 0;
 }
 
@@ -417,15 +435,15 @@ i:hover {
   transition: 0.2s;
 }
 
- /*.container1 {
+/*.container1 {
     width: 100%;
     
     display: flex; 
     align-items: stretch; 
     justify-content: space-around; 
   }*/
-  
-  /*.card {
+
+/*.card {
     width: 300px; 
     border: 2px solid red;
   }*/
@@ -442,7 +460,7 @@ i:hover {
     border-width: 1px;
   }*/
 
-  /*.row {
+/*.row {
     display: flex;
     justify-content: space-between;
   }
