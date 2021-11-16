@@ -358,6 +358,7 @@ nav.navbar button.navbar-toggler {
   bottom: 5%;
   left: 50%;
   transform: translate(-50%, 5%);
+  z-index: 10;
 }
 
 /* laptop img */
@@ -559,10 +560,10 @@ i:hover {
 
 /** WAVE DIVIDER **/
 
-.waveDividerWrapper {
+/*.waveDividerWrapper {
   position: relative;
   padding-top: 150px;
-}
+}*/
 
 .custom-shape-divider-bottom-1596474166 {
   position: absolute;
