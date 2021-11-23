@@ -230,7 +230,6 @@
 
 [@PleaBanshee](https://github.com/PleaBanshee)
 
-
 [@AakashChahal](https://github.com/AakashChahal)
 
 [@Iftee97](https://github.com/Iftee97)
@@ -262,3 +261,5 @@
 [@christopher-force](https://github.com/christopher-force)
 
 [@sahilverma0433](https://github.com/cryptic-padawan)
+
+[@LeslieLopez25](https://github.com/LeslieLopez25)
