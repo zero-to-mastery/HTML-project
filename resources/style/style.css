@@ -38,7 +38,7 @@ nav.navbar button.navbar-toggler {
   transition: background-color 400ms ease-out;
 }
 
-.buttons > a > i {
+.buttons>a>i {
   cursor: pointer;
   transition: opacity 200ms;
 }
@@ -113,6 +113,7 @@ nav.navbar button.navbar-toggler {
   transition: all 0.3s ease-out;
   /* background-color: #91308E; */
 }
+
 .navbar-dark a:hover {
   color: rgb(255, 255, 255) !important;
   transition: all 0.3s ease-out;
@@ -399,16 +400,35 @@ i:hover {
   display: inline-flex;
 }
 
+.card-deck {
+  margin-right: 200px;
+  position: relative;
+  left: 100px;
+  padding-right: 0;
+}
+
 .card {
+  width: 300px;
+  height: 300px;
   transition: all 0.2s ease-in;
 }
 
 .card-body {
   transition: all 0.2s ease-in;
-  height: 140px;
 }
 
-.git{
+.card-img-top {
+  height: 350px;
+  width: 358px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.git {
   margin: 5px 0 5px 0;
 }
 
@@ -417,15 +437,15 @@ i:hover {
   transition: 0.2s;
 }
 
- /*.container1 {
+/*.container1 {
     width: 100%;
     
     display: flex; 
     align-items: stretch; 
     justify-content: space-around; 
   }*/
-  
-  /*.card {
+
+/*.card {
     width: 300px; 
     border: 2px solid red;
   }*/
@@ -442,7 +462,7 @@ i:hover {
     border-width: 1px;
   }*/
 
-  /*.row {
+/*.row {
     display: flex;
     justify-content: space-between;
   }
@@ -561,7 +581,7 @@ i:hover {
 
 .waveDividerWrapper {
   position: relative;
-  padding-top: 150px;
+  top: 50px;
 }
 
 .custom-shape-divider-bottom-1596474166 {
