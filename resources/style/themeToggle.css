@@ -1,11 +1,11 @@
 /* Dark Theme Global CSS (by Yusuf) */
 
 html[theme='dark'] {
-  filter: invert(1) hue-rotate(180deg);
+	filter: invert(1) hue-rotate(180deg);
 }
 
 html[theme='dark'] {
-  filter: invert(1) hue-rotate(180deg);
+	filter: invert(1) hue-rotate(180deg);
 }
 
 .invert {
@@ -27,7 +27,7 @@ html[theme='dark'] {
 .theme-toggle-container span {
 	margin-right: auto;
 	font-size: 1rem;
-	color: black;
+	color: hsl(0, 0%, 100%);
 }
 
 /* Box Around Slider */
@@ -70,15 +70,15 @@ html[theme='dark'] {
 	-webkit-transition: 0.4s;
 }
 
-input:checked + .slider {
-	background-color:  rgb(150, 65, 255);
+input:checked+.slider {
+	background-color: rgb(150, 65, 255);
 }
 
-input:focus + .slider {
+input:focus+.slider {
 	box-shadow: 0 0 1px #2196F3;
 }
 
-input:checked + .slider::before {
+input:checked+.slider::before {
 	transform: translateX(32px);
 }
 
