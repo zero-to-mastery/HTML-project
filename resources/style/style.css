@@ -5,6 +5,16 @@ body {
   color: #000000;
 }
 
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+hr {
+  margin-bottom: 50px;
+  background: hsl(274, 100%, 37.1%);
+}
+
 #course-button {
   margin: 30px;
   padding: 10px 20px;
