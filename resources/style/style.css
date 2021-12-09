@@ -261,7 +261,7 @@ nav.navbar button.navbar-toggler {
 }
 
 .details-container .row {
-  margin: 100px 0px 100px 0px;
+  margin: 250px 0px 100px 0px;
 }
 
 .details-container h2 {
@@ -414,8 +414,8 @@ i:hover {
 .card-deck {
   margin-right: 200px;
   position: relative;
-  left: 100px;
-  padding-right: 0;
+  left: 110px;
+  padding-bottom: 170px;
 }
 
 .card {
