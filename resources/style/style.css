@@ -400,12 +400,21 @@ i:hover {
 }
 
 .card {
-  transition: all 0.2s ease-in;
+  transition: all 0.5s ease-in-out;
+  font-family: 'Corinthia', cursive;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .card-body {
-  transition: all 0.2s ease-in;
-  height: 140px;
+  transition: all 0.3s ease-in;
+  height: 90px;
+  max-width: 330px;
+  /* font-weight: bold; */
+  font-family: 'Corinthia', cursive;
 }
 
 .git{
@@ -550,11 +559,16 @@ i:hover {
 }
 
 .card:hover {
-  background-color: #e6e6e6;
+  background-color: #24d4bd;
 }
 
 .card:hover .card-body {
   transform: scale(1.1);
+}
+
+.texts{
+  font-size: 20px;
+  font-weight: 400;
 }
 
 /** WAVE DIVIDER **/
