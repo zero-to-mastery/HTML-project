@@ -401,7 +401,8 @@ i:hover {
 
 .card {
   transition: all 0.5s ease-in-out;
-  font-family: 'Corinthia', cursive;
+  font-family: 'Caveat', cursive;
+
 }
 
 .card-title {
@@ -414,7 +415,9 @@ i:hover {
   height: 90px;
   max-width: 330px;
   /* font-weight: bold; */
-  font-family: 'Corinthia', cursive;
+  font-family: 'Caveat', cursive;
+
+
 }
 
 .git{
