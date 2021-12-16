@@ -1,0 +1,22 @@
+{
+  "name": "html-project",
+  "version": "1.0.0",
+  "description": "Hey there, welcome to our HTML open source project. Redesign the HTML landing page and have fun doing it. Happy coding :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Showshow21217/HTML-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Showshow21217/HTML-project/issues"
+  },
+  "homepage": "https://github.com/Showshow21217/HTML-project#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
