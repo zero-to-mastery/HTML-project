@@ -265,6 +265,25 @@ nav.navbar button.navbar-toggler {
 .details-container p {
   margin: 0rem 0rem 0rem 0rem;
   font-family: "Montserrat", sans-serif;
+  padding: 30px;
+  font-size: 1rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.check-out-course-section span {
+  font-size: 1.5rem;
+  margin: 5px;
+}
+
+.zero-style {
+  font-style: italic;
+  color: rgb(219, 28, 28);
+}
+
+.mastery-style {
+  color: rgb(26, 185, 61);
+  font-family: "Montserrat", sans-serif; /* To overwrite the font-family in the .masteryColor class */
 }
 
 .course-details-content {
