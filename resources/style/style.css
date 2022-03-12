@@ -98,7 +98,7 @@ nav.navbar button.navbar-toggler {
 }
 
 .navbar a:hover {
-  color: white;
+  color: rgb(255, 255, 255);
   transform: scale(1.1);
 }
 
