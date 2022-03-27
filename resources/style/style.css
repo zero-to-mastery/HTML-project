@@ -366,9 +366,9 @@ nav.navbar button.navbar-toggler {
   width: 30px;
 }
 
-.a2a_button_instagram,
 .a2a_button_facebook,
 .a2a_button_twitter,
+.a2a_button_instagram,
 .a2a_button_email,
 .a2a_button_whatsapp {
   margin: 10px;
@@ -385,6 +385,15 @@ i:hover {
 
 .fa-twitter {
   color: #1da1f2;
+}
+
+.fa-instagram {
+  background: #d6240f;
+  background: radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,
+   #d6249f 60%,#285aeb 90%);
+   background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .fa-envelope-square {
