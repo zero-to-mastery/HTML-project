@@ -19,50 +19,51 @@
     <link rel='stylesheet' type='text/css' href='resources/style/themeToggle.css'>
     <script src='resources/scripts/themeToggle.js' defer></script>
     <!-- /Dark Mode -->
+    <link rel="stylesheet" href="resources/style/nav-menu.css"/>
+    
   </head>
 
   <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <a class="navbar-brand" href="index.html"><img src="resources/images/ZTM_logo.png" alt="logo"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="instructor.html">Instructor</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="register.html">Sign Up</a>
-          </li>
-          <li class="nav-item active-link">
-            <a class="nav-link" href="contributersProfile.html">Contributors</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="todo_list.html">Student Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact-us.html">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-      <div class="theme-toggle-container">
-        <span class="theme-toggle-text my-2">Light Mode</span>
-        <label class="theme-toggle">
-          <input id="theme-toggle-switch" type="checkbox">
-          <span class="slider round"></span>
-        </label>
-      </div>
-      <a id="headerText" class="nav-link ml-md-auto" href="beyondztm.html">Beyond Zero to Mastery <i
-          class="fas fa-arrow-right"></i></a>
+        <a class="navbar-brand" href="index.html"><img src="resources/images/ZTM_logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active-link">
+                    <a class="nav-link font-weight-bold" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <div class="dropdown show">
+                  <a class="btn btn-secondary dropdown-toggle dropdown-nav-menu-title nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Academy
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item dropdown-nav-menu-item" style="background-color: transparent; color: black !important;" href="instructor.html">Instructor</a>
+                    <a class="dropdown-item dropdown-nav-menu-item" style="background-color: transparent; color: black !important;" href="contributersProfile.html">Contributors</a>
+                    <a class="dropdown-item dropdown-nav-menu-item" style="background-color: transparent; color: black !important;" href="todo_list.html">Student Projects</a>
+                    <a class="dropdown-item dropdown-nav-menu-item" style="background-color: transparent; color: black !important;" href="contact-us.html">Contact Us</a>
+                  </div>
+                </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+        <div class='theme-toggle-container'>
+            <span class='theme-toggle-text my-2'>Light Mode</span>
+            <label class='theme-toggle'>
+                <input id='theme-toggle-switch' type='checkbox'>
+                <span class='slider round'></span>
+            </label>
+        </div>
+        <a id="headerText" class="nav-link ml-md-auto" href="beyondztm.html">Beyond Zero to Mastery <i
+                class="fas fa-arrow-right"></i></a>
     </nav>
 
     <!-- END navbar	 -->

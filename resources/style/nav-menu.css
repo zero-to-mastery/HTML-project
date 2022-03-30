@@ -1,0 +1,25 @@
+div[class*="navbar-collapse"] > .navbar-nav > .dropdown a[class*="dropdown-nav-menu-title"] {
+  background-color: transparent;
+  border: none;
+  color: rgba(255,255,255,.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 120px;
+}
+
+div[class*="navbar-collapse"] > .navbar-nav > .dropdown a[class*="dropdown-nav-menu-title"]:focus,
+div[class*="navbar-collapse"] > .navbar-nav > .dropdown a[class*="dropdown-nav-menu-title"]:active {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.dropdown-nav-menu-item {
+  margin-bottom: 10px;
+}
+
+.dropdown-nav-menu-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0px;
+}
