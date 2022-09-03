@@ -1,16 +1,29 @@
-name: 'HTML Preview Action'
-on: [pull_request]
+name: BigB-website Actions CI
 
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+   
 jobs:
-  html_preview:
+  build:
     runs-on: ubuntu-latest
-    name: HTML Preview
+    
     steps:
       - uses: actions/checkout@v2
-      - name: Get HTML preview link
+      - name: HTML Preview
         id: html_preview
-        uses: ./ # NOTE: replace with the latest version of this Action
+        uses: pavi2410/html-preview-action@v2
+        with:
+         html_file: 'index.html'
+         
       - uses: github-actions-up-and-running/pr-comment@v1.0.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          message: ${{ format('[Click here to preview HTML page in browser]({0})', steps.html_preview.outputs.url)}}
+          message: ${{ format('[Click here to preview HTML page in browser]({0})', steps.html_preview.outputs.url) }}
+       
+      - name: Check HTML
+        uses: chabad360/htmlproofer@master
+        with:
+          directory: "./"
