@@ -17,6 +17,10 @@ jobs:
         uses: pavi2410/html-preview-action@v2
         with:
          html_file: 'index.html'
+      - uses: github-actions-up-and-running/pr-comment@v1.0.0
+        with:
+            repo-token: ${{ secrets.GITHUB_TOKEN }}
+            message: ${{ format('[Click here to preview HTML page in browser]({0})', steps.html_preview.outputs.url) }}
        
       - name: Checks HTML5
         uses: Cyb3r-Jak3/html5validator-action@v7.1.1
