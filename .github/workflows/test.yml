@@ -1,29 +1,20 @@
-name: BigB-website Actions CI
-
+name: Deploy CI
 on:
   push:
-    branches: [main]
-  pull_request:
     branches: [master]
-   
+  pull_request:
+    types: [opened, synchronize, reopened]
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-    
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
     steps:
-      - uses: actions/checkout@v2
-      - name: HTML Preview
-        id: html_preview
-        uses: pavi2410/html-preview-action@v2
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Deploy to Vercel Action
+        uses: BetaHuhn/deploy-to-vercel-action@v1
         with:
-         html_file: 'index.html'
-         
-      - uses: thollander/actions-comment-pull-request@v1
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          message: ${{ format('[Click here to preview HTML page in browser]({0})', steps.html_preview.outputs.url) }}
-       
-      - name: Check HTML
-        uses: chabad360/htmlproofer@master
-        with:
-          directory: "./"
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }
