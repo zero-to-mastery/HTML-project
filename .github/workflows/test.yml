@@ -1,29 +1,29 @@
-# .github/workflows/preview.yml
-name: Deploy PR previews
+# Sample workflow for building and deploying a Jekyll site to GitHub Pages
+name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
+  # Runs on pushes targeting the default branch
   pull_request:
-    types:
-      - opened
-      - reopened
-      - synchronize
-      - closed
-
-concurrency: preview-${{ github.ref }}
+    branches: ["master"]
 
 jobs:
-  deploy-preview:
-    runs-on: ubuntu-20.04
+  # Build job
+  build:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
-
-      - name: Install and Build
-        run: |
-          npm install
-          npm run build
-
-      - name: Deploy preview
-        uses: rossjrw/pr-preview-action@v1
+        uses: actions/checkout@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
         with:
-          source-dir: ./build/
+          source: ./
+          destination: ./_site
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+  
+      - name: HTML Proofer
+        uses: chabad360/htmlproofer@master
+        with:
+          directory: "./"
