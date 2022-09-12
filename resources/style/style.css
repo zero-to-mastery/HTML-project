@@ -138,6 +138,10 @@ nav.navbar button.navbar-toggler {
   padding: 0 1rem;
 }
 
+.nav-span{
+  color: #000;
+}
+
 /* HEADER SECTION */
 .header-container {
   height: 100vh;

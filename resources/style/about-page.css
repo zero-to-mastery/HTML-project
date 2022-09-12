@@ -16,6 +16,10 @@
   /* background-color: rgb(219, 255, 255); */
 }
 
+.nav-link{
+  color: black !important;
+}
+
 .theme-toggle-text {
   color: black;
 }
