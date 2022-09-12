@@ -85,6 +85,10 @@ nav.navbar button.navbar-toggler {
   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.322);
 }
 
+.navbar-dark .mode-text {
+  color: #7b7b7b;
+}
+
 .navbar-brand img {
   height: 45px;
   width: auto;
@@ -408,7 +412,7 @@ i:hover {
   height: 140px;
 }
 
-.git{
+.git {
   margin: 5px 0 5px 0;
 }
 
@@ -417,15 +421,15 @@ i:hover {
   transition: 0.2s;
 }
 
- /*.container1 {
+/*.container1 {
     width: 100%;
     
     display: flex; 
     align-items: stretch; 
     justify-content: space-around; 
   }*/
-  
-  /*.card {
+
+/*.card {
     width: 300px; 
     border: 2px solid red;
   }*/
@@ -442,7 +446,7 @@ i:hover {
     border-width: 1px;
   }*/
 
-  /*.row {
+/*.row {
     display: flex;
     justify-content: space-between;
   }
