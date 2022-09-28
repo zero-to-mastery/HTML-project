@@ -2,7 +2,7 @@
 
 
 #ner{
-    background: #111111;
+    background: #DFF6FF;
     height:100vh;
     width:100vw;
     position:absolute;
@@ -10,21 +10,24 @@
     left:0;
     z-index:500;
 }
-.loader {
+
+.loader  {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    
 }
-.loader span {
+
+
+/* .loader span {
     font-family: arial;
     font-size: 20px;
     color: rgba(255,255,255,.1);
     display: inline-block;
     transition: all .5s;
     animation: animate 5s infinite;
-}
-.loader span:nth-child(1) {
+} */
+/* .loader span:nth-child(1) {
     animation-delay: .1s;
 }
 .loader span:nth-child(2) {
@@ -44,8 +47,8 @@
 }
 .loader span:nth-child(7) {
     animation-delay: .7s;
-}
-@keyframes animate {
+} */
+/* @keyframes animate {
     0% {
         color: rgba(0,0,0,.9);
         transform: translateY(0);
@@ -62,6 +65,6 @@
         transform: translateY(0);
         margin-left: 0;
     }
-}
+} */
 
 /* THANKS FOR WISITING */
