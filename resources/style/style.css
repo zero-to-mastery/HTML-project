@@ -38,7 +38,7 @@ nav.navbar button.navbar-toggler {
   transition: background-color 400ms ease-out;
 }
 
-.buttons > a > i {
+.buttons>a>i {
   cursor: pointer;
   transition: opacity 200ms;
 }
@@ -113,6 +113,7 @@ nav.navbar button.navbar-toggler {
   transition: all 0.3s ease-out;
   /* background-color: #91308E; */
 }
+
 .navbar-dark a:hover {
   color: rgb(255, 255, 255) !important;
   transition: all 0.3s ease-out;
@@ -256,6 +257,7 @@ nav.navbar button.navbar-toggler {
   margin: 2rem 0rem 0rem 0rem;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+  font-size: 20px;
 }
 
 .details-container h4 {
@@ -408,7 +410,7 @@ i:hover {
   height: 140px;
 }
 
-.git{
+.git {
   margin: 5px 0 5px 0;
 }
 
@@ -417,15 +419,15 @@ i:hover {
   transition: 0.2s;
 }
 
- /*.container1 {
+/*.container1 {
     width: 100%;
     
     display: flex; 
     align-items: stretch; 
     justify-content: space-around; 
   }*/
-  
-  /*.card {
+
+/*.card {
     width: 300px; 
     border: 2px solid red;
   }*/
@@ -442,7 +444,7 @@ i:hover {
     border-width: 1px;
   }*/
 
-  /*.row {
+/*.row {
     display: flex;
     justify-content: space-between;
   }
