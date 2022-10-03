@@ -130,7 +130,7 @@ nav.navbar button.navbar-toggler {
 .active-link,
 .nav-item:hover {
   /* background-color: #91308E; */
-  color: #000;
+  color: grey;
   border-radius: 3px;
 }
 
@@ -189,7 +189,7 @@ nav.navbar button.navbar-toggler {
 
 .header-content {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ffffff;
@@ -210,9 +210,9 @@ nav.navbar button.navbar-toggler {
 
 .header-content h1 {
   width: 100%;
-  margin-top: 80px;
+
   text-align: center;
-  padding: 0;
+  padding-bottom: 10px;
   font-size: 3em;
   font-family: "Montserrat","Lilita One", cursive sans-serif;
 }
@@ -412,7 +412,7 @@ i:hover {
   height: 140px;
 }
 
-.git{
+.git {
   margin: 5px 0 5px 0;
 }
 
@@ -421,15 +421,15 @@ i:hover {
   transition: 0.2s;
 }
 
- /*.container1 {
+/*.container1 {
     width: 100%;
     
     display: flex; 
     align-items: stretch; 
     justify-content: space-around; 
   }*/
-  
-  /*.card {
+
+/*.card {
     width: 300px; 
     border: 2px solid red;
   }*/
@@ -446,7 +446,7 @@ i:hover {
     border-width: 1px;
   }*/
 
-  /*.row {
+/*.row {
     display: flex;
     justify-content: space-between;
   }
