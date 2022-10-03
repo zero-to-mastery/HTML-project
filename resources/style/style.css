@@ -2,7 +2,17 @@
 body {
   margin: 0;
   padding: 0;
-  color: #000000;
+  font: 75% Arial, Helvetica, sans-serif;
+}
+
+.first-div {
+  margin-top: 80px;
+}
+nav {
+  background-color: rgba(255,255,255, 65%);
+}
+nav a {
+  color: black !important;
 }
 
 #course-button {
@@ -57,18 +67,17 @@ nav.navbar button.navbar-toggler {
 }  */
 
 .navbar {
-  background-color: transparent;
+  /* background-color: lightcoral; */
   /*changed background color */
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgba(0, 0, 0, 0.125);
-  box-shadow: 0 1px 15px rgba(27, 31, 35, 0.15) !important;
+  box-shadow: 0 1px 15px rgba(27, 31, 35, 0.15) !important; */
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: black !important;
-  font-weight: bold;
+  /* color: black !important; */
 }
 
 /* Navbar colours for Javascript */
@@ -93,7 +102,6 @@ nav.navbar button.navbar-toggler {
 }
 
 .navbar a {
-  font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
 
@@ -102,10 +110,10 @@ nav.navbar button.navbar-toggler {
   transform: scale(1.1);
 }
 
-.nav-link {
+/* .nav-link {
   text-decoration: none;
   color: white;
-}
+} */
 
 .navbar a:hover,
 .navbar-dark a:hover {
@@ -113,10 +121,7 @@ nav.navbar button.navbar-toggler {
   transition: all 0.3s ease-out;
   /* background-color: #91308E; */
 }
-.navbar-dark a:hover {
-  color: rgb(255, 255, 255) !important;
-  transition: all 0.3s ease-out;
-}
+
 
 .navbar a:focus {
   outline: 2px dotted #a4afd4;
@@ -130,11 +135,11 @@ nav.navbar button.navbar-toggler {
 }
 
 .navbar-collapse ul {
-  margin-left: auto;
+  /* margin-left: auto; */
 }
 
 .navbar-collapse ul li {
-  margin: auto 10px;
+  /* margin: auto 5px; */
   padding: 0 1rem;
 }
 
@@ -209,8 +214,7 @@ nav.navbar button.navbar-toggler {
   text-align: center;
   padding: 0;
   font-size: 3em;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Lilita One", cursive;
+  font-family: "Montserrat","Lilita One", cursive sans-serif;
 }
 
 .header-content a {
@@ -611,7 +615,7 @@ i:hover {
   .navbar-expand-lg .navbar-nav .nav-link {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
-    padding: 0.15rem 0.25rem;
+    /* padding: 0.15rem 0.25rem; */
   }
 }
 
