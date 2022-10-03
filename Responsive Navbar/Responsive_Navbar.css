@@ -59,6 +59,7 @@ nav ul li a{
   font-size: 18px;
   text-decoration: none;
   transition: .4s;
+  
 }
 nav ul li:hover a{
   color: cyan;
