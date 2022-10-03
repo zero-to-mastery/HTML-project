@@ -1,0 +1,57 @@
+body
+{
+      background:radial-gradient(#00faff ,#f981f3 60%);
+}
+h2 {
+    animation: type 1.5s steps(17);
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: monospace;
+    border-right: 16px solid black;
+    width: 19ch;
+    color:red;
+}
+
+
+@keyframes type {
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width: 19ch;
+    }
+}
+Can {
+    text-align:center;
+}
+#startButtonId {
+position:absolute;
+left:34%;
+top:195px;
+border-radius: 30%;
+  border-bottom: 14px   ;
+  border-top: 14px   ;
+  width: 100px;
+  height: 100px;
+ -webkit-animation: spin 1.5s linear
+  infinite;
+  animation: spin 1.8s linear infinite; 
+background-color: black;
+
+}
+#buttonText {
+color: white;
+text-align: center;
+font-size: x-large ;
+padding: 30x;
+}
+@-webkit-keyframes spin {
+0% {-webkit-transform: rotate(0deg);}
+  100% { -webkit-transform:
+  rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
