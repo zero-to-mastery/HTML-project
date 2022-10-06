@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.gameArea {
+  background: #00bf8f;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #001510, #00bf8f);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #001510, #00bf8f);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  font-family: 'Gemunu Libre', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  font-size: 4rem;
+  z-index: 2;
+}
+
+.scoreboard {
+  display: flex;
+  width: 30vw;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 70px;
+  z-index: 1;
+}
+
+.player-count,
+.computer-count {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.options {
+  display: flex;
+  width: 50vw;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.rock,
+.paper,
+.scissors {
+  padding: 0.8rem;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #00bf8f;
+  outline: none;
+  border-color: #00bf8f;
+  border: none;
+  cursor: pointer;
+}
+
+.choice {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.reload {
+  display: none;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #00bf8f;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 612px) {
+  .title {
+    text-align: center;
+  }
+
+  .scoreboard {
+    position: absolute;
+    top: 200px;
+    width: 100vw;
+  }
+
+  .options {
+    width: 100vw;
+  }
+}
