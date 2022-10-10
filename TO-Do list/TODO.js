@@ -25,11 +25,19 @@ list.addEventListener('click', function(ev) {
     ev.target.classList.toggle('checked');
   }
 }, false);
-
+function reusableInput() {
+  var input = document.getElementById("myInput");
+  return [input, input.value]
+}
+reusableInput()[0].addEventListener("keypress", function(e) {
+  if(e.keyCode === 13) {
+    newElement();
+  }
+})
 // Create a new list item when clicking on the "Add" button
 function newElement() {
   var li = document.createElement("li");
-  var inputValue = document.getElementById("myInput").value;
+  var inputValue = reusableInput()[1];
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
   if (inputValue === '') {
