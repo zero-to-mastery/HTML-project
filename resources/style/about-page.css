@@ -1,13 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 75% Arial, Helvetica, sans-serif;
+}
+
 #instructor_container {
   max-width: 1250px;
   margin: 0 auto;
 }
 
 .navbar-collapse {
-  color: #000 !important;
+  /* color: #000 !important; */
 }
 .navbar a {
-  color: black !important;
+  font-size: 16px;
 }
 
 .navbar a:hover {
