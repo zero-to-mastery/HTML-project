@@ -15,6 +15,20 @@ nav a {
   color: black !important;
 }
 
+#navbar__custom #headerText{
+  font-size: 12px;
+  border: 1px solid cyan;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+
+#navbar__custom #headerText:hover{
+  color: rgb(23, 251, 213) !important;
+}
+
 #course-button {
   margin: 30px;
   padding: 10px 20px;
