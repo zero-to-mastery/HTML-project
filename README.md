@@ -19,6 +19,20 @@ cd HTML-project
 git checkout -b {name-of-the-branch-here}
 ```
 
+```bash
+git checkout -b {name-of-the-branch-here}
+```
+
+- Add a stream so you can sync your clone with the original repository (get the latest updates)
+
+```bash
+git remote add upstream https://github.com/zero-to-mastery/HTML-project.git
+```
+
+```bash
+git pull upstream master
+```
+
 - Make your contribution too :)
 
 - Open a Pull Request also.
