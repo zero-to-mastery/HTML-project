@@ -5,18 +5,18 @@
 <html>
     <head>
         <title>Page Title</title>
+        <!-- CSS only -->
+        <!--Bootstrap FrameWork-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link rel="stylesheet" href="./Loader.css">
     </head>
     <body>
-    <div id="ner">
-        <div class="loader">
-            <span><b>L</b></span>
-            <span><b>O</b></span>
-            <span><b>A</b></span>
-            <span><b>D</b></span>
-            <span><b>I</b></span>
-            <span><b>N</b></span>
-            <span><b>G</b></span>
-            </div>
+        <div id = "ner">
+            <button class="btn btn-secondary loader" type="button" disabled>
+
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
         </div>
     </body>
 </html>
