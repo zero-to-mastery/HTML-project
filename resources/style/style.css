@@ -654,3 +654,7 @@ i:hover {
 .active-link {
   border-bottom: 3px solid rgb(105, 102, 102);
 }
+
+.card-deck {
+  margin: 0 1rem;
+}
