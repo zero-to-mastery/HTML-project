@@ -6,17 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
     <style>
+      body{
+        margin: 0px;
+        padding: 0px;
+      }
+
       #more {
         display: none;
       }
+
       .card{
         margin: 25px;
       }
+
       .navbar{
           background-color:  #009999;
           position: fixed;
-}
+      }
+
+      #instructor-img{
+          margin-top:15px;
+      }
+
+      div p{
+          margin-left:10px;
+          margin-right: 10px;
+          font-size: 15px;
+          line-height: 1.5rem;
+          font-family: 'BIZ UDPMincho', serif;
+      }
+
+      #about-title{
+          margin-left: 10px;
+      }
+
+      .name{
+        font-family: 'Kalam', cursive;
+          font-size: 50px;
+      }
+
+      #myBtn{
+          color:white;
+          background-color:rgb(44, 174, 174);
+          padding: 6px;
+          border: 1px solid rgb(0, 0, 0);
+          border-radius: 3px;
+          margin-left: 10px;
+          font-size: 14px;
+          box-shadow: 0px 2px 30px rgb(154, 200, 200);
+      }
+
+      #myBtn:hover{
+        color:black;
+        background-color: rgb(255, 255, 255);
+        border:1px solid black
+      }
+
+      button:active, button:focus{
+        border:none;
+      }
       
     </style>
     <title>The Web Developer 2021</title>
@@ -83,19 +138,6 @@
     <!-- END navbar	 -->
     <div class="first-div" id="instructor_container">
       <div class="container-fluid about-container">
-        <!-- <div id="instructor-title">
-          <h3 class="animated bounce">Instructor</h3>
-          <h1 class="animated bounce font-weight-bold">Andrei Neagoie</h1>
-          <h2 class="animated bounce">
-            Senior Software Developer turned Instructor
-          </h2>
-        </div>
-        <img
-          id="instructor-img"
-          src="https://img-a.udemycdn.com/user/200_H/38516954_b11c_3.jpg"
-          alt="Andrei Neagoie"
-        /> -->
-
         <div class="row">
           <div class="col-lg-3 col-md-5">
             <img id="instructor-img" src="https://img-c.udemycdn.com/user/200_H/38516954_b11c_3.jpg"
@@ -103,7 +145,7 @@
           </div>
           <div class="col-lg-9 col-md-7 mt-3 info">
             <h4 class="animated bounce text-muted">Instructor</h4>
-            <h2 class="animated bounce font-weight-bold">Andrei Neagoie</h2>
+            <h2 class="animated bounce font-weight-bold name">Andrei Neagoie</h2>
             <h3 class="animated bounce">
               Senior Software Developer turned Instructor
             </h3>
@@ -115,6 +157,7 @@
 
       <div class="about-instructor">
         <h2 id="about-title">About Andrei</h2>
+        <div class="para">
         <p>
           Andrei is the instructor of the highest-rated Development courses on
           Udemy as well as one of the fastest-growing. His graduates have moved
@@ -151,6 +194,7 @@
             never thought would be possible.
           </span>
         </p>
+      </div>
         <button onclick="myFunction()" id="myBtn">Read more</button>
 
         <script>
