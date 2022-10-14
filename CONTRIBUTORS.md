@@ -230,7 +230,6 @@
 
 [@PleaBanshee](https://github.com/PleaBanshee)
 
-
 [@AakashChahal](https://github.com/AakashChahal)
 
 [@Iftee97](https://github.com/Iftee97)
@@ -267,7 +266,8 @@
 
 [@Mohit1310](https://github.com/Mohit1310)
 
-[@anayatkhan1] (https://github.com/anayatkhan1)
+[@anayatkhan1](https://github.com/anayatkhan1)
 
 [@Lejla1502](https://github.com/Lejla1502)
 
+[@Saga-sanga](https://github.com/Saga-sanga)
