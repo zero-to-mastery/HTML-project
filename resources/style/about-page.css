@@ -8,7 +8,10 @@ body {
   max-width: 1250px;
   margin: 0 auto;
 }
-
+.navbar{
+  background-color:  #009999;
+  position: fixed;
+}
 .navbar-collapse {
   /* color: #000 !important; */
 }
@@ -22,7 +25,10 @@ body {
   /* background-color: rgb(219, 255, 255); */
 }
 
-.theme-toggle-text {
+.theme-toggle-text{
+  color: black;
+}
+.theme-toggle-text a:hover {
   color: black;
 }
 

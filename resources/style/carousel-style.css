@@ -2,7 +2,10 @@ img {
   display: block;
   max-width: 100%;
 }
-
+.navbar{
+  background-color:  #009999;
+  position: fixed;
+}
 .wrapper {
   overflow: hidden;
   height: 100vh;
