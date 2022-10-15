@@ -48,21 +48,29 @@
             margin: 20px;
             background-color: #e15563;
         }
+        div button{
+         margin-bottom: 9px;
+         border-radius: 10px;
+          
+        }
+        #product{
+          font-size: 1.5rem;
+          margin: 10px;
+        }
 
         .done {
             text-decoration: line-through;
         }
 
         #reload {
-            margin: 25px;
+            padding: 10px;
+            font-size: medium;
         }
-
-        .btn{
-          height: 20px;
-          padding:0px 5px;
-          
-         }
-
+        div button:hover{
+          color: white;
+          background-color: black;
+          border-radius: 10px;
+        }
          
 
     </style>
@@ -113,14 +121,14 @@
       </nav>
     <!-- end nav bar -->
     <div class="first-div">
-      <h1>ToDo List</h1>
+      <h1>To Do List</h1>
       <form action="/nowhere">
-          <input type="text" id="product" name="product" placeholder="enter item">
-          <button class="btn btn-primary" disabled id="btn-submit">Submit</button>
+        <input type="text" id="product" name="product" placeholder="Enter Item">
+        <button class="btn btn-primary"  id="btn-submit">Submit</button>
       </form>
   
       <br><br>
-      <h3>List:</h3>
+      <h3>List :</h3>
       <ul id="list"></ul>
       <button class="btn btn-dark"id="reload" onclick="location.reload()">Refresh</button>
     </div>
