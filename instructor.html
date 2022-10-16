@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <style>
       #more {
         display: none;
@@ -96,62 +97,10 @@
           alt="Andrei Neagoie"
         /> -->
 
-        <div class="row">
-          <div class="col-lg-3 col-md-5">
-            <img id="instructor-img" src="https://img-c.udemycdn.com/user/200_H/38516954_b11c_3.jpg"
-              alt="Andrei Neagoie" class="shadow" />
-          </div>
-          <div class="col-lg-9 col-md-7 mt-3 info">
-            <h4 class="animated bounce text-muted">Instructor</h4>
-            <h2 class="animated bounce font-weight-bold">Andrei Neagoie</h2>
-            <h3 class="animated bounce">
-              Senior Software Developer turned Instructor
-            </h3>
-          </div>
-        </div>
-      </div>
+           
+    
 
-      <hr />
-
-      <div class="about-instructor">
-        <h2 id="about-title">About Andrei</h2>
-        <p>
-          Andrei is the instructor of the highest-rated Development courses on
-          Udemy as well as one of the fastest-growing. His graduates have moved
-          on to work for some of the biggest tech companies around the world
-          like Apple, Google, Tesla, Amazon, JP Morgan, IBM, UNIQLO, etc... He
-          has been working as a senior software developer in Silicon Valley and
-          Toronto for many years and is now taking all that he has learned, to
-          teach programming skills and to help you discover the amazing career
-          opportunities that being a developer allows in life.
-
-        </p>
-        <p>
-
-          An overwhelming number of online courses, tutorials, and books exist that
-          are overly verbose and inadequate at teaching proper skills. Most
-          people simply feel <strong>paralyzed</strong> and don't know where to start when learning a
-          complex subject matter, or even worse, most people don't have $20,000 and 40+ hours a week
-          to spend on a coding bootcamp. Programming skills should be affordable
-          and open to all. An education material should teach real-life skills
-          that are current and they should not waste a student's valuable time.
-          <span id="dots">...</span><span id="more"> Having learned important lessons from working for Fortune 500
-            companies, tech startups, to even founding his own business, he is now
-            dedicating 100% of his time to teaching others valuable software
-            development skills to take control of their life and work in an
-            exciting industry with infinite possibilities.
-            Andrei promises you that there are no other courses out there as
-            comprehensive and as well explained. He believes that to learn
-            anything of value, you need to start with the foundation and develop
-            the roots of the tree. Only from there will you be able to learn
-            concepts and specific skills(leaves) that connect to the foundation.
-            Learning becomes exponential when structured in this way.
-            Taking his experience in educational psychology and coding, Andrei's
-            courses will take you on an understanding of complex subjects that you
-            never thought would be possible.
-          </span>
-        </p>
-        <button onclick="myFunction()" id="myBtn">Read more</button>
+        <button onclick="myFunction()" id="myBtn"></button>
 
         <script>
           function myFunction() {
@@ -171,6 +120,69 @@
           }
         </script>
       </div>
+      <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+            <img class="object-cover object-center rounded" alt="hero" src="https://img-c.udemycdn.com/user/200_H/38516954_b11c_3.jpg">
+          </div>
+          <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+              <br class="hidden lg:inline-block">
+            </h1>
+            <div class="col-lg-9 col-md-7 mt-3 info">
+              <h4 class="animated bounce text-muted">Instructor :</h4>
+              <h2 class="animated bounce font-weight-bold"><b>Andrei Neagoie</b></h2>
+              <h3 class="animated bounce">
+                "Senior Software Developer turned Instructor"
+              </h3>
+            </div>
+            <p class="mb-8 leading-relaxed"></p>
+            <div class="flex justify-center">
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">About Andrei</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base"> Andrei is the instructor of the highest-rated Development courses on
+              Udemy as well as one of the fastest-growing. His graduates have moved
+              on to work for some of the biggest tech companies around the world
+              like Apple, Google, Tesla, Amazon, JP Morgan, IBM, UNIQLO, etc... He
+              has been working as a senior software developer in Silicon Valley and
+              Toronto for many years and is now taking all that he has learned, to
+              teach programming skills and to help you discover the amazing career
+              opportunities that being a developer allows in life.</p>
+              <p class="lg:w-2/3 mx-auto leading-relaxed text-base"> An overwhelming number of online courses, tutorials, and books exist that
+                are overly verbose and inadequate at teaching proper skills. Most
+                people simply feel <strong>paralyzed</strong> and don't know where to start when learning a
+                complex subject matter, or even worse, most people don't have $20,000 and 40+ hours a week
+                to spend on a coding bootcamp. Programming skills should be affordable
+                and open to all. An education material should teach real-life skills
+                that are current and they should not waste a student's valuable time
+                <span id="dots">.....</span><span id="more"> Having learned important lessons from working for Fortune 500
+                  companies, tech startups, to even founding his own business, he is now
+                  dedicating 100% of his time to teaching others valuable software
+                  development skills to take control of their life and work in an
+                  exciting industry with infinite possibilities.
+                  Andrei promises you that there are no other courses out there as
+                  comprehensive and as well explained. He believes that to learn
+                  anything of value, you need to start with the foundation and develop
+                  the roots of the tree. Only from there will you be able to learn
+                  concepts and specific skills(leaves) that connect to the foundation.
+                  Learning becomes exponential when structured in this way.
+                  Taking his experience in educational psychology and coding, Andrei's
+                  courses will take you on an understanding of complex subjects that you
+                  never thought would be possible.</p>
+                  <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Read More</p>
+          </div>
+          
+            
+          </div>
+        </div>
+      </section>
       <h2 style="text-align: center; margin-top: 5%">View Andrei's Courses</h2>
       <div style="margin-top: 3%" class="container card-group">
         <div class="card" data-aos="fade-right">
