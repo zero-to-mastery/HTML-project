@@ -115,6 +115,7 @@
 
       <div class="about-instructor">
         <h2 id="about-title">About Andrei</h2>
+        <div class="about-text">
         <p>
           Andrei is the instructor of the highest-rated Development courses on
           Udemy as well as one of the fastest-growing. His graduates have moved
@@ -151,13 +152,14 @@
             never thought would be possible.
           </span>
         </p>
-        <button onclick="myFunction()" id="myBtn">Read more</button>
+        <button onclick="myFunction()" class="myBtn">Read more</button>
+      </div>
 
         <script>
           function myFunction() {
             var dots = document.getElementById("dots");
             var moreText = document.getElementById("more");
-            var btnText = document.getElementById("myBtn");
+            var btnText = document.getElementsByClassName("myBtn");
 
             if (dots.style.display === "none") {
               dots.style.display = "inline";
