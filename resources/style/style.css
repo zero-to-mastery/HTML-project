@@ -8,14 +8,16 @@ body {
 .first-div {
   margin-top: 80px;
 }
+
 nav {
-  background-color: rgba(255,255,255, 65%);
+  background-color: rgba(255, 255, 255, 65%);
 }
+
 nav a {
   color: black !important;
 }
 
-#navbar__custom #headerText{
+#navbar__custom #headerText {
   font-size: 12px;
   border: 1px solid cyan;
   border-radius: 5px;
@@ -25,10 +27,11 @@ nav a {
 }
 
 
-#navbar__custom #headerText:hover{
+#navbar__custom #headerText:hover {
   color: rgb(23, 251, 213) !important;
 }
 
+/*
 #course-button {
   margin: 30px;
   padding: 10px 20px;
@@ -48,6 +51,79 @@ nav a {
   transform: scale(1.1);
   animation: pulse 800ms infinite, nudge 1s linear infinite alternate;
 }
+*/
+
+#course-button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: rgb(48, 46, 46);
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  font-family: 'Sans-serif';
+  font-size: 18px;
+}
+
+#course-button:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+#course-button:active {
+  color: #000
+}
+
+#course-button:active:after {
+  background: transparent;
+}
+
+#course-button:hover:before {
+  opacity: 1;
+}
+
+#course-button:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+
 
 /* NAVBAR STYLE */
 nav.navbar button.navbar-toggler {
@@ -62,7 +138,7 @@ nav.navbar button.navbar-toggler {
   transition: background-color 400ms ease-out;
 }
 
-.buttons > a > i {
+.buttons>a>i {
   cursor: pointer;
   transition: opacity 200ms;
 }
@@ -228,7 +304,7 @@ nav.navbar button.navbar-toggler {
   text-align: center;
   padding-bottom: 10px;
   font-size: 3em;
-  font-family: "Montserrat","Lilita One", cursive sans-serif;
+  font-family: "Montserrat", "Lilita One", cursive sans-serif;
 }
 
 .header-content a {
@@ -389,7 +465,7 @@ nav.navbar button.navbar-toggler {
 .a2a_button_twitter,
 .a2a_button_email,
 .a2a_button_whatsapp,
-.a2a_button_phone{
+.a2a_button_phone {
   margin: 10px;
   text-align: center;
 }
@@ -435,6 +511,30 @@ i:hover {
   opacity: 0.5;
   transition: 0.2s;
 }
+
+.container h2 {
+  font-size: 45px;
+  font-family: 'Poppins';
+  margin-bottom: 15px;
+  border-bottom: 2px blue solid;
+  border-right: 2px blue solid;
+}
+
+.card-title {
+  font-size: 25px;
+  font-family: 'Poppins';
+  text-align: center;
+}
+
+.card-text {
+  font-size: 15px;
+  font-family: 'Arvo';
+  text-align: justify;
+}
+.card-img-top{
+  border: black solid 3px;
+}
+
 
 /*.container1 {
     width: 100%;
