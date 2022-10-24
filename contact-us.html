@@ -31,7 +31,8 @@
       #title {
         font-size: 50px;
         text-align: center;
-        padding-top: 70px;
+        padding-bottom: 35px;
+        padding-top: 25px;
       }
       .navbar{
               background-color:  #009999;
@@ -50,8 +51,12 @@
         resize: vertical;
       }
 
+      .submit-btn{
+        text-align: center;
+      }
+
       input[type="submit"] {
-        background-color: #212529;
+        background-color: #009999;
         color: white;
         padding: 12px 20px;
         border: none;
@@ -123,13 +128,13 @@
     <div class="container first-div">
       <h1 id="title">Contact Us</h1>
       <form action="index.html">
-        <label for="fname">First Name</label>
+        <label for="fname"><strong>First Name</strong></label>
         <input type="text" id="fname" name="firstname" placeholder="Your first name please" required="true" />
 
-        <label for="lname">Last Name</label>
+        <label for="lname"><strong>Last Name</strong></label>
         <input type="text" id="lname" name="lastname" placeholder="Your last name please" required="true" />
 
-        <label for="country">Country</label>
+        <label for="country"><strong>Country</strong></label>
         <select id="country" name="country" class="form-control">
           <option value="country">Country</option>
           <option value="Afghanistan">Afghanistan</option>
@@ -379,10 +384,12 @@
           <option value="Zimbabwe">Zimbabwe</option>
         </select>
 
-        <label for="subject">Subject</label>
+        <label for="subject"><strong>Subject</strong></label>
         <textarea id="subject" name="subject" placeholder="Type something here" required="true"
           style="height: 200px"></textarea>
-        <input type="submit" value="Submit" />
+        <div class="submit-btn">
+          <input type="submit" value="Submit" />
+        </div>  
       </form>
     </div>
 
