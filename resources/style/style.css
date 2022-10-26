@@ -725,4 +725,37 @@ i:hover {
 
 .myBtn:focus {
   box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+
+body {
+  margin: 20px;
+  
+}
+
+.card-img-top {
+  width: 150px;
+}
+
+.testimonial {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #f5f5f5;
+  color: #2b2839;
+  border-bottom: 6px solid #d8cefe;
+  border-radius: 15px ;
+  
+}
+
+
+.border-blue {
+  border: 1px dotted blue;
+
+}
+.card-img-top
+{
+  border-radius: 25px ;
+
 }
