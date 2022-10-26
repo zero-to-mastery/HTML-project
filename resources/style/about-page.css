@@ -12,11 +12,14 @@ body {
   background-color:  #009999;
   position: fixed;
 }
-.navbar-collapse {
-  /* color: #000 !important; */
-}
+/* .navbar-collapse {
+    color: #000 !important; 
+} */
 .navbar a {
   font-size: 16px;
+}
+div ul{
+  font-size: 20px;
 }
 
 .navbar a:hover {
