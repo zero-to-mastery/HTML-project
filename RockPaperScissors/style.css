@@ -24,8 +24,8 @@
 .title {
   position: absolute;
   top: 0;
-  font-size: 4rem;
-  z-index: 2;
+  font-size: 10rem;
+  z-index: 3;
 }
 
 .scoreboard {
@@ -92,8 +92,8 @@
 
   .scoreboard {
     position: absolute;
-    top: 200px;
-    width: 100vw;
+    top: 180px;
+    width: 90vw;
   }
 
   .options {
