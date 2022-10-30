@@ -80,19 +80,20 @@ nav.navbar button.navbar-toggler {
 /* background-color: #fff;
 }  */
 
+/*
 .navbar {
-  /* background-color: lightcoral; */
-  /*changed background color */
-  /* border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+   background-color: lightcoral; 
+  changed background color 
+   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgba(0, 0, 0, 0.125);
-  box-shadow: 0 1px 15px rgba(27, 31, 35, 0.15) !important; */
-}
+  box-shadow: 0 1px 15px rgba(27, 31, 35, 0.15) !important;
+}*/
 
-.navbar-light .navbar-nav .nav-link {
-  /* color: black !important; */
-}
+/* .navbar-light .navbar-nav .nav-link {
+  color: black !important;
+} */
 
 /* Navbar colours for Javascript */
 
@@ -148,9 +149,9 @@ nav.navbar button.navbar-toggler {
   border-radius: 3px;
 }
 
-.navbar-collapse ul {
-  /* margin-left: auto; */
-}
+/* .navbar-collapse ul {
+  margin-left: auto;
+} */
 
 .navbar-collapse ul li {
   /* margin: auto 5px; */
@@ -672,6 +673,12 @@ i:hover {
 
 .card-deck {
   margin: 0 1rem;
+  display:flex;
+  justify-content: space-around;
+}
+
+.testimonial{
+  width: 30%;
 }
 
 .about-text{
@@ -716,6 +723,10 @@ i:hover {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+}
+
+.bottom-heading{
+  font-size: 2em;
 }
 
 .myBtn:hover {
