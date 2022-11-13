@@ -1,0 +1,15 @@
+@media (max-width: 450px){
+    #myDIV .btn {
+        display: block;
+
+    }
+}
+
+@media (max-width: 360px) {
+    .header input {
+        width: 100%;
+    }
+    #myUL {
+        margin: 0;
+    }
+}

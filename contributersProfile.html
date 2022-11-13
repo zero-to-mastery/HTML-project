@@ -12,15 +12,19 @@
     <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="icon" href="resources\images\logo.png" />
+    <link rel="icon" href="resources/images/ZTM_logo.png" />
     <link rel="stylesheet" href="resources/style/style.css" />
-    <link rel="stylesheet" href="resources/style/about-page.css" />
     <!-- Dark Mode -->
     <link rel='stylesheet' type='text/css' href='resources/style/themeToggle.css'>
     <script src='resources/scripts/themeToggle.js' defer></script>
     <!-- /Dark Mode -->
   </head>
-
+<style>
+    .navbar{
+          background-color:  #009999;
+          position: fixed;
+}
+</style>
   <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -32,7 +36,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="index.html">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
@@ -55,7 +59,7 @@
         </ul>
       </div>
       <div class="theme-toggle-container">
-        <span class="theme-toggle-text my-2">Light Mode</span>
+        <span class="theme-toggle-text">Light Mode</span>
         <label class="theme-toggle">
           <input id="theme-toggle-switch" type="checkbox">
           <span class="slider round"></span>
@@ -66,7 +70,7 @@
     </nav>
 
     <!-- END navbar	 -->
-    <div class="animated bounce">
+    <div class="animated bounce first-div">
       <div class="container-fluid about-container">
         <h1 class="animated bounce">Zero to Mastery Family</h1>
         <h2 class="animated bounce">Contributors</h2>
@@ -445,13 +449,18 @@
             <a class="float-right" href="https://github.com/Christopher-Force">Visit Github Profile</a>
             <div class="dropDownContent"></div>
           </li>
+          <li class="list-group-item dropDown">
+            @Lejla1502
+            <a class="float-right" href="https://github.com/Lejla1502">Visit Github Profile</a>
+            <div class="dropDownContent"></div>
+          </li>
         </ul>
       </div>
       <div class="container-fluid footer-container">
         <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="line-height: 32px;">
           <h5>
-            If you enjoyed the course like I did, share it so more people can
-            enjoy it!
+            If you liked the work of our contributors, you can go to their profile and leave 
+            them a star. If not, you can still check them out and look through amaizing projects they've done so far.
           </h5>
           <div class="buttons">
             <div class="dropDownContent"></div>
@@ -549,27 +558,16 @@
                 <a class="a2a_button_whatsapp"><i class="fab fa-whatsapp fa-2x"></i></a>
               </div>
             </div>
-            <div class="container-fluid footer-container">
-              <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="line-height: 32px;">
-                <h5>
-                  If you enjoyed the course like I did, share it so more people can
-                  enjoy it!
-                </h5>
-                <div class="buttons">
-                  <a class="a2a_button_facebook"><i class="fab fa-facebook fa-2x"></i></a>
-                  <a class="a2a_button_twitter"><i class="fab fa-twitter fa-2x"></i></a>
-                  <a class="a2a_button_email"><i class="fas fa-envelope-square fa-2x"></i></a>
-                  <a class="a2a_button_whatsapp"><i class="fab fa-whatsapp fa-2x"></i></a>
-                </div>
-              </div>
+         
+             
               <!-- <div id="credits">
           Made by p4avinash - with&nbsp;
           <i class="fa fa-heart" aria-hidden="true"></i>
 
         </div> -->
-            </div>
+           
             <div id="credits">
-              <div class="center git">
+              <div class="center git buttons">
                 <a href="https://github.com/zero-to-mastery/HTML-project">
                   <img id="laptop" src="resources/images/git.svg" title="Repository link" alt="Git Icon" border="0">
                 </a>

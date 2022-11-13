@@ -6,23 +6,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+
     <style>
+      body{
+        margin: 0px;
+        padding: 0px;
+      }
+
       #more {
         display: none;
       }
 
+      p{
+        font-size: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 30px;
+      }
+      .card{
+        margin: 25px;
+      }
+      #myBtn{
+        height: 50px;
+        width: 220px;
+        font-size: 18px;
+        margin-left: 780px;
+        margin-bottom: 20px;
+      }
+      .navbar{
+          background-color:  #009999;
+          position: fixed;
+}
+#instructor-img{
+  margin-left: 40px;
+  margin-top: 20px;
+}
+#about-title{
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-top: 10px;
+   padding-bottom: 20px;
+}
+.col-lg-9col-md-7mt-3info{
+ margin-top: 100px;
+}
+
+
+      .card{
+        margin: 25px;
+      }
+
+      .navbar{
+          background-color:  #009999;
+          position: fixed;
+      }
+
+      #instructor-img{
+          margin-top:15px;
+      }
+
+      div p{
+          margin-left:10px;
+          margin-right: 10px;
+          font-size: 15px;
+          line-height: 1.5rem;
+          font-family: 'BIZ UDPMincho', serif;
+      }
+
+      #about-title{
+          margin-left: 10px;
+      }
+
+      .name{
+        font-family: 'Kalam', cursive;
+          font-size: 50px;
+      }
+
+      #myBtn{
+          color:white;
+          background-color:rgb(44, 174, 174);
+          padding: 6px;
+          border: 1px solid rgb(0, 0, 0);
+          border-radius: 3px;
+          margin-left: 10px;
+          font-size: 14px;
+          box-shadow: 0px 2px 30px rgb(154, 200, 200);
+      }
+
+      #myBtn:hover{
+        color:black;
+        background-color: rgb(255, 255, 255);
+        border:1px solid black
+      }
+
+      button:active, button:focus{
+        border:none;
+      }
+
+      
     </style>
     <title>The Web Developer 2021</title>
 
-    <link rel="icon" href="resources/images/logo.png" />
+    <link rel="icon" href="resources/images/ZTM_logo.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
     <link rel="stylesheet" href="resources/style/style.css" />
-    <link rel="stylesheet" href="resources/style/about-page.css" />
     <!-- Dark Mode -->
     <link rel="stylesheet" type="text/css" href="resources/style/themeToggle.css" />
     <script src="resources/scripts/themeToggle.js" defer></script>
@@ -42,7 +141,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="index.html">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
@@ -65,7 +164,7 @@
         </ul>
       </div>
       <div class="theme-toggle-container">
-        <span class="theme-toggle-text my-2">Light Mode</span>
+        <span class="theme-toggle-text">Light Mode</span>
         <label class="theme-toggle">
           <input id="theme-toggle-switch" type="checkbox">
           <span class="slider round"></span>
@@ -76,8 +175,9 @@
     </nav>
 
     <!-- END navbar	 -->
-    <div id="instructor_container">
+    <div class="first-div" id="instructor_container">
       <div class="container-fluid about-container">
+
         <!-- <div id="instructor-title">
           <h3 class="animated bounce">Instructor</h3>
           <h1 class="animated bounce font-weight-bold">Andrei Neagoie</h1>
@@ -91,14 +191,19 @@
           alt="Andrei Neagoie"
         /> -->
 
+           
+    
+
+        <button onclick="myFunction()" id="myBtn"></button>
+
         <div class="row">
           <div class="col-lg-3 col-md-5">
             <img id="instructor-img" src="https://img-c.udemycdn.com/user/200_H/38516954_b11c_3.jpg"
-              alt="Andrei Neagoie" class="shadow" />
+              alt="Andrei Neagoie" class="shadow" width="80%" height="80%"/>
           </div>
-          <div class="col-lg-9 col-md-7 mt-3 info">
+          <div class="col-lg-9col-md-7mt-3info">
             <h4 class="animated bounce text-muted">Instructor</h4>
-            <h2 class="animated bounce font-weight-bold">Andrei Neagoie</h2>
+            <h2 class="animated bounce font-weight-bold name">Andrei Neagoie</h2>
             <h3 class="animated bounce">
               Senior Software Developer turned Instructor
             </h3>
@@ -110,6 +215,9 @@
 
       <div class="about-instructor">
         <h2 id="about-title">About Andrei</h2>
+
+        <div class="about-text">
+
         <p>
           Andrei is the instructor of the highest-rated Development courses on
           Udemy as well as one of the fastest-growing. His graduates have moved
@@ -146,13 +254,14 @@
             never thought would be possible.
           </span>
         </p>
-        <button onclick="myFunction()" id="myBtn">Read more</button>
+        <button onclick="myFunction()" class="myBtn">Read more</button>
+      </div>
 
         <script>
           function myFunction() {
             var dots = document.getElementById("dots");
             var moreText = document.getElementById("more");
-            var btnText = document.getElementById("myBtn");
+            var btnText = document.getElementsByClassName("myBtn");
 
             if (dots.style.display === "none") {
               dots.style.display = "inline";
@@ -166,6 +275,69 @@
           }
         </script>
       </div>
+      <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+            <img class="object-cover object-center rounded" alt="hero" src="https://img-c.udemycdn.com/user/200_H/38516954_b11c_3.jpg">
+          </div>
+          <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+              <br class="hidden lg:inline-block">
+            </h1>
+            <div class="col-lg-9 col-md-7 mt-3 info">
+              <h4 class="animated bounce text-muted">Instructor :</h4>
+              <h2 class="animated bounce font-weight-bold"><b>Andrei Neagoie</b></h2>
+              <h3 class="animated bounce">
+                "Senior Software Developer turned Instructor"
+              </h3>
+            </div>
+            <p class="mb-8 leading-relaxed"></p>
+            <div class="flex justify-center">
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">About Andrei</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base"> Andrei is the instructor of the highest-rated Development courses on
+              Udemy as well as one of the fastest-growing. His graduates have moved
+              on to work for some of the biggest tech companies around the world
+              like Apple, Google, Tesla, Amazon, JP Morgan, IBM, UNIQLO, etc... He
+              has been working as a senior software developer in Silicon Valley and
+              Toronto for many years and is now taking all that he has learned, to
+              teach programming skills and to help you discover the amazing career
+              opportunities that being a developer allows in life.</p>
+              <p class="lg:w-2/3 mx-auto leading-relaxed text-base"> An overwhelming number of online courses, tutorials, and books exist that
+                are overly verbose and inadequate at teaching proper skills. Most
+                people simply feel <strong>paralyzed</strong> and don't know where to start when learning a
+                complex subject matter, or even worse, most people don't have $20,000 and 40+ hours a week
+                to spend on a coding bootcamp. Programming skills should be affordable
+                and open to all. An education material should teach real-life skills
+                that are current and they should not waste a student's valuable time
+                <span id="dots">.....</span><span id="more"> Having learned important lessons from working for Fortune 500
+                  companies, tech startups, to even founding his own business, he is now
+                  dedicating 100% of his time to teaching others valuable software
+                  development skills to take control of their life and work in an
+                  exciting industry with infinite possibilities.
+                  Andrei promises you that there are no other courses out there as
+                  comprehensive and as well explained. He believes that to learn
+                  anything of value, you need to start with the foundation and develop
+                  the roots of the tree. Only from there will you be able to learn
+                  concepts and specific skills(leaves) that connect to the foundation.
+                  Learning becomes exponential when structured in this way.
+                  Taking his experience in educational psychology and coding, Andrei's
+                  courses will take you on an understanding of complex subjects that you
+                  never thought would be possible.</p>
+                  <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Read More</p>
+          </div>
+          
+            
+          </div>
+        </div>
+      </section>
       <h2 style="text-align: center; margin-top: 5%">View Andrei's Courses</h2>
       <div style="margin-top: 3%" class="container card-group">
         <div class="card" data-aos="fade-right">
@@ -348,7 +520,7 @@
       <div id="credits">
         <div class="center git">
           <a href="https://github.com/zero-to-mastery/HTML-project">
-            <img id="laptop" src="resources/images/git.svg" title="Repository link" alt="Git Icon" border="0">
+            <img id="laptop" src="resources/images/git.svg" title="Repository link" alt="Git Icon"  border="2">
           </a>
         </div>
         Made by Tatyana K. &copy; All rights reserved ;)

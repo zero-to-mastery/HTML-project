@@ -13,9 +13,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="icon" href="resources\images\logo.png" />
+    <link rel="icon" href="resources/images/ZTM_logo.png" />
     <link rel="stylesheet" href="resources/style/style.css" />
-    <link rel="stylesheet" href="resources/style/about-page.css" />
     <!-- Dark Mode -->
     <link rel="stylesheet" type="text/css" href="resources/style/themeToggle.css" />
     <script src="resources/scripts/themeToggle.js" defer></script>
@@ -23,12 +22,22 @@
 
     <!-- contact us style -->
     <style type="text/css">
+      body {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+      }
+
       #title {
         font-size: 50px;
         text-align: center;
-        padding-top: 70px;
+        padding-bottom: 35px;
+        padding-top: 25px;
       }
-
+      .navbar{
+              background-color:  #009999;
+              position: fixed;
+}
       input[type="text"],
       select,
       textarea {
@@ -42,8 +51,12 @@
         resize: vertical;
       }
 
+      .submit-btn{
+        text-align: center;
+      }
+
       input[type="submit"] {
-        background-color: #212529;
+        background-color: #009999;
         color: white;
         padding: 12px 20px;
         border: none;
@@ -59,6 +72,9 @@
         border-radius: 5px;
         background-color: #f2f2f2;
         padding: 20px;
+        margin-bottom: 5rem;
+        margin-top: 20vh;
+        max-width: 32rem;
       }
 
     </style>
@@ -67,8 +83,8 @@
 
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="index.html"><img src="resources/images/logo.png" alt="" /></a>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <a class="navbar-brand" href="index.html"><img src="resources/images/ZTM_logo.png" alt="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -84,14 +100,14 @@
           <li class="nav-item">
             <a class="nav-link" href="instructor.html">Instructor</a>
           </li>
-          <li class="nav-itemk">
+          <li class="nav-item">
             <a class="nav-link" href="register.html">Sign Up</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="todo_list.html">Student Projects</a>
+            <a class="nav-link" href="contributersProfile.html">Contributors</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contributersProfile.html">Contributors</a>
+            <a class="nav-link" href="todo_list.html">Student Projects</a>
           </li>
           <li class="nav-item active-link">
             <a class="nav-link" href="contact-us.html">Contact Us</a>
@@ -101,23 +117,24 @@
       <div class="theme-toggle-container">
         <span class="theme-toggle-text">Light Mode</span>
         <label class="theme-toggle">
-          <input id="theme-toggle-switch" type="checkbox" />
+          <input id="theme-toggle-switch" type="checkbox">
           <span class="slider round"></span>
         </label>
       </div>
-      <a class="nav-link ml-md-auto" href="beyondztm.html">Beyond Zero to Mastery <i class="fas fa-arrow-right"></i></a>
+      <a id="headerText" class="nav-link ml-md-auto" href="beyondztm.html">Beyond Zero to Mastery <i
+          class="fas fa-arrow-right"></i></a>
     </nav>
 
-    <div class="container">
+    <div class="container first-div">
       <h1 id="title">Contact Us</h1>
       <form action="index.html">
-        <label for="fname">First Name</label>
+        <label for="fname"><strong>First Name</strong></label>
         <input type="text" id="fname" name="firstname" placeholder="Your first name please" required="true" />
 
-        <label for="lname">Last Name</label>
+        <label for="lname"><strong>Last Name</strong></label>
         <input type="text" id="lname" name="lastname" placeholder="Your last name please" required="true" />
 
-        <label for="country">Country</label>
+        <label for="country"><strong>Country</strong></label>
         <select id="country" name="country" class="form-control">
           <option value="country">Country</option>
           <option value="Afghanistan">Afghanistan</option>
@@ -367,10 +384,12 @@
           <option value="Zimbabwe">Zimbabwe</option>
         </select>
 
-        <label for="subject">Subject</label>
+        <label for="subject"><strong>Subject</strong></label>
         <textarea id="subject" name="subject" placeholder="Type something here" required="true"
           style="height: 200px"></textarea>
-        <input type="submit" value="Submit" />
+        <div class="submit-btn">
+          <input type="submit" value="Submit" />
+        </div>  
       </form>
     </div>
 

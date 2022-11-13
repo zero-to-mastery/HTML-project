@@ -1,57 +1,60 @@
-.loader {
-    position: relative;
-    background-color:black;
-    border: 16px groove  #1e37d8;
-    border-radius: 50%;
-    border-bottom: 16px solid  #cc208e;
-    border-top: 16px solid  #cc208e;
-    width: 120px;
-    height: 120px;
-    -webkit-animation: spin 1.0s linear
-    infinite;
-    animation: spin 1.0s linear infinite;
-  }
-  @-webkit-keyframes spin {
-  0% {-webkit-transform: rotate(0deg);}
-    100% { -webkit-transform:
-    rotate(360deg); }
-  }
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
   
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-  .container{
-      width: 10%;
-      height: 10%;
-      margin: 0;
-      padding: 0;
-      background-color: Azure;
-      opacity: 0.3;
-      display: inline-table;
-  }
-  #startButtonId {
-    position:relative;
-    top:-544px;
-    border-radius: 50%;
-    border-bottom: 14px   ;
-    border-top: 14px   ;
-    width: 100px;
-    height: 100px;
-   -webkit-animation: anticlockwisespin 1.0s linear infinite;
-   -moz-animation: anticlockwisespin 1.0s linear
-    infinite;
-    animation: anticlockwisespin 1.0s linear infinite;
-    background-color: black;
-  
-  }
-  @keyframes anticlockwisespin {
-    0% { transform: rotate(360deg); }
-    100% { transform: rotate(0deg); }
-  }
-  #buttonText {
-  color: white;
+}
+html{
+  font-size: 10px;
+}
+body{
+  background: #28223F;
+	font-family: 'Montserrat', sans-serif;
+  padding: 3rem;
+}
+.main_container{
+  padding: 5rem;
+  width: 80%;
+  height: 70vh;
+  border: 0.5rem solid #000;
+  display: block;
+  margin: auto;
+  border-radius: 1rem;
+  margin-top: 100px;
+}
+.profile{
+  background-color: #6f6894;
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+	color: #B3B8CD;
+	padding: 30px;
+  padding-top: 8rem;
+	/* position: relative; */
+	width: 350px;
+	max-width: 100%;
+  height: 100%;
+	text-align: center;
+  margin: auto;
+}
+.profile .profile_card h1{
+  color: #fff;
   text-align: center;
-  font-size: x-large ;
-  }
-  
+  margin-bottom: 2rem;
+}
+.profile_card img{
+  width: 100%;
+  border: 0.1rem solid #03BFCB;
+  border-radius: 1rem;
+  box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+  transition: 0.5s ease-in-out;
+  margin-bottom: 2rem;
+}
+.profile_card img:hover{
+  transform: scale(1.1);
+}
+#startButtonId a img{
+  width: 8rem;
+  height: 8rem;
+}

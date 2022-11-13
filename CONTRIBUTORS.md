@@ -1,3 +1,5 @@
+[@arijaya](https://github.com/AriJaya07)
+
 [@akashjoffl](https://github.com/akashjoffl)
 
 [@excel61](https://github.com/excel61)
@@ -230,7 +232,6 @@
 
 [@PleaBanshee](https://github.com/PleaBanshee)
 
-
 [@AakashChahal](https://github.com/AakashChahal)
 
 [@Iftee97](https://github.com/Iftee97)
@@ -262,3 +263,15 @@
 [@christopher-force](https://github.com/christopher-force)
 
 [@sahilverma0433](https://github.com/cryptic-padawan)
+
+[@Lejla1502](https://github.com/Lejla1502)
+
+[@Mohit1310](https://github.com/Mohit1310)
+
+[@anayatkhan1](https://github.com/anayatkhan1)
+
+[@Lejla1502](https://github.com/Lejla1502)
+
+[@damaluku](https://github.com/damaluku)
+
+[@Saga-sanga](https://github.com/Saga-sanga)

@@ -10,15 +10,17 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css"
             integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="icon" href="resources\images\logo.png" />
+        <link rel="icon" href="resources/images/ZTM_logo.png" />
         <link rel="stylesheet" href="./resources/style/scrollbar.css">
         <link rel="stylesheet" href="resources/style/particles.css">
         <link rel="stylesheet" href="resources/style/style.css" />
         <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
         <!-- Dark Mode -->
         <link rel='stylesheet' type='text/css' href='resources/style/themeToggle.css'>
         <script src='resources/scripts/themeToggle.js' defer></script>
         <!-- /Dark Mode -->
+        
         <!-- AOS -->
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
@@ -26,6 +28,7 @@
        <div class="container-fluid">
          <!-- navbar -->
          <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar__custom">
+
             <a class="navbar-brand" href="index.html"><img src="resources/images/ZTM_logo.png" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +37,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active-link">
-                        <a class="nav-link font-weight-bold" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
@@ -57,13 +60,13 @@
                 </ul>
             </div>
             <div class='theme-toggle-container'>
-                <span class='theme-toggle-text my-2'>Light Mode</span>
+                <span class='theme-toggle-text'>Light Mode</span>
                 <label class='theme-toggle'>
                     <input id='theme-toggle-switch' type='checkbox'>
                     <span class='slider round'></span>
                 </label>
             </div>
-            <a id="headerText" class="nav-link ml-md-auto" href="beyondztm.html">Beyond Zero to Mastery <i
+            <a id="headerText" class="nav-link " href="beyondztm.html">Beyond Zero to Mastery <i
                     class="fas fa-arrow-right"></i></a>
         </nav>
 
@@ -100,8 +103,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <hr>
-                            <a>Zero To<span class="masteryColor"> Mastery</span></a>
+                            <h1 style="color:blue;">
+                            <a ><span >Zero To Mastery</span></a>
                         </h1>
 
                         <a href="instructor.html" id="course-button" class="btn btn-secondary px-3 py-2">View
@@ -114,19 +117,7 @@
                             <h2 class="animated bounce text-center">Why take this course?
                             </h2>
                             <hr>
-                            <div class="row">
-                                <div class="col-lg d-flex align-items-center justify-content-center justify-content-lg-end"
-                                    data-aos="fade-right">
-                                    <img src="resources/images/browser.png" id="course-img" alt="Course image">
-                                </div>
-                                <div class="col-lg d-flex align-items-center justify-content-center justify-content-lg-start"
-                                    data-aos="fade-left">
-                                    <h4 class="m-3 text-center text-lg-left">
-                                        You envision a future in web development but not sure how to start.
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
+                    </div>
                         <hr>
                         <a>Zero To<span class="masteryColor"> Mastery</span></a>
                         </h1>
@@ -367,38 +358,38 @@
                             <h4>
                                 The industry is always changing with better technologies, frameworks and resources. Not
                                 to worry, this course is constantly being updated and contains everything to become an
-                                amazing developer in this evolving world!
+                                amazing developer in this evolving world !
                             </h4>
                         </div>
                     </div>
                     <div class="container">
-                        <h2 class="text-center mb-5 border-bottom-3">Our grateful students</h2>
+                        <h2 class="text-center mb-5 border-bottom-3 bottom-heading">Our grateful students</h2>
                     </div>
-                    <div class=" card-deck">
-                        <div class="card">
+                    <div class="card-deck">
+                        <div class="testimonial">
                             <img src="https://images.unsplash.com/photo-1507120878965-54b2d3939100?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=99fbace66d1bfa48c9c6dc8afcac3aab"
                                 alt="Carl Smith" class="card-img-top">
                             <div class="card-body">
-                                <h4 class="card-title">Carl Smith</h4>
-                                <p class="card-text">Great for all levels of skill and experience.</p>
+                                <strong class="card-title">Carl Smith</strong>
+                                <p class="card-text"><em> for all levels of skill and experience.</em></p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="testimonial">
                             <img src="https://images.unsplash.com/photo-1476900966873-ab290e38e3f7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=fe0976a79ece0ee8effca4cab4527ae2"
                                 alt="John Doe" class="card-img-top">
                             <div class="card-body">
-                                <h4 class="card-title">John Doe</h4>
-                                <p class="card-text">This course helped me a lot to land my dream job in no time!
-                                    100% recommend!!!</p>
+                                <strong class="card-title">John Doe</strong>
+                                <p class="card-text"><em>This course helped me a lot to land my dream job in no time!
+                                    100% recommend!!!</em></p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="testimonial">
                             <img src="https://images.unsplash.com/photo-1542131596-dea5384842c7?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ"
                                 alt="Jane Johnson" class="card-img-top">
                             <div class="card-body">
-                                <h4 class="card-title">Jane Johnson</h4>
-                                <p class="card-text">Fantastic instructor, great atmosphere during the course!
-                                    Absolutely worth recommending!</p>
+                                <strong class="card-title">Jane Johnson</strong>
+                                <p class="card-text"><em>Fantastic instructor, great atmosphere during the course!
+                                    Absolutely worth recommending!</em></p>
                             </div>
 
                         </div>
@@ -406,33 +397,7 @@
                 </div>
             </div>
             <div class="container-fluid footer-container">
-                <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="line-height: 32px">
-                    <h5>If you enjoyed the course like I did, share it so more people can enjoy it!</h5>
-                    <div class="buttons">
-                        <a class="a2a_button_facebook"><i class="fab fa-facebook fa-2x"></i></a>
-                        <a class="a2a_button_twitter"><i class="fab fa-twitter fa-2x"></i></a>
-                        <a class="a2a_button_email"><i class="fas fa-envelope-square fa-2x"></i></a>
-                        <a class="a2a_button_whatsapp"><i class="fab fa-whatsapp fa-2x"></i></a>
-                        <a class="a2a_button_phone"><i class="fas fa-whatsapp fa-2x"></i></a>
-                    </div>
-                </div>
-
-                <div class="waveDividerWrapper">
-                    <div class="custom-shape-divider-bottom-1596474166">
-                        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
-                            preserveAspectRatio="none">
-                            <path
-                                d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
-                                opacity=".25" class="shape-fill"></path>
-                            <path
-                                d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
-                                opacity=".5" class="shape-fill"></path>
-                            <path
-                                d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
-                                class="shape-fill"></path>
-                        </svg>
-                    </div>
-                </div>
+            
 
 
                 <div class="container-fluid footer-container">
@@ -452,7 +417,7 @@
                                 <img id="laptop" src="resources/images/git.svg" title="Repository link" alt="Git Icon">
                             </a>
                         </div>
-                        Made by CWD &copy; All rights reserved by ZTM
+                        Made by CWD &copy; All rights reserved by ZTM !
                     </div>
                 </div>
             </div>
