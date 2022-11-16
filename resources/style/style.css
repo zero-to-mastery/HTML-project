@@ -1,4 +1,5 @@
 /* GENERAL SECTION */
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Kanit&family=Ubuntu&display=swap');
 body {
   margin: 0;
   padding: 0;
@@ -24,7 +25,15 @@ nav a {
   color: #fff;
 }
 
-
+.nav-font{
+  font-family: 'Kanit', sans-serif;
+  font-size: 1rem;
+  transition: all;
+}
+.nav-font:hover{
+  color: white;
+   text-shadow: 2px 2px gray;
+}
 #navbar__custom #headerText:hover{
   color: rgb(23, 251, 213) !important;
 }
@@ -48,7 +57,9 @@ nav a {
   transform: scale(1.1);
   animation: pulse 800ms infinite, nudge 1s linear infinite alternate;
 }
-
+.carousel-item{
+  font-family: 'Cookie', cursive;
+}
 /* NAVBAR STYLE */
 nav.navbar button.navbar-toggler {
   margin-right: auto;
