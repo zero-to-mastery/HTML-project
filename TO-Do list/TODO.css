@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -7,72 +6,102 @@
   margin: 0;
   padding: 0;
 }
-body  {
+
+body {
   font-family: 'Courier New', Courier, monospace;
   background-color: #aa5585;
 }
 
 /* Utility Classes */
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0.5rem 0;
 }
-.container {
-  max-width: 1100px;
-  margin: 0 auto; 
-  overflow: hidden;
+
+#page-title {
+  font-size: 6rem;
 }
+
+.container {
+  max-width: 75%;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 60px;
+}
+
 /* margin (for all sides) */
-.m-1 { 
+.m-1 {
   margin: 1rem;
 }
+
 .m-2 {
   margin: 2rem;
 }
+
 .m-3 {
   margin: 3rem;
 }
+
 /* margin (for top and bottom) */
 .my-1 {
   margin: 1rem 0;
 }
+
 .my-2 {
   margin: 2rem 0;
 }
+
 .my-3 {
   margin: 3rem 0;
 }
+
 /* margin (padding for all sides) */
-.p-1 { 
+.p-1 {
   padding: 1rem;
 }
+
 .p-2 {
   padding: 2rem;
 }
+
 .p-3 {
   padding: 3rem;
 }
+
 /* padding (padding for top and bottom) */
-.py-1  {
+.py-1 {
   padding: 1rem 0;
 }
+
 .py-2 {
-  padding: 2rem  0;
+  padding: 2rem 0;
 
 }
+
 .py-3 {
   padding: 3rem 0;
 }
+
 .btn {
-  border: none;
   text-decoration: none;
   outline: none;
   padding: 1rem 2rem;
-  background: black;
   color: white;
   margin: 0.5rem;
+  border-radius: 60px;
 }
-.btn-pink {
+
+.btn:hover {
   background-color: #aa5585;
+  cursor: pointer;
+}
+
+.btn-pink {
+  background-color: palevioletred;
   color: white;
 }
 
@@ -90,6 +119,7 @@ h1,h2,h3,h4,h5,h6 {
   display: table;
   clear: both;
 }
+
 /* Style the list items */
 ul li {
   cursor: pointer;
@@ -154,12 +184,12 @@ ul li.checked::before {
 
 
 
-.adding
-{
-    display: inline-block;
-    width:100%;
-    margin: auto;
+.adding {
+  display: inline-block;
+  width: 100%;
+  margin: auto;
 }
+
 /* Style the input */
 input {
   margin-right: 10px;

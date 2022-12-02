@@ -1,7 +1,16 @@
-@media (max-width: 450px){
+@media (max-width:660px) {
+    #page-title {
+        font-size: 3.3rem;
+    }
+}
+
+@media (max-width: 450px) {
     #myDIV .btn {
         display: block;
+    }
 
+    #page-title {
+        font-size: 1.5rem;
     }
 }
 
@@ -9,7 +18,13 @@
     .header input {
         width: 100%;
     }
+
     #myUL {
         margin: 0;
+    }
+
+    .container {
+        margin-top: 3%;
+        border-radius: 0;
     }
 }
