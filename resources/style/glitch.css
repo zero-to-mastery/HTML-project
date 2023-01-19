@@ -1,0 +1,70 @@
+/* This is something that a friend showed me, and I thought it was pretty cool. */
+ .glitch {
+    display: flex;
+    font-size: 96px;
+    letter-spacing: -7px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    color: darkblue;
+ }
+    .glitch{
+    animation: glitch 1s linear infinite;
+}
+
+    @keyframes glitch {
+        2%, 64% {
+            transform: translate(2px, 0) skew(0deg);
+        }
+        4%, 60% {
+            transform: translate(-2px, 0) skew(0deg);
+        }
+        62% {
+            transform: translate(0,0) skew(5deg);
+        }
+    }
+
+    .glitch:before,
+    .glitch::after{
+        content: attr(glitch);
+        position: absolute;
+        left: 0;
+    }
+
+    .glitch:before{
+        animation: glitchTop 1s linear infinite;
+        clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+    }
+
+    @keyframes glitchTop{
+        2%, 64%{
+            transform: translate(2px, -2px);
+        }
+        4%, 60%{
+            transform: translate(-2px, 2px);
+        }
+        62%{
+            transform: translate(13px, -1px) skew(-12deg);
+        }
+    }
+
+.glitch:after{
+    animation: glitchBottom 1.5s linear infinite;
+    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%);
+}
+
+@keyframes glitchBottom{
+    2%, 64%{
+        transform: translate(2px, 0);
+    }
+    4%, 60%{
+        transform: translate(-2px, 0);
+    }
+    62%{
+        transform: translate(-22px, 5px) skew(21deg);
+    }
+}

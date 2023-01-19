@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+.loading_outer {
+    width: 600px;
+    height: 50px;
+    border: 1px solid black;
+    margin: auto;
+}
+.loading_inner{
+    width: 800px;
+    height: 50px;
+    background-color: coral;
+}

@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="TODO.css">
-        <link rel="stylesheet" href="./media-queries.css" media="all">
-    </head>
-    <body>
-        <section id="myDIV" class="header p-2">
-            <h2>To-Do List</h2>
-            <div class="adding">
-                <input type="text" id="myInput" placeholder="Title...">
-                <span onclick="newElement()" class="btn btn-pink">Add</span>
-            </div>
-        </section>
-          <div class="container">
 
-        
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="TODO.css">
+    <link rel="stylesheet" href="./media-queries.css" media="all">
+</head>
+
+<body>
+    <section id="myDIV" class="header p-2">
+        <h2 id="page-title">To-Do List</h2>
+        <div class="adding">
+            <input type="text" id="myInput" placeholder="Enter Task">
+            <span onclick="newElement()" class="btn btn-pink">Add</span>
+        </div>
+    </section>
+    <div class="container">
+
+
         <ul id="myUL" class="m-1">
             <li>Hit the gym</li>
             <li class="checked">Pay bills</li>
@@ -25,6 +27,7 @@
             <li>Organize office</li>
         </ul>
     </div>
-        <script src="TODO.js"></script>
-    </body>
+    <script src="TODO.js"></script>
+</body>
+
 </html>
