@@ -10,13 +10,13 @@ body {
   margin-top: 80px;
 }
 nav {
-  background-color: rgba(255,255,255, 65%);
+  background-color: rgba(255, 255, 255, 65%);
 }
 nav a {
   color: black !important;
 }
 
-#navbar__custom #headerText{
+#navbar__custom #headerText {
   font-size: 12px;
   border: 1px solid cyan;
   border-radius: 5px;
@@ -25,40 +25,52 @@ nav a {
   color: #fff;
 }
 
-.nav-font{
+.nav-font {
   font-family: 'Kanit', sans-serif;
   font-size: 1rem;
   transition: all;
 }
-.nav-font:hover{
+.nav-font:hover {
   color: white;
-   text-shadow: 2px 2px gray;
+  text-shadow: 2px 2px gray;
 }
-#navbar__custom #headerText:hover{
+#navbar__custom #headerText:hover {
   color: rgb(23, 251, 213) !important;
 }
 
+/* HEADER */
+
 #course-button {
-  margin: 30px;
-  padding: 10px 20px;
-  margin: 0;
-  padding: 0;
-  color: #000000;
-  scroll-behavior: smooth;
+  display: block;
+  margin: 0 auto;
+  font-size: large;
+  font-weight: 600;
+  color: white;
+  border: 2px white solid;
+  border-radius: 20px;
+  width: 200px;
+  padding: 1em;
+  margin: 2em;
+  background-color: transparent;
 }
 
-#course-button:hover {
-  background-color: #007bff;
-  color: #fff;
-  transform: scale(1.2);
+#header {
+  font-size: 100px;
+  margin-top: 1rem;
+  color: #0088cc;
 }
 
 #course-button:hover {
   transform: scale(1.1);
+  background-color: white;
+  color: black;
+  text-decoration: none;
   animation: pulse 800ms infinite, nudge 1s linear infinite alternate;
 }
-.carousel-item{
+.carousel-item {
   font-family: 'Cookie', cursive;
+  font-size: 50px;
+  height: 50px;
 }
 /* NAVBAR STYLE */
 nav.navbar button.navbar-toggler {
@@ -148,7 +160,6 @@ nav.navbar button.navbar-toggler {
   /* background-color: #91308E; */
 }
 
-
 .navbar a:focus {
   outline: 2px dotted #a4afd4;
 }
@@ -172,7 +183,7 @@ nav.navbar button.navbar-toggler {
 /* HEADER SECTION */
 .header-container {
   height: 100vh;
-  background-image: url("../images/laptop-header.jpg");
+  background-image: url('../images/laptop-header.jpg');
   /* background-position: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -225,7 +236,7 @@ nav.navbar button.navbar-toggler {
 .masteryColor {
   color: yellow;
   font-weight: bold;
-  font-family: "Lilita One", cursive;
+  font-family: 'Lilita One', cursive;
 }
 
 .header-content hr {
@@ -240,7 +251,7 @@ nav.navbar button.navbar-toggler {
   text-align: center;
   padding-bottom: 10px;
   font-size: 3em;
-  font-family: "Montserrat","Lilita One", cursive sans-serif;
+  font-family: 'Montserrat', 'Lilita One', cursive sans-serif;
 }
 
 .header-content a {
@@ -284,7 +295,7 @@ nav.navbar button.navbar-toggler {
 
 .details-container h2 {
   margin: 2rem 0rem 0rem 0rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
 
@@ -294,7 +305,7 @@ nav.navbar button.navbar-toggler {
 
 .details-container p {
   margin: 0rem 0rem 0rem 0rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .course-details-content {
@@ -327,11 +338,11 @@ nav.navbar button.navbar-toggler {
 .software-details {
   margin: 5rem 0;
   padding: 0rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .software-details h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-weight: bold;
   margin-bottom: 2rem;
@@ -372,14 +383,14 @@ nav.navbar button.navbar-toggler {
 .footer-container {
   color: #fff;
   background-color: #111;
-  position: relative;
-  padding: 4rem 2rem;
+
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .footer-container h5 {
   width: 100%;
+  padding: 2rem;
 }
 
 #credits {
@@ -401,7 +412,7 @@ nav.navbar button.navbar-toggler {
 .a2a_button_twitter,
 .a2a_button_email,
 .a2a_button_whatsapp,
-.a2a_button_phone{
+.a2a_button_phone {
   margin: 10px;
   text-align: center;
 }
@@ -684,26 +695,25 @@ i:hover {
 
 .card-deck {
   margin: 0 1rem;
-  display:flex;
+  display: flex;
   justify-content: space-around;
 }
 
-.testimonial{
+.testimonial {
   width: 30%;
 }
 
-.about-text{
+.about-text {
   margin: 2rem;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: medium;
 }
 
-#about-title{
-  font-family:monospace;
+#about-title {
+  font-family: monospace;
   padding-left: 2rem;
   font-size: 3rem;
 }
-
 
 .myBtn {
   align-self: center;
@@ -715,7 +725,7 @@ i:hover {
   border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
   border-style: solid;
   border-width: 2px;
-  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
   box-sizing: border-box;
   color: #41403e;
   cursor: pointer;
@@ -724,7 +734,7 @@ i:hover {
   font-size: 1rem;
   line-height: 23px;
   outline: none;
-  padding: .75rem;
+  padding: 0.75rem;
   text-decoration: none;
   transition: all 235ms ease-in-out;
   border-bottom-left-radius: 15px 255px;
@@ -736,21 +746,17 @@ i:hover {
   touch-action: manipulation;
 }
 
-.bottom-heading{
+.bottom-heading {
   font-size: 2em;
 }
 
 .myBtn:hover {
-  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
   transform: translate3d(0, 2px, 0);
 }
 
 .myBtn:focus {
-  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
-
-body {
-  margin: 20px;
-  
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px;
 }
 
 .card-img-top {
@@ -767,17 +773,12 @@ body {
   background: #f5f5f5;
   color: #2b2839;
   border-bottom: 6px solid #d8cefe;
-  border-radius: 15px ;
-  
+  border-radius: 15px;
 }
-
 
 .border-blue {
   border: 1px dotted blue;
-
 }
-.card-img-top
-{
-  border-radius: 25px ;
-
+.card-img-top {
+  border-radius: 25px;
 }
