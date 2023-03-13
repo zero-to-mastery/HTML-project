@@ -1,0 +1,64 @@
+.navbar-collapse ul li{
+padding: -10px;
+}
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-collapse {
+    margin-left: 161px;
+ }
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    margin-right: 1rem;
+    margin-left: 10px;
+}
+.navbar-brand img {
+    height: 55px;
+}
+.navbar-collapse ul li {
+    padding: 0px 0rem;
+}
+.navbar-collapse ul li a{
+    color: white;
+}
+nav a {
+    color: white !important;
+}
+nav {
+    background-color: #00000000;
+}
+.theme-toggle-container span {
+    font-size: 0.75rem;
+    color: white;
+}
+#navbar__custom #headerText {
+    font-size: 10px;
+    margin-right: 21px;
+}
+.theme-toggle {
+    position: relative;
+    display: inline-block;
+    width: 44px !important;
+    height: 23px !important;
+}
+.theme-toggle-container span {
+    font-size: 0.8rem !important;
+}
+
+.navv{
+    color: blue;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 55px;
+    font-weight: 900;
+    font-size: 8rem;
+}
+#course-button{
+    background: #e0cfb8;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#course-button:hover {
+    background-color: #081020c7;
+    color: #fff;
+    transform: scale(1.2);
+}
