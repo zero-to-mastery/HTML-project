@@ -53,10 +53,10 @@ nav a {
   transform: scale(1.2);
 }
 
-#course-button:hover {
+/*#course-button:hover {
   transform: scale(1.1);
   animation: pulse 800ms infinite, nudge 1s linear infinite alternate;
-}
+}*/
 .carousel-item{
   font-family: 'Cookie', cursive;
 }
