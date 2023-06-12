@@ -75,7 +75,7 @@ video {
   padding: 0;
   border: none;
   outline: none;
-  font-size: 100%;
+  /*font-size: 100%;  */
   vertical-align: baseline;
   background: transparent;
 }
@@ -173,7 +173,7 @@ body {
 
 canvas {
   display: block;
-  vertical-align: bottom;
+  /*vertical-align: bottom; */
 }
 
 /* ---- stats.js ---- */
@@ -200,7 +200,7 @@ canvas {
 
 #stats,
 .count-particles {
-  -webkit-user-select: none;
+  /*-webkit-user-select: none; */
   margin-top: 5px;
   /* margin-left: 5px; caused overflow on x */
 }
