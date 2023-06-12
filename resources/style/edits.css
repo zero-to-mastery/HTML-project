@@ -1,0 +1,17 @@
+.text-center {
+    font-family: 'Montserrat', sans-serif;
+    color: #158d91;
+}
+.nav-:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+#text-line{
+    width: 500px;
+    border-bottom: 5px solid  #158d91;
+}
