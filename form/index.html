@@ -1,0 +1,64 @@
+<html>
+
+<body>
+  <form action="/form/submit" method="GET">
+    <div>
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Enter your name" />
+    </div>
+    <div>
+      <label for="age">Your Age</label>
+      <input type="text" id="age" name="age" placeholder="Enter your age" />
+    </div>
+    <div>
+      <label for="country">Enter Your Country</label>
+      <input type="text" id="country" name="country" placeholder="Country" />
+    </div>
+    <input type="submit" value="Submit" />
+  </form>
+</body>
+
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Title of the document</title>
+  <style>
+    div {
+      margin-bottom: 10px;
+    }
+
+    label {
+      display: inline-block;
+      width: 110px;
+      color: #777777;
+    }
+
+    input {
+      padding: 5px 10px;
+    }
+  </style>
+</head>
+
+
+
+
+<body>
+  <form action="/form/submit" method="POST">
+    <div>
+      <label for="name">Your name:</label>
+      <input id="name" name="username" type="text" autofocus />
+    </div>
+    <div>
+      <label for="lastname">Your Last name:</label>
+      <input id="lastname" name="lastname" type="text" />
+    </div>
+    <input type="submit" value="Submit" />
+  </form>
+</body>
+
+</html>
