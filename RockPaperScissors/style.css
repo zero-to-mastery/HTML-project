@@ -29,6 +29,7 @@
 }
 
 .scoreboard {
+  margin: 10rem auto 30rem auto;
   display: flex;
   width: 30vw;
   justify-content: space-evenly;
@@ -45,10 +46,11 @@
 }
 
 .options {
+
   display: flex;
   width: 50vw;
   justify-content: space-evenly;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .rock,
@@ -65,6 +67,7 @@
 }
 
 .choice {
+  margin: 100px auto 0 auto;
   font-size: 2rem;
   font-weight: bold;
 }
