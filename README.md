@@ -3,6 +3,8 @@
 
 Hey there, welcome to our HTML open source project. Redesign the HTML landing page, learn and have fun doing it. Happy coding :)
 
+**Please note: We do not assign issues to contributors. If you see a bug or if there is a change you want to make, simply follow the instructions below and submit your changes by opening a pull request.**
+
 # Contribution Guide
 
 - Fork the repository, create a clone and make sure that you are not working on the `MASTER BRANCH' repository!
