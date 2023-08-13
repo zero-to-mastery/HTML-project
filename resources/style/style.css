@@ -549,6 +549,7 @@ i:hover {
 .dropDownContent {
   position: absolute;
   background-color: #1c91c7;
+  top: 3rem;
   left: 10;
   max-height: 0;
   overflow: hidden;
@@ -559,7 +560,6 @@ i:hover {
   border-radius: 10px;
   color: #ffffff;
 }
-
 .list-group-item:hover {
   cursor: pointer;
   font-size: 120%;
