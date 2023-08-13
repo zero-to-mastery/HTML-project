@@ -574,9 +574,6 @@ i:hover {
 .list-group-item p {
   transform: translateY(-110%);
   transition: transform 0.2s ease-in;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .list-group-item:hover p {
