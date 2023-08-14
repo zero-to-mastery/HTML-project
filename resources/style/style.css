@@ -427,7 +427,8 @@ i:hover {
 }
 
 .buttons {
-  display: inline-flex;
+  display: flex;
+  flex-direction: column;
 }
 
 .card {
@@ -543,7 +544,9 @@ i:hover {
 
 .dropDown {
   position: relative;
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .dropDownContent {
@@ -774,10 +777,7 @@ body {
 
 .border-blue {
   border: 1px dotted blue;
-
 }
-.card-img-top
-{
-  border-radius: 25px ;
-
+.card-img-top{
+  border-radius: 25px;
 }
