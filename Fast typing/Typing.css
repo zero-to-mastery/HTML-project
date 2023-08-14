@@ -1,50 +1,79 @@
 body
 {
-      background:radial-gradient(#00faff ,#f981f3 60%);
+  background:radial-gradient(#1f3300 ,#000000 60%);
+  border: solid black 40px;
+  margin: 0;
+  overflow:hidden;
+
 }
-h2 {
-    animation: type 1.5s steps(17);
+h1 {
+  display: block;
+    animation: type 1.7s steps(29);
     overflow: hidden;
     white-space: nowrap;
     font-family: monospace;
     border-right: 16px solid black;
-    width: 19ch;
-    color:red;
+    width: 29ch;
+    color:rgb(109, 0, 0);
+    background: rgb(180, 177, 177);
+    margin: 10px, 0, 0, 0;
+    padding: 0;
+}
+marquee {
+  background: black;
+  color: antiquewhite;
+  margin: 0;
+  font-family: fantasy;
+}
+#container a {
+  color: rgb(36, 1, 78);
+  font-size: 24px;
+  align-self: center;
 }
 
+#container {
+  display: flex;
+  flex-flow:column nowrap;
+  align-items:start;
+  gap: 40px;
+  width: 80%;
+  margin-left: 4%;
+  background:radial-gradient(#00faff ,#f981f3 60%);
+  border: double rgb(252, 225, 190) 51px;
+}
+
+.Can {
+margin-top: 5%;
+align-self: center;
+padding-bottom: 1vmax;
+}
+
+#startButtonId {
+  border-radius: 30%;
+    border-bottom: 14px   ;
+    border-top: 14px   ;
+    width: 100px;
+    height: 100px;
+   -webkit-animation: spin 1.5s linear
+    infinite;
+    animation: spin 1.8s linear infinite; 
+  background-color: antiquewhite;
+  margin-top: 0;
+  margin-bottom: 10%;
+  padding: 0;
+  
+  }
 
 @keyframes type {
     0% {
         width: 0ch;
     }
     100% {
-        width: 19ch;
+        width: 29ch;
     }
 }
-Can {
-    text-align:center;
-}
-#startButtonId {
-position:absolute;
-left:34%;
-top:195px;
-border-radius: 30%;
-  border-bottom: 14px   ;
-  border-top: 14px   ;
-  width: 100px;
-  height: 100px;
- -webkit-animation: spin 1.5s linear
-  infinite;
-  animation: spin 1.8s linear infinite; 
-background-color: black;
 
-}
-#buttonText {
-color: white;
-text-align: center;
-font-size: x-large ;
-padding: 30x;
-}
+
 @-webkit-keyframes spin {
 0% {-webkit-transform: rotate(0deg);}
   100% { -webkit-transform:
