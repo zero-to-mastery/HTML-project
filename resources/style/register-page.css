@@ -2,39 +2,12 @@ body, html {
     max-width: 100%;
     overflow-x: hidden;
 }
-
-.navbar-collapse {
-    /* color: #000 !important; */
-}
-.navbar a{
-    /* color: black !important; */
-}
-.register-container{
-    min-height: calc(100vh - 280px);
-    max-width: 1500px;
-    padding: 100px 100px 0px 100px;
-    font-family: 'Montserrat', sans-serif;
-}
-.register-container h1{
- text-align: center;
- margin-bottom: 50px;
- text-shadow: 2px 2px gray;
-}
-
 .focus:focus{
     border: 2px solid black;
 }
 
-#submit-btn {
-    box-shadow: 5px 3px transparent;
-    margin: 3px;
-}
-
-#submit-btn:hover{
-    box-shadow: 5px 3px 5px rgb(128, 128, 128, 0.5);
-    
-}
 /* Added Pikachu animation */
+
 .running_pikachu img{
     padding-left: 50px;
     filter: drop-shadow(0px 15px 8px rgb(82, 82, 82, 0.5));
@@ -54,3 +27,51 @@ body, html {
         from {left: -550px;}
         to {left: 1900px;}
 }
+
+.m-5{
+    position: relative;
+    left: 37.5%;
+    font-weight: 700;
+}
+
+#signup-form{
+    border: 2px solid black;
+}
+.card-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+ 
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .form-check {
+    margin-right: 15px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #c82333;
+  }
+  
