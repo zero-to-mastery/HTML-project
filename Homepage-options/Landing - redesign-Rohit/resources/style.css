@@ -1,3 +1,8 @@
+:root {
+  --header-text-color: #fff;
+  --header-text-transform: uppercase;
+}
+
 *,
 *::before,
 *::after {
@@ -46,8 +51,8 @@
 
 
 .heading-primary {
-    color: #fff;
-    text-transform: uppercase;
+    color: var(--header-text-color);
+    text-transform: var(--header-text-transform);
     backface-visibility: hidden;
     margin-bottom: 6rem;
     
@@ -126,7 +131,7 @@
 
 .btn:link.btn,
 .btn:visited {
-  text-transform: uppercase;
+  text-transform: var(--header-text-transform);
   text-decoration: none;
   padding: 1rem 4rem;
   display: inline-block;
@@ -146,7 +151,7 @@
   }
 
 .btn--white {
-    background-color: #fff;
+    background-color: var(--header-text-color);
     color: #777;
   }
 
@@ -164,7 +169,7 @@
   }
   
 .btn-white::after {
-    background-color: #fff;
+    background-color: var(--header-text-color);;
   }
 .btn:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
@@ -182,7 +187,7 @@
   }
 
 .intro > h2 {
-    text-transform: uppercase;
+    text-transform: var(--header-text-transform);
     text-align: center;
     display: inline-block;
     border-bottom: 3px solid #848484;
@@ -257,7 +262,7 @@ main {
     padding: 4rem 2rem;
     margin-bottom: 4rem;
     background-color: #111;
-    color: #fff;
+    color: var(--header-text-color);;
     transform: skewY(-7deg);
     box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
 }
@@ -396,12 +401,12 @@ footer {
     padding: 1rem;
     /* background: linear-gradient(#fff, #f3f3f3); */
     background-color: #111;
-    color: #fff;
+    color: var(--header-text-color);
 }
 
 footer a:link,
 footer a:visited {
-    color: #fff;
+    color: var(--header-text-color);
     font-weight: 400;
     text-decoration: none;
 }
@@ -410,12 +415,12 @@ footer p {
     font-weight: 300;
     font-size: 1.2rem;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: var(--header-text-transform);
     color: #999;
 }
 
 .name {
-    color: #fff;
+  color: var(--header-text-color);
 }
 
 footer p span {
