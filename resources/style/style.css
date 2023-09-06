@@ -428,9 +428,6 @@ i:hover {
 
 .buttons {
   display: inline-flex;
-  width: 100%;
-  overflow-y: scroll;
-  
 }
 
 .card {
