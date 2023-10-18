@@ -1,0 +1,24 @@
+@media screen and (min-width:420px) {
+    .wrapper {
+        width: 23em;
+        height: 28em;
+    }
+    .wrapper.active {
+        height: 32em;
+    }
+}
+
+@media screen and (min-width:960px) {
+    .container {
+        padding: 0 2em;
+    }
+    .mobile-hide {
+        display: block;
+    }
+    .desktop-hide {
+        display: none;
+    }
+    .wrapper {
+        width: 26em;
+    }
+}
