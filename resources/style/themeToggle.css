@@ -77,7 +77,7 @@ input:focus + .slider {
 }
 
 input:checked + .slider::before {
-	transform: translateX(35px);
+	transform: translateX(20px);
 }
 
 /* Rounded Slider */
