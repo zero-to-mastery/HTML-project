@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register - Tech Conference 2023</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Register for Tech Conference 2023!</h1>
+    </header>
+
+    <main>
+        <section id="registration-form">
+            <h2>Registration Form</h2>
+            <p>Secure your spot at Tech Conference 2023 by filling out the registration form below. We look forward to welcoming you to this exciting event!</p>
+
+            <form action="submit_registration.php" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="company">Company/Organization:</label>
+                <input type="text" id="company" name="company">
+
+                <label for="ticket-type">Ticket Type:</label>
+                <select id="ticket-type" name="ticket-type">
+                    <option value="standard">Standard Pass</option>
+                    <option value="vip">VIP Pass</option>
+                </select>
+
+                <input type="submit" value="Register">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Tech Conference. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
