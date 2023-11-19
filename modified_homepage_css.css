@@ -10,7 +10,7 @@ padding: -10px;
     display: inline-block;
     padding-top: 0.3125rem;
     margin-right: 1rem;
-    margin-left: 10px;
+    
 }
 .navbar-brand img {
     height: 55px;
@@ -26,6 +26,7 @@ nav a {
 }
 nav {
     background-color: #00000000;
+    width: 100%;
 }
 .theme-toggle-container span {
     font-size: 0.75rem;
@@ -33,7 +34,7 @@ nav {
 }
 #navbar__custom #headerText {
     font-size: 10px;
-    margin-right: 21px;
+     
 }
 .theme-toggle {
     position: relative;

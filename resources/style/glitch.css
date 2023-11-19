@@ -2,14 +2,16 @@
  .glitch {
     display: flex;
     font-size: 96px;
-    letter-spacing: -7px;
+    letter-spacing: 9px;
     width: 100%;
+    text-align: center;
     height: 100%;
     align-items: center;
     justify-content: center;
     margin: 0;
     color: darkblue;
  }
+
     .glitch{
     animation: glitch 1s linear infinite;
 }
