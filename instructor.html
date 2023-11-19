@@ -16,9 +16,36 @@
 <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
 
     <style>
+      
+      
       body{
         margin: 0px;
         padding: 0px;
+        
+      }
+      .about-instructor{
+        cursor: pointer;
+      }
+      .sec{
+        cursor: pointer;
+      }
+      
+      .card-title{
+        cursor: pointer;
+      }
+
+
+      .info{
+        align-items: center;
+         cursor: pointer;
+         padding: 20px;
+        
+      }
+      .info h2{
+        width: 100%;
+      }
+      .info h3{
+        width: 100%;
       }
 
       #more {
@@ -134,48 +161,51 @@
   </head>
 
   <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <a class="navbar-brand" href="index.html"><img src="resources/images/ZTM_logo.png" alt="logo"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link nav-font" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-font" href="about.html">About</a>
-          </li>
-          <li class="nav-item active-link">
-            <a class="nav-link nav-font" href="instructor.html">Instructor</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-font" href="register.html">Sign Up</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-font" href="contributersProfile.html">Contributors</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-font" href="todo_list.html">Student Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-font" href="contact-us.html">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-      <div class="theme-toggle-container">
-        <span class="theme-toggle-text">Light Mode</span>
-        <label class="theme-toggle">
-          <input id="theme-toggle-switch" type="checkbox">
-          <span class="slider round"></span>
-        </label>
-      </div>
-      <a id="headerText" class="nav-link ml-md-auto nav-font" href="beyondztm.html">Beyond Zero to Mastery <i
-          class="fas fa-arrow-right"></i></a>
+      <!-- navbar -->
+      <nav class="navbar container-fluid navbar-expand-lg navbar-dark fixed-top" id="navbar__custom">
+
+        <a class="navbar-brand" href="index.html"><img src="resources/images/ZTM_logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active-link">
+                    <a class="nav-link nav-font" href="index.html">Home</a>
+                </li>
+                <li class="nav-item nav-font">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item nav-font">
+                    <a class="nav-link" href="instructor.html">Instructor</a>
+                </li>
+                <li class="nav-item nav-font">
+                    <a class="nav-link" href="register.html">Sign Up</a>
+                </li>
+                <li class="nav-item nav-font">
+                    <a class="nav-link" href="contributersProfile.html">Contributors</a>
+                </li>
+                <li class="nav-item nav-font">
+                    <a class="nav-link" href="todo_list.html">Student Projects</a>
+                </li>
+                <li class="nav-item nav-font">
+                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <div class='theme-toggle-container'>
+            <span class='theme-toggle-text'>Light Mode</span>
+            <label class='theme-toggle'>
+                <input id='theme-toggle-switch' type='checkbox'>
+                <span class='slider round'></span>
+            </label>
+        </div>
+        <a id="headerText" class="nav-link nav-font" href="beyondztm.html">Beyond Zero to Mastery <i
+                class="fas fa-arrow-right"></i></a>
     </nav>
+
+    <!-- END navbar	 -->
 
     <!-- END navbar	 -->
     <div class="first-div" id="instructor_container">
@@ -277,7 +307,7 @@
           }
         </script>
       </div>
-      <section class="text-gray-600 body-font">
+      <section class="text-gray-600 body-font ">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img class="object-cover object-center rounded" alt="hero" src="https://img-c.udemycdn.com/user/200_H/38516954_b11c_3.jpg">
@@ -286,9 +316,9 @@
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
               <br class="hidden lg:inline-block">
             </h1>
-            <div class="col-lg-9 col-md-7 mt-3 info">
-              <h4 class="animated bounce text-muted">Instructor :</h4>
-              <h2 class="animated bounce font-weight-bold"><b>Andrei Neagoie</b></h2>
+            <div class="site col-lg-9  col-md-7 mt-3 info ">
+              <h4 class="animated bounce text-muted">Instructor : <b class="animated bounce font-weight-bold" style="font-size: 30px; color:black;">Andrei Neagoie</b></h4>
+              
               <h3 class="animated bounce">
                 "Senior Software Developer turned Instructor"
               </h3>
@@ -300,7 +330,7 @@
           </div>
         </div>
       </section>
-      <section class="text-gray-600 body-font">
+      <section class="text-gray-600 body-font sec">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
             <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">About Andrei</h1>
@@ -339,9 +369,9 @@
             
           </div>
         </div>
-                        <div class="glitch">Zero To Mastery</div> <!--A friend showed me and thought it was cool. Feel free to delete or add something even better.-->
+                        <div class="glitch"><h1>Zero To Mastery</h1></div> <!--A friend showed me and thought it was cool. Feel free to delete or add something even better.-->
       </section>
-      <h2 style="text-align: center; margin-top: 5%">View Andrei's Courses</h2>
+      <h2 style="text-align: center; margin-top: 5%; cursor:pointer">View Andrei's Courses</h2>
       <div style="margin-top: 3%" class="container card-group">
         <div class="card" data-aos="fade-right">
           <img src="https://img-c.udemycdn.com/course/480x270/2473048_8255_5.jpg" class="card-img-top" alt="..." />
