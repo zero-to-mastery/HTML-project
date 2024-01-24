@@ -1,4 +1,7 @@
-.container-fluid{
-    max-width: 100vw !important;
-    padding:0px !important
+.container-fluid {
+  max-width: 100vw !important;
+  padding: 0px !important;
+}
+.nav-font:hover {
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.54) !important;
 }
