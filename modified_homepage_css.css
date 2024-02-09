@@ -62,3 +62,32 @@ nav {
     color: #fff;
     transform: scale(1.2);
 }
+
+/* COVER */
+.ZTM {
+    padding: 30px;
+    line-height: 0.8;
+}
+
+@media only screen and (max-width: 600px) {
+    .ZTM {
+        font-size: 4rem;
+        padding 0;
+        
+    }
+    
+}
+
+/* FOOTER */
+.share{
+    padding: 20px;
+    line-height: 0.8;
+}
+
+.rights{
+    padding: 10px;
+}
+
+.git{
+    padding: 0px 0px 10px 0px;
+}
