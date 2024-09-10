@@ -54,6 +54,7 @@ html[theme='dark'] {
 	background-color: #CCCCCC;
 	transition: 0.4s;
 	cursor: pointer;
+	padding: 0 1.8rem;
 }
 
 .slider::before {
