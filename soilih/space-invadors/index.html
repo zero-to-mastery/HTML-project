@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge-1</title>
+</head>
+
+<body>
+    <div class="container">
+    </div>
+    <script>
+        const checkedSet = new Set([123, 124, 125, 126, 129, 130, 131, 132, 135, 136, 137, 138, 143, 149, 152, 155, 163, 169, 172, 175, 183, 184, 185, 186, 189, 192, 195, 196, 197, 198, 206, 209, 212, 218, 226, 229, 232, 238, 243, 244, 245, 246, 249, 250, 251, 252, 255, 256, 257, 258])
+        const container = document.querySelector('.container');
+        for (let i = 1; i <= 400; i++) {
+            const pixel = document.createElement('div');
+            pixel.classList.add('pixel');
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.id = `pixel-${i}`;
+            checkbox.checked = true
+            if(checkedSet.has(i)){
+                checkbox.checked = false;
+            }
+            pixel.appendChild(checkbox);
+            container.appendChild(pixel);
+        }
+    </script>
+</body>
+</html>
