@@ -53,7 +53,8 @@ nav {
     font-size: 8rem;
 }
 #course-button{
-    background: #e0cfb8;
+    background: cyan;
+    color: #fff;
     font-weight: bold;
     margin-top: 20px;
 }
