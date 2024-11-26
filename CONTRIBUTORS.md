@@ -90,6 +90,8 @@
 
 [@ihouwat](https://github.com/ihouwat)
 
+[@kelvin-go-get](https://github.com/kelvin-go-get)
+
 [@wilsonzeg](https://github.com/wilsonzeg)
 
 [@VelizarStavrev](https://github.com/VelizarStavrev)
