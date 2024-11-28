@@ -98,6 +98,8 @@
 
 [@Ram-1984](https://github.com/Ram-1984)
 
+[@KrisDaskalov](https://github.com/KrisDaskalov)
+
 [@CTMBeast](https://github.com/CTMBeast)
 
 [@AmrithaM](https://github.com/AmrithaM)
@@ -280,6 +282,5 @@
 
 [@RedNoodle325](https://github.com/RedNoodle325)
 
-[@bunnyBites](https://github.com/bunnyBites)
--[@Vigneshwaar](https://github.com/V6g1)
+[@bunnyBites](https://github.com/bunnyBites) -[@Vigneshwaar](https://github.com/V6g1)
 [@proton029](https://github.com/proton029)
