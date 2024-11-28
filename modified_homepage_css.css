@@ -62,3 +62,21 @@ nav {
     color: #fff;
     transform: scale(1.2);
 }
+.size{
+    font-size: 2rem;
+}
+
+#course-button-2 {
+  margin: 30px;
+  padding: 10px 20px;
+  margin: 20px;
+  padding: 0;
+  color: #000000;
+  scroll-behavior: smooth;
+}
+
+#course-button-2:hover {
+  background-color: #007bff;
+  color: #fff;
+  transform: scale(1.2);
+}

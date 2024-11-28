@@ -94,6 +94,8 @@
 
 [@VelizarStavrev](https://github.com/VelizarStavrev)
 
+[@VaibhavSuryavanshi93](https://github.com/VaibhavSuryavanshi93)
+
 [@javfue](https://github.com/javfue)
 
 [@Ram-1984](https://github.com/Ram-1984)
