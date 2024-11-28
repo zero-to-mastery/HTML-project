@@ -1,64 +1,98 @@
-.navbar-collapse ul li{
-padding: -10px;
+.navbar-collapse ul li {
+  padding: -10px;
 }
 @media (min-width: 992px) {
-.navbar-expand-lg .navbar-collapse {
+  .navbar-expand-lg .navbar-collapse {
     margin-left: 161px;
- }
+  }
 }
 .navbar-brand {
-    display: inline-block;
-    padding-top: 0.3125rem;
-    margin-right: 1rem;
-    margin-left: 10px;
+  display: inline-block;
+  padding-top: 0.3125rem;
+  margin-right: 1rem;
+  margin-left: 10px;
 }
 .navbar-brand img {
-    height: 55px;
+  height: 55px;
 }
 .navbar-collapse ul li {
-    padding: 0px 0rem;
+  padding: 0px 0rem;
 }
-.navbar-collapse ul li a{
-    color: white;
+.navbar-collapse ul li a {
+  color: white;
 }
 nav a {
-    color: white !important;
+  color: white !important;
 }
 nav {
-    background-color: #00000000;
+  background-color: #00000000;
 }
 .theme-toggle-container span {
-    font-size: 0.75rem;
-    color: white;
+  font-size: 0.75rem;
+  color: white;
 }
 #navbar__custom #headerText {
-    font-size: 10px;
-    margin-right: 21px;
+  font-size: 10px;
+  margin-right: 21px;
 }
 .theme-toggle {
-    position: relative;
-    display: inline-block;
-    width: 44px !important;
-    height: 23px !important;
+  position: relative;
+  display: inline-block;
+  width: 44px !important;
+  height: 23px !important;
 }
 .theme-toggle-container span {
-    font-size: 0.8rem !important;
+  font-size: 0.8rem !important;
 }
 
-.navv{
-    color: blue;
-    font-family: 'Ubuntu', sans-serif;
-    line-height: 55px;
-    font-weight: 900;
-    font-size: 8rem;
+.navv {
+  color: blue;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 55px;
+  font-weight: 900;
+  font-size: 8rem;
 }
-#course-button{
-    background: #e0cfb8;
-    font-weight: bold;
-    margin-top: 20px;
+#course-button {
+  background: #e0cfb8;
+  font-weight: bold;
+  margin-top: 20px;
 }
 #course-button:hover {
-    background-color: #081020c7;
-    color: #fff;
-    transform: scale(1.2);
+  background-color: #081020c7;
+  color: #fff;
+  transform: scale(1.2);
+}
+
+blockquote {
+  font-size: 1.3em;
+  width: 90%;
+  margin: 10px auto;
+  font-style: italic;
+  padding: 1.2em 30px 1.2em 75px;
+  border-left: 8px solid #158d91;
+  line-height: 1.6;
+  position: relative;
+  background: #ededed;
+}
+
+blockquote::before {
+  font-family: Arial;
+  content: '\201C';
+  color: #158d91;
+  font-size: 8em;
+  position: absolute;
+  left: 5px;
+  top: 1px;
+}
+
+blockquote::after {
+  content: '';
+}
+
+blockquote span {
+  display: block;
+  color: #333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 1em;
 }
