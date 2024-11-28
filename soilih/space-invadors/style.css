@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-right: -200px;
+    margin-top: -200px;
+    height: 400px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(20, 20px); 
+    grid-auto-rows: repeat(20, 20px);
+}
+
+.container > div {
+    border: none;
+}
+
+input[type="checkbox"]{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    appearance: none; 
+    background-color: #fff;
+    border: 1px solid #E24E3F;
+}
+
+input[type="checkbox"]:checked{
+    background-color: #EC5142;
+    border: none;
+}
+
+input[type="checkbox"]:checked:hover{
+    background: #e86458;
+	border-color: #E24E3F;
+}
