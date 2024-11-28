@@ -1,3 +1,5 @@
+[@syedulazam](https://github.com/syedulazam)
+
 [@arijaya](https://github.com/AriJaya07)
 
 [@akashjoffl](https://github.com/akashjoffl)
