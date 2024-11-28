@@ -31,47 +31,98 @@
         }
 
         h1 {
-            margin-top: 10rem;
+            margin-top: 3rem;
             margin-bottom: 30px;
             font-size: 5em;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+           
         }
+
         .navbar{
           background-color:  #009999;
           position: fixed;
         }
-
+        .first-div{
+          display: flex;
+          flex-direction: column;
+          background-color: rgb(112, 107, 107, 0.2);
+          position:absolute;
+          top:50%;
+          left:50%;
+          transform: translate(-50%, -50%);
+          padding:3vw;
+          border-radius:10px ;
+        }
         li {
+            font-size: 1.5rem;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             list-style: none;
+            line-height: 0.6rem;
         }
 
         .newBtn {
-            margin: 20px;
-            background-color: #e15563;
+            padding:10px;
+            font-size: medium;
+            max-width: 10rem;
+            background-color: rgb(194, 44, 44);
+            border: none;
         }
+
+        #btn-submit{
+          transition: 0.7s;
+          box-shadow: 2px 2px 6px rgb(0, 0, 0,0.7);
+        }
+  
+       
         div button{
          margin-bottom: 9px;
          border-radius: 10px;
-          
         }
         #product{
           font-size: 1.5rem;
           margin: 10px;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          border-radius:  50px;
+          padding:0.7rem;
+          border: 2px solid #007bff;;
         }
 
         .done {
             text-decoration: line-through;
         }
-
+        #list{
+          display:grid;
+          grid-template-columns: 1fr 1fr;
+          gap:1.5rem;
+        }
         #reload {
-            padding: 10px;
+            padding:10px 25px;
             font-size: medium;
+            max-width: 15rem;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            border: none;
+            align-self: center;
+            transition: 0.7s;
+            box-shadow: 2px 2px 6px rgb(0, 0, 0,0.7);
+        }
+        div button{
+          transition: 0.5s;
         }
         div button:hover{
           color: white;
           background-color: black;
           border-radius: 10px;
         }
-         
+         .under-line{
+          background-color:black;
+          width:6rem;
+          margin-top:0;
+          box-shadow: 2px 2px 10px rgb(0, 0, 0,0.7);
+         }
+         .space{
+          padding :2rem;
+         }
 
     </style>
 </head>
@@ -123,12 +174,16 @@
     <div class="first-div">
       <h1>To Do List</h1>
       <form action="/nowhere">
-        <input type="text" id="product" name="product" placeholder="Enter Item">
-        <button class="btn btn-primary"  id="btn-submit">Submit</button>
+        <input type="text" id="product" name="product" placeholder="To Do...">
+        <button class="btn btn-primary"  id="btn-submit">Add</button>
       </form>
   
       <br><br>
-      <h3>List :</h3>
+      
+      <h3>List </h3>
+      
+      <hr class="under-line">
+      <div class="space"></div>
       <ul id="list"></ul>
       <button class="btn btn-dark"id="reload" onclick="location.reload()">Refresh</button>
     </div>
@@ -152,21 +207,25 @@
         form.addEventListener("submit", (event) => {
             let li = document.createElement("li");
             let btn = document.createElement("button");
-            let span = document.createElement("span");
+           
 
             btn.innerText = "Delete Item";
             btn.classList.add("newBtn");
 
-            li.append(product.value, btn);
+
+            li.append(product.value);
             li.addEventListener('click', () => {
                 li.classList.toggle('done');
             });
-            span.append(li);
+            
+            
             let ul = document.querySelector("#list");
-            ul.append(span);
+            ul.append(li);
+            ul.append(btn);
 
             btn.addEventListener("click", () => {
-                span.remove();
+                li.remove();
+                btn.remove();
             })
 
             product.value = "";
