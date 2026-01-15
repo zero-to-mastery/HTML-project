@@ -21,6 +21,14 @@ html[theme='dark'] {
 	flex-direction: column;
 	align-items: center;
 	width: 85px;
+	/* additional style */
+	gap: 0.5rem;
+	border-left: 3px solid rgb(105, 102, 102);
+	border-right: 3px solid rgb(105, 102, 102);
+	border-radius: 3px;
+	padding: 0 10px;
+	box-sizing: content-box;
+	/*  */
 }
 
 .theme-toggle-container span {
