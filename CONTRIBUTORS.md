@@ -264,6 +264,8 @@
 
 [@christopher-force](https://github.com/christopher-force)
 
+[@SuperCoderBlue](https://github.com/SuperCoderBlue)
+
 [@sahilverma0433](https://github.com/cryptic-padawan)
 
 [@Lejla1502](https://github.com/Lejla1502)
@@ -280,6 +282,5 @@
 
 [@RedNoodle325](https://github.com/RedNoodle325)
 
-[@bunnyBites](https://github.com/bunnyBites)
--[@Vigneshwaar](https://github.com/V6g1)
+[@bunnyBites](https://github.com/bunnyBites) -[@Vigneshwaar](https://github.com/V6g1)
 [@proton029](https://github.com/proton029)
