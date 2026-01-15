@@ -3,9 +3,16 @@ padding: -10px;
 }
 @media (min-width: 992px) {
 .navbar-expand-lg .navbar-collapse {
-    margin-left: 161px;
+    margin-left: 101px;
  }
 }
+
+@media (992px <= width <= 1130px) {
+    #headerText {
+        margin-left: 0.5rem;
+    }
+}
+
 .navbar-brand {
     display: inline-block;
     padding-top: 0.3125rem;

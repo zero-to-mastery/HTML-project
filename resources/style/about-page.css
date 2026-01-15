@@ -28,6 +28,12 @@ div ul{
   /* background-color: rgb(219, 255, 255); */
 }
 
+/* visibility fix for links in .navbar-collapse when .navbar-toggler is clicked */
+.navbar ul a:hover {
+  padding-left: 2rem;
+}
+/*  */
+
 .theme-toggle-text{
   color: black;
 }

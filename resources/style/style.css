@@ -11,6 +11,7 @@ body {
 }
 nav {
   background-color: rgba(255,255,255, 65%);
+  gap: 0.5rem;
 }
 nav a {
   color: black !important;
@@ -645,6 +646,24 @@ i:hover {
     /* padding: 0.15rem 0.25rem; */
   }
 }
+
+/* media query fix (last link in nav visibility) */
+
+@media (992px <= width <= 1130px) {
+  nav {
+    gap: 0;
+  }
+
+  .navbar-collapse ul li {
+    padding: 0 8px;
+  }
+
+  .theme-toggle-container {
+    margin-left: 0.5rem;
+  }
+}
+
+/*  */
 
 .gotopbtn {
   position: fixed;
